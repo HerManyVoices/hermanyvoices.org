@@ -2,6 +2,6 @@
   "extends": ["next/core-web-vitals", "next", "prettier"],
   "rules": {
     "prefer-const": "error",
-    "no-unused-vars": "error",
+    "no-unused-vars": "error"
   }
 }
