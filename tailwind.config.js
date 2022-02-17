@@ -3,10 +3,6 @@ module.exports = {
     './pages/**/*.{js,jsx}',
     './components/**/*.{js,jsx}',
   ],
-  purge: [
-      './pages/**/*.js',
-      './components/**/*.js'
-    ],
   theme: {
     screens: {
         sm: '640px',
