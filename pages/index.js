@@ -1,16 +1,13 @@
-import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Navigation from '@components/Navigation'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Her Many Voices Foundation</title>
-      </Head>
+    <div>
+      
 
       <main>
-        <Header title="Her Many Voices Foundation" />
+        <Navigation />
       </main>
 
       <Footer />
