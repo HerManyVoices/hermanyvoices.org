@@ -1,0 +1,44 @@
+
+.herocontainer {
+  position: relative !important;
+  z-index: 0 !important;
+}
+.heroimage {
+  width: 100% !important;
+  spacing: 32rem !important;
+  z-index: 0 !important;
+  max-width: 32rem !important; /* 512px */
+  border-radius: 1.5rem !important; /* 24px */
+  object-fit: cover !important;
+  border-bottom-right-radius: 0 !important;
+  position: absolute !important;
+}
+
+.imagecontainer1 {
+  position: absolute !important;
+  top: -2rem !important;
+  right: 3rem !important;
+  z-index: -1;
+}
+
+.imagecontainer2 {
+  position: absolute !important;
+  bottom: -2rem !important;
+  right: -2rem !important;
+  z-index: -1;
+}
+
+.imagecontainer3 {
+  position: absolute !important;
+  top: 3rem !important;
+  right: -3rem !important;
+  z-index: -1;
+}
+
+.imagecontainer4 {
+  width: 100% !important;
+  position: absolute !important;
+  bottom: 2.5rem !important;
+  left: -3.5rem !important;
+  z-index: -1;
+}
