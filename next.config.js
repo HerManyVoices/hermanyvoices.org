@@ -4,5 +4,6 @@ module.exports = {
     images: {
         domains: ['images.unsplash.com'],
         formats: ["image/webp"],
-    }
+    },
+        "presets": ["next/babel"]
   }
