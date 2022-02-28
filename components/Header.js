@@ -1,12 +1,18 @@
 import Image from 'next/image'
-import heroImage from 'public/images/hero-image.jpeg'
-import greenDarkUp from '/public/assets/elements/green-dark-up.svg'
+import { buildUrl } from 'cloudinary-build-url'
+import GreenDarkUp from 'public/assets/elements/GreenDarkUp.js'
 import ImageContainer from 'styles/ImageContainer.module.css'
-import wingGreenDown from '/public/assets/elements/wing-green-down.svg'
-import bulletsGrayRight from '/public/assets/elements/bullets-gray-right.svg'
-import bulletsGrayLeft from '/public/assets/elements/bullets-gray-left.svg'
+import WingGreenDown from 'public/assets/elements/WingGreenDown.js'
+import BulletsGrayRight from 'public/assets/elements/BulletsGrayRight.js'
+import BulletsGrayLeft from 'public/assets/elements/BulletsGrayLeft.js'
 
 export default function Header() {
+  const url = buildUrl('hero-image_cwpmq8', {
+    cloud: {
+      cloudName: 'hmvf'
+    }
+  })
+
   return (
     <section className="skewed-bottom-right">
       <div className="radius-for-skewed bg-gray-50 pt-12 pb-20 lg:pt-20">
@@ -33,21 +39,26 @@ export default function Header() {
               <div className={ImageContainer.herocontainer}>
                 <Image
                   className={ImageContainer.heroimage}
-                  src={heroImage}
+                  src={url}
                   alt=""
+                  width="1000"
+                  height="1000"
+                  unoptimized={true}
                 />
                 <div className={ImageContainer.imagecontainer1}>
-                  <Image src={greenDarkUp} alt="" />
+                  <GreenDarkUp className="text-2xl" alt="" />
                 </div>
 
                 <div className={ImageContainer.imagecontainer2}>
-                  <Image src={wingGreenDown} alt="" />
+                  <WingGreenDown className="text-2xl" alt="" />
                 </div>
+
                 <div className={ImageContainer.imagecontainer3}>
-                  <Image src={bulletsGrayRight} alt="" />
+                  <BulletsGrayRight className="text-2xl" alt="" />
                 </div>
+
                 <div className={ImageContainer.imagecontainer4}>
-                  <Image src={bulletsGrayLeft} alt="" />
+                <BulletsGrayLeft className="text-2xl" alt=""/>
                 </div>
               </div>
             </div>
@@ -55,5 +66,10 @@ export default function Header() {
         </div>
       </div>
     </section>
+  
+  
   )
 }
+
+
+
