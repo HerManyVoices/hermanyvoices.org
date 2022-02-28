@@ -1,10 +1,9 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import logo from '/public/assets/logo/logo.svg'
-import wordmark from '/public/assets/logo/wordmark.svg'
-import facebookSocialLogo from '/public/assets/social/facebook.svg'
-import twitterSocialLogo from '/public/assets/social/twitter.svg'
-import instagramSocialLogo from '/public/assets/social/instagram.svg'
+import logo from 'public/assets/logo/logo.png'
+import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
+import TwitterSocialLogo from 'public/assets/social/TwitterSocialLogo.js'
+import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
 
 export default function Navigation() {
   const [isOpen, setisOpen] = useState(false)
@@ -16,16 +15,15 @@ export default function Navigation() {
   return (
     <div>
       <nav className="relative flex items-center justify-between bg-gray-50 px-6 py-6">
-        <a className="text-3xl font-bold leading-none" href="#">
-          <Image className="h-12" src={logo} alt="" width="50" height="100" />
-          <Image
-            className="h-12"
-            src={wordmark}
-            alt=""
-            width="150"
-            height="100"
-          />
-        </a>
+          <div className="text-3xl font-bold leading-none">
+           <Image 
+           src={logo} 
+           className="h-12" 
+           alt=""
+           width="44"
+           height="52"
+            />
+          </div>
         <div className="lg:hidden">
           <button
             onClick={handleToggle}
@@ -132,12 +130,6 @@ export default function Navigation() {
             </a>
           </li>
         </ul>
-        <a
-          className="custom-dbox-popup hidden rounded-l-xl rounded-t-xl bg-green-500 py-2 px-6 text-sm font-bold text-white transition duration-200 hover:bg-green-600 lg:inline-block"
-          href="https://donorbox.org/donate-button-test"
-        >
-          Donate
-        </a>
       </nav>
       {isOpen && (
         <div className="navbar-menu fixed top-0 left-0 bottom-0 z-50 w-5/6 max-w-sm">
@@ -145,13 +137,13 @@ export default function Navigation() {
           <nav className="relative flex h-full w-full flex-col overflow-y-auto border-r bg-white py-6 px-6">
             <div className="mb-8 flex items-center">
               <a className="mr-auto text-3xl font-bold leading-none" href="#">
-                <Image
+                {/* <Image
                   className="h-16 w-16"
                   src={logo}
                   alt=""
                   width="100"
                   height="100"
-                />
+                /> */}
               </a>
               <button onClick={handleToggle} className="navbar-close">
                 <svg
@@ -216,42 +208,32 @@ export default function Navigation() {
             </div>
             <div className="mt-auto">
               <div className="pt-6">
-                <a
-                  className="mb-2 block rounded-l-xl rounded-t-xl bg-green-600 px-4 py-3 text-center text-xs font-semibold leading-loose text-white hover:bg-green-700"
-                  href="https://donorbox.org/donate-button-test"
-                >
-                  Donate
+              </div>
+              
+              <div className="text-center">
+                <a className="inline-block px-1" href="#">
+                  <FacebookSocialLogo
+                    alt=""
+                    className="text-2xl"
+                  />
+                </a>
+                <a className="inline-block px-1" href="#">
+                  <TwitterSocialLogo
+                    alt=""
+                    className="text-2xl"
+
+                  />
+                </a>
+                <a className="inline-block px-1" href="#">
+                  <InstagramSocialLogo
+                    alt=""
+                    className="text-2xl"
+                  />
                 </a>
               </div>
               <p className="my-4 text-center text-xs text-gray-400">
                 <span>&copy; 2022 All rights reserved.</span>
               </p>
-              <div className="text-center">
-                <a className="inline-block px-1" href="#">
-                  <Image
-                    src={facebookSocialLogo}
-                    alt=""
-                    height="50"
-                    width="50"
-                  />
-                </a>
-                <a className="inline-block px-1" href="#">
-                  <Image
-                    src={twitterSocialLogo}
-                    alt=""
-                    height="50"
-                    width="50"
-                  />
-                </a>
-                <a className="inline-block px-1" href="#">
-                  <Image
-                    src={instagramSocialLogo}
-                    alt=""
-                    height="50"
-                    width="50"
-                  />
-                </a>
-              </div>
             </div>
           </nav>
         </div>
