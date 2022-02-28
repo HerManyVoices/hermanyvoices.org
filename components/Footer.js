@@ -1,9 +1,9 @@
 import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
 import TwitterSocialLogo from 'public/assets/social/TwitterSocialLogo.js'
-import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
+// import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
 import logo from 'public/assets/logo/logo.png'
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -45,35 +45,34 @@ export default function Footer() {
                     className="inline-block text-xl font-bold leading-none"
                     href="#"
                   >
-                    <Image 
-                      src={logo} 
-                      className="inline-block h-12 lg:h-6" 
+                    <Image
+                      src={logo}
+                      className="inline-block h-12 lg:h-6"
                       alt=""
                       width="44"
                       height="52"
-                        />
+                    />
                   </a>
                 </div>
               </div>
               <div className="flex justify-center">
-                <a
-                  className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50"
-                  href="#"
-                >
-                  <FacebookSocialLogo />
-                </a>
-                <a
-                  className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50"
-                  href="#"
-                >
-                  <TwitterSocialLogo />
-                </a>
+                <Link href="https://www.facebook.com/HerManyVoices/">
+                  <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
+                    <FacebookSocialLogo />
+                  </a>
+                </Link>
+                <Link href="https://twitter.com/HerManyVoices">
+                  <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
+                    <TwitterSocialLogo />
+                  </a>
+                </Link>
+                {/* <Link href="#">
                 <a
                   className="inline-block w-10 rounded bg-white p-2 hover:bg-gray-50"
-                  href="#"
                 >
                   <InstagramSocialLogo />
                 </a>
+                </Link> */}
               </div>
             </div>
           </div>

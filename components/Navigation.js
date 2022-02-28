@@ -3,7 +3,8 @@ import React, { useState } from 'react'
 import logo from 'public/assets/logo/logo.png'
 import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
 import TwitterSocialLogo from 'public/assets/social/TwitterSocialLogo.js'
-import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
+// import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
+import Link from 'next/link'
 
 export default function Navigation() {
   const [isOpen, setisOpen] = useState(false)
@@ -15,15 +16,11 @@ export default function Navigation() {
   return (
     <div>
       <nav className="relative flex items-center justify-between bg-gray-50 px-6 py-6">
-          <div className="text-3xl font-bold leading-none">
-           <Image 
-           src={logo} 
-           className="h-12" 
-           alt=""
-           width="44"
-           height="52"
-            />
-          </div>
+        <div className="text-3xl font-bold leading-none">
+          <Link href="/" passHref>
+            <Image src={logo} className="h-12" alt="" width="44" height="52" />
+          </Link>
+        </div>
         <div className="lg:hidden">
           <button
             onClick={handleToggle}
@@ -41,9 +38,9 @@ export default function Navigation() {
         </div>
         <ul className="absolute top-1/2 left-1/2 hidden -translate-y-1/2 -translate-x-1/2 transform lg:mx-auto lg:flex lg:w-auto lg:items-center lg:space-x-6">
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="/about">
-              About
-            </a>
+            <Link href="/about">
+              <a className="text-sm text-gray-400 hover:text-gray-500">About</a>
+            </Link>
           </li>
           <li className="text-gray-800">
             <svg
@@ -62,9 +59,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="/what-we-do">
-              What We Do
-            </a>
+            <Link href="/what-we-do">
+              <a className="text-sm text-gray-400 hover:text-gray-500">
+                What We Do
+              </a>
+            </Link>
           </li>
           <li className="text-gray-800">
             <svg
@@ -83,9 +82,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="/who-we-serve">
-              Who We Serve
-            </a>
+            <Link href="/who-we-serve">
+              <a className="text-sm text-gray-400 hover:text-gray-500">
+                Who We Serve
+              </a>
+            </Link>
           </li>
           <li className="text-gray-800">
             <svg
@@ -104,9 +105,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="/our-events">
-              Events
-            </a>
+            <Link href="/our-events">
+              <a className="text-sm text-gray-400 hover:text-gray-500">
+                Events
+              </a>
+            </Link>
           </li>
           <li className="text-gray-800">
             <svg
@@ -125,9 +128,9 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm font-bold text-green-600" href="/support-us">
-              Support Us
-            </a>
+            <Link href="/support-us">
+              <a className="text-sm font-bold text-green-600">Support Us</a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -165,71 +168,61 @@ export default function Navigation() {
             <div>
               <ul>
                 <li className="mb-1">
-                  <a
-                    className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="/about"
-                  >
-                    About
-                  </a>
+                  <Link href="/about">
+                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                      About
+                    </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
-                  <a
-                    className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="/what-we-do"
-                  >
-                    What We Do
-                  </a>
+                  <Link href="/what-we-do">
+                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                      What We Do
+                    </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
-                  <a
-                    className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="/who-we-serve"
-                  >
-                    Who We Serve
-                  </a>
+                  <Link href="/who-we-serve">
+                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                      Who We Serve
+                    </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
-                  <a
-                    className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="/our-events"
-                  >
-                    Events
-                  </a>
+                  <Link href="/our-events">
+                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                      Events
+                    </a>
+                  </Link>
                 </li>
                 <li className="mb-1">
-                  <a
-                    className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="/support-us"
-                  >
-                    Support Us
-                  </a>
+                  <Link href="/support-us">
+                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                      Support Us
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="mt-auto">
-              <div className="pt-6">
-              </div>
-              
-              <div className="text-center">
-                <a className="inline-block px-1" href="#">
-                  <FacebookSocialLogo
-                    alt=""
-                    className="text-2xl"
-                  />
-                </a>
-                <a className="inline-block px-1" href="#">
-                  <TwitterSocialLogo
-                    alt=""
-                    className="text-2xl"
+              <div className="pt-6"></div>
 
-                  />
-                </a>
+              <div className="text-center">
+                <Link href="https://www.facebook.com/HerManyVoices/">
+                  <a className="inline-block px-1">
+                    <FacebookSocialLogo alt="" className="text-2xl" />
+                  </a>
+                </Link>
+                <Link href="https://twitter.com/HerManyVoices">
+                  <a className="inline-block px-1">
+                    <TwitterSocialLogo alt="" className="text-2xl" />
+                  </a>
+                </Link>
+                {/* <Link href="#">
                 <a className="inline-block px-1" href="#">
-                  <InstagramSocialLogo
-                    alt=""
-                    className="text-2xl"
-                  />
+                  <InstagramSocialLogo alt="" className="text-2xl" />
                 </a>
+                </Link> */}
               </div>
               <p className="my-4 text-center text-xs text-gray-400">
                 <span>&copy; 2022 All rights reserved.</span>
