@@ -41,7 +41,7 @@ export default function Navigation() {
         </div>
         <ul className="absolute top-1/2 left-1/2 hidden -translate-y-1/2 -translate-x-1/2 transform lg:mx-auto lg:flex lg:w-auto lg:items-center lg:space-x-6">
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a className="text-sm text-gray-400 hover:text-gray-500" href="/about">
               About
             </a>
           </li>
@@ -62,7 +62,7 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a className="text-sm text-gray-400 hover:text-gray-500" href="/what-we-do">
               What We Do
             </a>
           </li>
@@ -83,7 +83,7 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a className="text-sm text-gray-400 hover:text-gray-500" href="/who-we-serve">
               Who We Serve
             </a>
           </li>
@@ -104,7 +104,7 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-400 hover:text-gray-500" href="#">
+            <a className="text-sm text-gray-400 hover:text-gray-500" href="/our-events">
               Events
             </a>
           </li>
@@ -125,7 +125,7 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm font-bold text-green-600" href="#">
+            <a className="text-sm font-bold text-green-600" href="/support-us">
               Support Us
             </a>
           </li>
@@ -167,7 +167,7 @@ export default function Navigation() {
                 <li className="mb-1">
                   <a
                     className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="#"
+                    href="/about"
                   >
                     About
                   </a>
@@ -175,7 +175,7 @@ export default function Navigation() {
                 <li className="mb-1">
                   <a
                     className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="#"
+                    href="/what-we-do"
                   >
                     What We Do
                   </a>
@@ -183,7 +183,7 @@ export default function Navigation() {
                 <li className="mb-1">
                   <a
                     className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="#"
+                    href="/who-we-serve"
                   >
                     Who We Serve
                   </a>
@@ -191,7 +191,7 @@ export default function Navigation() {
                 <li className="mb-1">
                   <a
                     className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="#"
+                    href="/our-events"
                   >
                     Events
                   </a>
@@ -199,7 +199,7 @@ export default function Navigation() {
                 <li className="mb-1">
                   <a
                     className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
-                    href="#"
+                    href="/support-us"
                   >
                     Support Us
                   </a>

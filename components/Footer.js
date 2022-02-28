@@ -1,7 +1,83 @@
+import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
+import TwitterSocialLogo from 'public/assets/social/TwitterSocialLogo.js'
+import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
+import logo from 'public/assets/logo/logo.png'
+import Image from 'next/image'
+
+
 export default function Footer() {
   return (
     <>
       <footer>
+        <section className="bg-gray-50">
+          <div className="flex w-full">
+            <div className="flex w-1/3">
+              <div className="w-1/3 bg-green-400 py-1"></div>
+              <div className="w-1/3 bg-green-500 py-1"></div>
+              <div className="w-1/3 bg-green-600 py-1"></div>
+            </div>
+            <div className="flex w-1/3">
+              <div className="w-1/3 bg-green-400 py-1"></div>
+              <div className="w-1/3 bg-green-500 py-1"></div>
+              <div className="w-1/3 bg-green-600 py-1"></div>
+            </div>
+            <div className="flex w-1/3">
+              <div className="w-1/3 bg-green-400 py-1"></div>
+              <div className="w-1/3 bg-green-500 py-1"></div>
+              <div className="w-1/3 bg-green-600 py-1"></div>
+            </div>
+          </div>
+          <div className="container mx-auto px-4">
+            <div className="pt-10 pb-12">
+              <div className="relative mb-8 flex flex-wrap lg:border-b lg:border-gray-300 lg:pb-8">
+                <p className="order-last w-full text-center text-sm text-gray-400 lg:order-first lg:w-auto lg:text-left">
+                  © 2022. All rights reserved.
+                </p>
+                <div className="mx-auto mb-6 lg:absolute lg:left-1/2 lg:mb-0 lg:-translate-x-1/2 lg:transform">
+                  <p className="mr-6 text-sm">
+                    &quot;Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.&quot;
+                  </p>
+                </div>
+                <div className="order-first mb-12 w-full text-center lg:order-last lg:mb-0 lg:ml-auto lg:w-auto lg:text-left">
+                  <a
+                    className="inline-block text-xl font-bold leading-none"
+                    href="#"
+                  >
+                    <Image 
+                      src={logo} 
+                      className="inline-block h-12 lg:h-6" 
+                      alt=""
+                      width="44"
+                      height="52"
+                        />
+                  </a>
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <a
+                  className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50"
+                  href="#"
+                >
+                  <FacebookSocialLogo />
+                </a>
+                <a
+                  className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50"
+                  href="#"
+                >
+                  <TwitterSocialLogo />
+                </a>
+                <a
+                  className="inline-block w-10 rounded bg-white p-2 hover:bg-gray-50"
+                  href="#"
+                >
+                  <InstagramSocialLogo />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </footer>
     </>
   )
