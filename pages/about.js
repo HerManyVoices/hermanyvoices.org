@@ -1,22 +1,17 @@
-import Footer from '@components/Footer'
-import Navigation from '@components/Navigation'
-import Image from 'next/image'
+import Layout from '@components/Layout'
 
 function About() {
-    return (
+  return (
     <div>
-      <Navigation />
       <section>
         <h1>About</h1>
-        <div className="rounded shadow bg-cover w-full"> 
-                <Image src="https://res.cloudinary.com/hmvf/image/upload/v1645671663/hero-image_cwpmq8.jpg" alt=""
-                  width="1000"
-                  height="1000"
-                  unoptimized={true} />
-        </div>
       </section>
-      <Footer />
-    </div>)
-  }
-  
-  export default About
+    </div>
+  )
+}
+
+export default About
+
+About.getLayout = function getLayout(About) {
+  return <Layout>{About}</Layout>
+}

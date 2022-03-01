@@ -1,8 +1,9 @@
 import '../styles/tailwind.css';
 import Head from 'next/head';
 
-function Application({ Component, pageProps }) {
-  return (
+export default function Application({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page);
+  return getLayout(
     <>
       <Head>
         <title>Her Many Voices Foundation</title>
@@ -44,4 +45,3 @@ function Application({ Component, pageProps }) {
   )
 }
 
-export default Application
