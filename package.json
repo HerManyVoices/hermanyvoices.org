@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "cloudinary-build-url": "^0.2.4",
+    "netlify-plugin-cloudinary": "^1.0.0",
     "next": ">=12.1.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^14.0.2",
