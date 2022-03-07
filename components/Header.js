@@ -3,7 +3,7 @@ import { buildUrl } from 'cloudinary-build-url'
 export default function Header() {
   const heroImg = buildUrl('hero_image_re8hmh', {
     cloud: {
-      cloudName: 'CLOUDINARY_CLOUD_NAME'
+      cloudName: 'hmvf'
     }
   })
 
