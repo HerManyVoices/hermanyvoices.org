@@ -1,11 +1,5 @@
-import { buildUrl } from 'cloudinary-build-url'
 
 export default function Header() {
-  const heroImg = buildUrl('hero_image_re8hmh', {
-    cloud: {
-      cloudName: 'hmvf'
-    }
-  })
 
   return (
     <section>
@@ -24,7 +18,7 @@ export default function Header() {
                 </span>
           </h1>
         </div>
-        <img className="object-cover object-center h-128 sm:h-[590px] w-full" src={heroImg} alt=""/>
+        <img className="object-cover object-center h-128 sm:h-[590px] w-full" src="https://res.cloudinary.com/hmvf/image/upload/q_auto%2Cf_auto/hero_image_re8hmh" alt=""/>
       </div>
     </section>
   )
