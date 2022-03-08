@@ -6,10 +6,7 @@ export default function NewsletterCTA() {
       <div className="container mx-auto px-4">
         <div className="-mx-4 flex flex-wrap items-center justify-center">
           <div className="mb-16 max-w-2xl px-4 text-center lg:mb-0 lg:w-1/2">
-            <div
-              className=" mb-6 inline-block text-3xl font-bold leading-none text-white"
-            >
-
+            <div className=" mb-6 inline-block text-3xl font-bold leading-none text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-16 w-16"

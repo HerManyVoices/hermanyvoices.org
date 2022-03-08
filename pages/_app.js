@@ -1,8 +1,8 @@
-import '../styles/tailwind.css';
-import Head from 'next/head';
+import '../styles/tailwind.css'
+import Head from 'next/head'
 
 export default function Application({ Component, pageProps }) {
-  const getLayout = Component.getLayout || ((page) => page);
+  const getLayout = Component.getLayout || ((page) => page)
   return getLayout(
     <>
       <Head>
@@ -44,4 +44,3 @@ export default function Application({ Component, pageProps }) {
     </>
   )
 }
-

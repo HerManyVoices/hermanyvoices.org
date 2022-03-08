@@ -218,11 +218,6 @@ export default function Navigation() {
                     <TwitterSocialLogo alt="" className="text-2xl" />
                   </a>
                 </Link>
-                {/* <Link href="#">
-                <a className="inline-block px-1" href="#">
-                  <InstagramSocialLogo alt="" className="text-2xl" />
-                </a>
-                </Link> */}
               </div>
               <p className="my-4 text-center text-xs text-gray-400">
                 <span>&copy; 2022 All rights reserved.</span>

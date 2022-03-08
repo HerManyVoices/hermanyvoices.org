@@ -66,13 +66,6 @@ export default function Footer() {
                     <TwitterSocialLogo />
                   </a>
                 </Link>
-                {/* <Link href="#">
-                <a
-                  className="inline-block w-10 rounded bg-white p-2 hover:bg-gray-50"
-                >
-                  <InstagramSocialLogo />
-                </a>
-                </Link> */}
               </div>
             </div>
           </div>
