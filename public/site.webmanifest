@@ -1,0 +1,22 @@
+{
+    "name": "Her Many Voices Foundation",
+    "short_name": "HMVF",
+    "description": "Her Many Voices Foundation Website",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "#fff",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/images/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
