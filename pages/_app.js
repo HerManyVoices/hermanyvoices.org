@@ -14,6 +14,7 @@ export default function Application({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="manifest" href="/site.webmanifest.json" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -31,7 +32,6 @@ export default function Application({ Component, pageProps }) {
           sizes="16x16"
           href="/images/favicon-16x16.png"
         />
-        <link rel="manifest" href="/images/site.webmanifest" />
         <link
           rel="mask-icon"
           href="/images/safari-pinned-tab.svg"
