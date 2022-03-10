@@ -77,6 +77,9 @@ module.exports = {
             800: '#1e40af',
             900: '#1e3a8a',
         },
+        blueGray: {
+            100: '#111827',
+        },
         indigo: {
             50: '#eef2ff',
             100: '#e0e7ff',
