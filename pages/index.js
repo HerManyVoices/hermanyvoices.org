@@ -3,44 +3,36 @@ import Projects from '@components/Projects'
 import Testimonials from '@components/Testimonials'
 import NewsletterCTA from '@components/NewsletterCTA'
 import Layout from '@components/Layout'
+import ImageSlider from '@components/ImageSlider'
 
 export default function Home() {
   return (
     <div className="overflow-hidden">
       <Header />
       <div className="my-12">
-        <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0">
-          <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
-            <h2 className="mx-4 mb-4 font-heading text-3xl font-bold md:text-4xl">
-              Who We Are
+        <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0 lg:py-16">
+          <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2 lg:px-10  place-self-center">
+            <h2 className="mx-4 mb-4 font-heading text-3xl font-bold text-blueGray-100 md:text-4xl">
+              <span className="text-green-600">Who</span> We Are
             </h2>
-            <p className="text-blueGray-400 mx-4 mb-2 text-lg leading-relaxed">
-              Her Many Voices Foundation is a passionate group of
-              activists/artivists intent on saving our Mother Earth and All Her
-              Children, through big acts of love and service, disguised as a
-              non-profit.
+            <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
+              Her Many Voices Foundation is a passionate group of activists,
+              artists and global community members intent on saving our Mother
+              Earth and All Her Children, through big acts of love and service,
+              disguised as a non-profit.
             </p>
           </div>
           <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
             <img
-              src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1055&amp;q=80"
+              src="https://res.cloudinary.com/hmvf/image/upload/v1646852077/who-we-are_vzcrsj.jpg"
               alt=""
-              className="rounded shadow"
+              className="rounded shadow md:-mx-4"
             ></img>
           </div>
         </div>
 
         <section className="skewed-top-left skewed-bottom-right my-12">
-          <div className="skew skew-top mr-for-radius">
-            <svg
-              className="h-8 w-full text-green-600 md:h-12 lg:h-20"
-              viewBox="0 0 10 10"
-              preserveAspectRatio="none"
-            >
-              <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
-            </svg>
-          </div>
-          <div className="skew skew-top ml-for-radius">
+          <div className="skew skew-top ml-for-radius -mb-[.6px]">
             <svg
               className="h-8 w-full text-green-600 md:h-12 lg:h-20"
               viewBox="0 0 10 10"
@@ -49,31 +41,31 @@ export default function Home() {
               <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
             </svg>
           </div>
-          <div className="radius-for-skewed bg-green-600 py-20">
+          <div className="radius-for-skewed -mb-[.6px] bg-green-600 py-20">
             <div className="container mx-auto px-4"></div>
             <div className="my-12 mx-4">
               <div className="-mb-4 flex flex-wrap-reverse md:mb-0">
                 <div className="mb-4 w-full md:mb-0 md:w-1/2">
                   <img
-                    src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
+                    src="https://res.cloudinary.com/hmvf/image/upload/v1646879309/our-big-why_wq4dm5.jpg"
                     alt=""
                     className="rounded shadow"
                   ></img>
                 </div>
                 <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
-                  <h2 className="mx-4 mb-4 font-heading text-3xl font-bold md:text-4xl">
-                    Our Big <span className="italic text-white">Why</span>
+                  <h2 className="mx-4 mb-4 font-heading text-3xl font-bold text-blueGray-100 md:text-4xl">
+                    Our Big <span className="text-white">Why</span>
                   </h2>
-                  <p className="text-blueGray-400 mx-4 mb-2 leading-relaxed">
-                    Can you hear it? The Voice of Mother Earth Calling? Her
-                    children Crying? Are you listening? She&apos;s weeping… and
-                    we are listening, and responding.
+                  <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
+                    1.3 Billion people live in Multidimensional Poverty over
+                    800,000,000 are women and children.
                   </p>
-                  <p className="text-blueGray-400 mx-4 mb-2 leading-relaxed">
-                    85% of women and children live in poverty. 75% of the
-                    earth&apos;s landscape is scared by environmental calamity.
-                    Children are hungry. People are desperate. Time is running
-                    out.
+                  <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
+                    Mother Earth struggles to breathe and her children are in
+                    need,
+                  </p>
+                  <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
+                    we are listening, and responding.
                   </p>
                 </div>
               </div>
@@ -99,23 +91,20 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0">
-          <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
-            <h2 className="mx-4 mb-4 font-heading text-3xl font-bold md:text-4xl">
-              We are responding.{' '}
-              <span className="text-green-600">Why we succeed:</span>
+        <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0  lg:py-16">
+          <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2 lg:px-10  place-self-center">
+            <h2 className="mx-4 mb-4 font-heading text-3xl font-bold text-blueGray-100 md:text-4xl">
+              <span className="text-green-600">Why</span> we succeed:
             </h2>
-            <p className="text-blueGray-400 mx-4 mb-2 text-lg leading-relaxed">
-              Adaptability in approach / focus on artivism and Indigenous Wisdom
-              / Partner and Coalition Building
+            <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
+            HMVF Founder, Alicia Fall, leads us by example. From digging trenches to international presentations, Alicia has taught us to step to the need and follow the wisdom and knowledge of those we serve.
+            </p>
+            <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
+            We bring tools, resources and coalition partners to Indigenous communities and then we <span className='font-bold text-green-600'>listen</span> to their needs. We then support the community to create the solutions they devise.
             </p>
           </div>
           <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
-            <img
-              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80"
-              alt=""
-              className="rounded shadow"
-            ></img>
+            <ImageSlider className="rounded shadow md:-mx-4"/>
           </div>
         </div>
       </div>
