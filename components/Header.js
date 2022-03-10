@@ -2,23 +2,37 @@ export default function Header() {
   return (
     <section>
       <div className="relative w-full">
-        <div className="absolute top-0 left-0 z-10 h-full w-full bg-gray-500/60"></div>
-        <div className="absolute z-20 flex h-full w-full flex-col items-center justify-center">
-          <h1 className="mx-3 font-heading text-4xl font-bold md:text-2xl lg:text-5xl">
+        <div className="absolute top-0 left-0 z-10 h-full w-full bg-gradient-to-b from-gray-600 to-transparent"></div>
+        <div className="absolute z-20 flex h-full w-full min-w-[340px] flex-col items-center justify-start pt-4">
+          <h1 className="mx-3 font-heading text-4xl leading-snug md:text-5xl lg:text-6xl lg:leading-tight ">
             <span className="text-white">Grassroots Activism,</span>
             <br></br>
-            <span className="text-green-400">
-              Driven by <br></br> Indigenous Wisdom,
-            </span>
+            <span className="text-green-400">Driven by </span>
+            {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '}
+            <span className="text-green-400">Indigenous Wisdom,</span>
             <br></br>
-            <span className="text-white">
-              To Protect All of <br></br> Earth&apos;s Children.
-            </span>
+            <span className="text-white">To Protect All of </span>
+            {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '}
+            <span className="text-white">Earth&apos;s Children.</span>
           </h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="right-10 absolute bottom-0 mb-10 mr-4 mt-4 h-12 w-12"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="#fff"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
         </div>
         <img
-          className="h-128 w-full object-cover object-center sm:h-[590px]"
-          src="https://res.cloudinary.com/hmvf/image/upload/q_auto%2Cf_auto/hero_image_re8hmh"
+          className="h-160 w-full object-cover object-center sm:h-[620px]"
+          src="https://res.cloudinary.com/hmvf/image/fetch/v1646612918/https://res.cloudinary.com/hmvf/image/upload/q_auto%252Cf_auto/hero_image_re8hmh"
           alt=""
         />
       </div>
