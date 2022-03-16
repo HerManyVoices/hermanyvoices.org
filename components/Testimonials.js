@@ -22,14 +22,15 @@ export default function Testimonials() {
       <div className="radius-for-skewed bg-gray-50 py-20">
         <div className="container mx-auto px-4">
           <div className="flex max-w-6xl flex-wrap items-center justify-center p-4">
-            <div className="mb-6 w-full text-center lg:w-1/3">
+            <div className="mb-6 md:pr-12 w-full text-center lg:w-1/3">
               <img
                 className="mx-auto mb-6 h-32 w-32 rounded-full object-cover"
-                src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1055&amp;q=80"
+                src="https://res.cloudinary.com/hmvf/image/upload/v1647391660/13743564_216342438763180_2106838727_a_srccey.jpg"
                 alt=""
               ></img>
-              <h4 className="text-xl">Ian Brown</h4>
-              <p className="text-green-600">Head of Development</p>
+              <h4 className="text-xl px-8 italic">With love, <br></br> Jane, Melissa and Sarah
+              <br></br>And the Wynne Farm Team
+                </h4>
             </div>
             <div className="w-full lg:w-2/3">
               <svg
@@ -47,16 +48,22 @@ export default function Testimonials() {
                   fill="currentColor"
                 ></path>
               </svg>
-              <h3 className="mb-6 font-heading text-3xl font-bold lg:text-4xl">
-                Maecenas nibh purus, pharetra ac felis sed, elementum molestie
-                urna. Nunc at arcu non ipsum.
+              <h3 className="mb-6 font-heading md:text-xl">
+                <p className="py-2">
+                Amidst the threats, the corrupt politicians, the greedy land grabbers and developers, we stood. We stood for the trees, we stood for the water, we stood for the soil. We stood for biodiversity and for the generations to come in Kenscoff, Haiti.
+                </p>
+              
+              <p className="py-2">
+              But we did not stand alone. At times we had fallen on our knees, and thanks to the angels beneath our wings, we found the courage to rise again to protect one of the few nature reserves in Haiti. Deepest gratitude to Alicia Fall and Her Many Voices team for hearing our cry, for aligning with our cause and for having our backs through thick and thin.
+              </p>
+
+              
+              <p className="py-2">
+              Together we continue to stand for life and for the unheard voices that will inherit the fruit of our actions today.
+              </p>
+
+              
               </h3>
-              <div>
-                <button className="mr-1 rounded-full bg-gray-200 p-1"></button>
-                <button className="mr-1 rounded-full bg-gray-200 p-1"></button>
-                <button className="mr-1 rounded-full bg-green-600 p-1"></button>
-                <button className="rounded-full bg-gray-200 p-1"></button>
-              </div>
             </div>
           </div>
         </div>
