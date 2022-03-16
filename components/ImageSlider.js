@@ -38,26 +38,25 @@ const ImageSlider = () => {
   }
 
   return (
-    <div className="px-4">
+    <div className="m-2 rounded">
       <div
         ref={imageContainer}
-        className="group relative mx-auto w-full max-w-lg select-none"
+        className="group relative mx-auto w-full max-w-xl2 select-none overflow-hidden rounded bg-gradient-to-r from-white via-black"
       >
         <img
-          src="https://res.cloudinary.com/hmvf/image/upload/q_auto%2Cf_auto/hero_image_re8hmh"
+          src="https://res.cloudinary.com/hmvf/image/upload/v1647379636/Row_4_Why_we_Succeed_2_djuco2.jpg"
           alt=""
-          className="pointer-events-none rounded shadow"
+          className="pointer-events-none shadow translate-x-20 md:translate-x-24"
         />
         <img
           style={{
-            filter: 'grayscale(100%)',
             clipPath: `polygon(0 0, ${imageRevealFraq * 100}% 0, ${
               imageRevealFraq * 100
             }% 100%, 0 100%)`,
           }}
-          src="https://res.cloudinary.com/hmvf/image/upload/q_auto%2Cf_auto/hero_image_re8hmh"
+          src="https://res.cloudinary.com/hmvf/image/upload/v1647379639/Row_4_Why_we_succeed_1_krlxoq.jpg"
           alt=""
-          className="grayscale-100 pointer-events-none absolute inset-0 rounded shadow"
+          className="pointer-events-none absolute inset-0 shadow md:-translate-y-12"
         />
         <div
           style={{ left: `${imageRevealFraq * 100}%` }}
