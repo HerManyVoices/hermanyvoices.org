@@ -3,8 +3,8 @@ export default function Header() {
     <section>
       <div className="relative w-full">
         <div className="absolute top-0 left-0 z-10 h-full w-full bg-gradient-to-b from-gray-600 to-transparent"></div>
-        <div className="absolute z-20 flex h-full w-full min-w-[340px] flex-col items-center justify-start pt-4">
-          <h1 className="mx-3 font-heading text-4xl leading-snug md:text-5xl lg:text-6xl lg:leading-tight ">
+        <div className="absolute z-10 flex h-full w-full min-w-[340px] flex-col items-center justify-start pt-4">
+          <h1 className="mx-3 font-heading text-4xl leading-snug md:text-5xl lg:text-6xl lg:leading-tight">
             <span className="text-white">Grassroots Activism,</span>
             <br></br>
             <span className="text-green-400">Driven by </span>

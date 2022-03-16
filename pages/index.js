@@ -1,17 +1,29 @@
+import Script from 'next/script'
+import Layout from '@components/Layout'
 import Header from '@components/Header'
 import Projects from '@components/Projects'
 import Testimonials from '@components/Testimonials'
 import NewsletterCTA from '@components/NewsletterCTA'
-import Layout from '@components/Layout'
 import ImageSlider from '@components/ImageSlider'
 
 export default function Home() {
   return (
     <div className="overflow-hidden">
+      <Script
+        type="text/javascript"
+        defer
+        src="https://donorbox.org/install-popup-button.js"
+      />
+      <Script
+        defer
+        onLoad={() => {
+          window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' }
+        }}
+      />
       <Header />
       <div className="my-12">
         <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0 lg:py-16">
-          <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2 lg:px-10  place-self-center">
+          <div className="mb-4 w-full place-self-center px-4 md:mb-0 md:w-1/2  lg:px-10">
             <h2 className="mx-4 mb-4 font-heading text-3xl font-bold text-blueGray-100 md:text-4xl">
               <span className="text-green-600">Who</span> We Are
             </h2>
@@ -57,15 +69,15 @@ export default function Home() {
                     Our Big <span className="text-white">Why</span>
                   </h2>
                   <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-                    1.3 Billion people live in Multidimensional Poverty over
-                    800,000,000 are women and children.
+                    Indigenous Peoples make up less than 5% of the population
+                    while protecting 80% of Mother Earth’s resources. There is a
+                    gap in non-profit support that reveals that .2 % of funding
+                    goes to Indigenous groups.
                   </p>
                   <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-                    Mother Earth struggles to breathe and her children are in
-                    need,
-                  </p>
-                  <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-                    we are listening, and responding.
+                    By supporting Indigenous People and humanitarian projects,
+                    we are investing in the future of our planet while
+                    developing strong, resilient communities.
                   </p>
                 </div>
               </div>
@@ -92,19 +104,26 @@ export default function Home() {
         </section>
 
         <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0  lg:py-16">
-          <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2 lg:px-10  place-self-center">
+          <div className="mb-4 w-full place-self-center px-4 md:mb-0 md:w-1/2  lg:px-10">
             <h2 className="mx-4 mb-4 font-heading text-3xl font-bold text-blueGray-100 md:text-4xl">
               <span className="text-green-600">Why</span> we succeed:
             </h2>
             <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-            HMVF Founder, Alicia Fall, leads us by example. From digging trenches to international presentations, Alicia has taught us to step to the need and follow the wisdom and knowledge of those we serve.
+              HMVF Founder, Alicia Fall, leads us by example. From digging
+              trenches to international presentations, Alicia has taught us to
+              step to the need and follow the wisdom and knowledge of those we
+              serve.
             </p>
             <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-            We bring tools, resources and coalition partners to Indigenous communities and then we <span className='font-bold text-green-600'>listen</span> to their needs. We then support the community to create the solutions they devise.
+              We bring tools, resources and coalition partners to Indigenous
+              communities and then we{' '}
+              <span className="font-bold text-green-600">listen</span> to their
+              needs. We then support the community to create the solutions they
+              devise.
             </p>
           </div>
           <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
-            <ImageSlider className="rounded shadow md:-mx-4"/>
+            <ImageSlider className="rounded shadow md:-mx-4" />
           </div>
         </div>
       </div>
