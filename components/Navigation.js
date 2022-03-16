@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
@@ -7,11 +8,19 @@ import wordmark from 'public/assets/logo/logo-wordmark.png'
 import logo from 'public/assets/logo/logo.png'
 
 export default function Navigation() {
-  const [isOpen, setisOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
 
-  const handleToggle = () => {
-    setisOpen((prev) => !prev)
-  }
+  useEffect(() => {
+    const closeNav = (e) => {
+      if (e.key === 'Escape') {
+        setIsOpen(false)
+      }
+    }
+    window.addEventListener('keydown', closeNav)
+    return () => {
+      window.removeEventListener('keydown', closeNav)
+    }
+  }, [])
 
   return (
     <div className="sticky top-0 z-30">
@@ -40,9 +49,9 @@ export default function Navigation() {
             </a>
           </Link>
         </div>
-        <div className="lg:hidden">
+        <div className="sticky lg:hidden">
           <button
-            onClick={handleToggle}
+            onClick={() => setIsOpen(true)}
             className="flex items-center p-3 text-gray-400"
           >
             <svg
@@ -167,14 +176,15 @@ export default function Navigation() {
               <Link href="/" passHref>
                 <a className="mr-auto text-3xl font-bold leading-none">
                   <Image
-                  className="h-16 w-16"
-                  src={logo}
-                  alt=""
+                    className="h-16 w-16"
+                    src={logo}
+                    alt=""
                     width="80"
                     height="80"
                   />
-              </a>
-              <button onClick={handleToggle} className="navbar-close">
+                </a>
+              </Link>
+              <button onClick={() => setIsOpen(false)}>
                 <svg
                   className="h-6 w-6 cursor-pointer text-gray-400 hover:text-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -194,36 +204,51 @@ export default function Navigation() {
             <div>
               <ul>
                 <li className="mb-1">
-                  <Link href="/about">
-                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                  <Link href="/about" passHref>
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                    >
                       About
                     </a>
                   </Link>
                 </li>
                 <li className="mb-1">
-                  <Link href="/what-we-do">
-                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                  <Link href="/what-we-do" passHref>
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                    >
                       What We Do
                     </a>
                   </Link>
                 </li>
                 <li className="mb-1">
-                  <Link href="/who-we-serve">
-                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                  <Link href="/who-we-serve" passHref>
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                    >
                       Who We Serve
                     </a>
                   </Link>
                 </li>
                 <li className="mb-1">
-                  <Link href="/our-events">
-                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                  <Link href="/our-events" passHref>
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                    >
                       Events
                     </a>
                   </Link>
                 </li>
                 <li className="mb-1">
-                  <Link href="/support-us">
-                    <a className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600">
+                  <Link href="/support-us" passHref>
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
+                    >
                       Support Us
                     </a>
                   </Link>
