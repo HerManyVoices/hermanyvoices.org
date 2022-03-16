@@ -1,6 +1,6 @@
 import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
 import TwitterSocialLogo from 'public/assets/social/TwitterSocialLogo.js'
-// import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
+import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
 import logo from 'public/assets/logo/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -56,14 +56,19 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <Link href="https://www.facebook.com/HerManyVoices/">
+                <Link href="https://www.facebook.com/HerManyVoices/" passHref>
                   <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
                     <FacebookSocialLogo />
                   </a>
                 </Link>
-                <Link href="https://twitter.com/HerManyVoices">
+                <Link href="https://twitter.com/HerManyVoices" passHref>
                   <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
                     <TwitterSocialLogo />
+                  </a>
+                </Link>
+                <Link href="https://instagram.com" passHref>
+                  <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
+                    <InstagramSocialLogo />
                   </a>
                 </Link>
               </div>
