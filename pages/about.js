@@ -67,6 +67,7 @@ function About() {
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="mb-12 w-full px-4 lg:mb-0 lg:w-5/12">
+              {/* hidden on large screens */}
               <h2 className="mb-4 text-center font-heading text-3xl font-bold md:text-5xl lg:hidden">
                 Founder/Vision Holder <br></br> Oversees all operations
               </h2>
@@ -78,7 +79,8 @@ function About() {
             </div>
             <div className="w-full px-4 lg:w-7/12">
               <div className="m-auto max-w-xl lg:ml-auto">
-                <h2 className="mb-4 hidden font-heading text-4xl font-bold md:hidden">
+              {/* hidden on small screens */}
+                <h2 className="mb-4 font-heading text-4xl font-bold hidden md:block"> 
                   Founder/Vision Holder <br></br> Oversees all operations
                 </h2>
                 <p className="mb-9 text-lg leading-loose text-gray-500">
