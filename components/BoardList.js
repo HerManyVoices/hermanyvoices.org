@@ -1,14 +1,13 @@
-import TeamCard from './TeamCard'
-import { teamMembers } from '../public/data/members.js'
+import BoardCard from './BoardCard'
+import { boardMembers } from '../public/data/members.js'
 
 export default function TeamList() {
-  const listTeamCards = teamMembers.map(
+  const listBoardCards = boardMembers.map(
     ({
       id,
       fullName,
       title,
       description,
-      shortDescription,
       image,
       altText,
       facebookLink,
@@ -16,11 +15,10 @@ export default function TeamList() {
       twitterLink,
     }) => (
       <>
-        <TeamCard
+        <BoardCard
           key={id}
           fullName={fullName}
           title={title}
-          shortDescription={shortDescription}
           description={description}
           image={image}
           altText={altText}
@@ -34,14 +32,14 @@ export default function TeamList() {
 
   return (
     <section>
-      <div className="bg-gray-50 py-20">
-        <div className="container mx-auto px-4">
+      <div className="bg-green-600 py-20">
+        <div className="mx-auto px-4">
           <div className="mx-auto mb-8 max-w-xl text-center lg:mb-16">
-            <h2 className="font-heading text-4xl font-bold lg:text-5xl">
-              Our Team
+            <h2 className="font-heading text-4xl font-bold lg:text-5xl text-white">
+              Our Board
             </h2>
           </div>
-          <div className="-mx-4 flex flex-wrap">{listTeamCards}</div>
+          <div className="-mx-4 flex flex-wrap">{listBoardCards}</div>
         </div>
       </div>
     </section>
