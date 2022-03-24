@@ -14,7 +14,7 @@ export default function Modal({
   twitterLink,
   instagramLink,
 }) {
-  let [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
   const completeButtonRef = useRef(null)
 
   function closeModal() {
