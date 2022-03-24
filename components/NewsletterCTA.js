@@ -35,36 +35,82 @@ export default function NewsletterCTA() {
             </Link>
           </div>
           <div className="w-full px-4 lg:w-1/2">
-            <div className="mx-auto max-w-sm lg:mr-0 lg:ml-auto">
-              <div className="mb-6 rounded-t-3xl rounded-bl-3xl bg-white py-8 px-6 text-center shadow">
-                <form action="">
-                  <div className="mb-6">
+            <div className="mx-auto max-w-md lg:mr-0 lg:ml-auto">
+              <div
+                id="mc_embed_signup"
+                className="mb-6 rounded-t-3xl rounded-bl-3xl bg-white py-8 px-6 text-center shadow"
+              >
+                <form
+                  action="https://hermanyvoices.us12.list-manage.com/subscribe/post?u=ed8cd89534677e76f64a1819d&amp;id=a674fd30fd"
+                  method="post"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
+                  className="validate"
+                  target="_blank"
+                  noValidate
+                >
+                  <div id="mc_embed_signup_scroll" className="mb-6">
                     <h4 className="text-2xl">Sign up for our newsletter</h4>
                   </div>
                   <div className="-mx-2 mb-4 flex flex-wrap">
-                    <div className="mb-4 w-full px-2 lg:mb-0 lg:w-1/2">
+                    <div className="mc-field-group mb-4 w-full px-2 text-left lg:mb-0 lg:w-1/2">
+                      <label htmlFor="mce-FNAME" className="pl-1">
+                        First Name <span className="asterisk">*</span>
+                      </label>
                       <input
-                        className="w-full rounded border bg-white py-2 px-3 leading-loose"
+                        className="required w-full rounded border bg-white py-2 px-3 leading-loose"
                         type="text"
+                        // value=""
+                        name="FNAME"
+                        id="mce-FNAME"
                         placeholder="First Name"
                       ></input>
                     </div>
-                    <div className="w-full px-2 lg:w-1/2">
+                    <div className="mc-field-group w-full px-2 text-left lg:w-1/2">
+                      <label htmlFor="mce-EMAIL" className="pl-1">
+                        Email Address <span className="asterisk">*</span>
+                      </label>
                       <input
-                        className="w-full rounded border bg-white py-2 px-3 leading-loose"
+                        className="required email mb-4 w-full rounded border bg-white py-2 px-3 leading-loose"
+                        type="email"
+                        placeholder="hello@example.com"
+                        // value=""
+                        name="EMAIL"
+                        id="mce-FNAME"
+                      ></input>
+                    </div>
+                    <div className="indicates-required">
+                      <span className="asterisk pl-2">*</span>required
+                    </div>
+                    <div id="mce-responses" className="clear">
+                      <div
+                        className="response hidden"
+                        id="mce-error-response"
+                      ></div>
+                      <div
+                        className="response hidden"
+                        id="mce-success-response"
+                      ></div>
+                    </div>
+                    {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
+                    <div className="hidden" aria-hidden="true">
+                      <input
                         type="text"
-                        placeholder="Last Name"
+                        name="b_ed8cd89534677e76f64a1819d_a674fd30fd"
+                        tabIndex="-1"
+                        // value=""
                       ></input>
                     </div>
                   </div>
-                  <input
-                    className="mb-4 w-full rounded border bg-white py-2 px-3 leading-loose"
-                    type="email"
-                    placeholder="hello@example.com"
-                  ></input>
-                  <button className="mb-4 w-full rounded bg-green-600 py-4 text-sm font-bold leading-normal text-white transition duration-200 hover:bg-green-700">
-                    Sign Up
-                  </button>
+                  <div className="clear">
+                    <input
+                      type="submit"
+                      value="Sign Up"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      className="button mb-4 w-full rounded bg-green-600 py-4 text-sm font-bold leading-normal text-white transition duration-200 hover:bg-green-700"
+                    ></input>
+                  </div>
                 </form>
               </div>
             </div>
