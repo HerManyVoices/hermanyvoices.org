@@ -6,7 +6,7 @@ export default function Sponsors() {
           Our Sponsors and Coalition Partners
         </h3>
         <div className="-mx-2 flex flex-wrap">
-          <div className="mb-12 w-full px-2 md:w-1/3 lg:mb-0">
+          <div className="mb-12 w-full px-2 md:w-1/5 lg:mb-0">
             <a href="#">
               <img
                 className="mx-auto h-32 object-cover"
@@ -15,14 +15,24 @@ export default function Sponsors() {
               ></img>
             </a>
           </div>
-          <div className="mb-12 w-full px-2 md:w-1/3 lg:mb-0">
+          <div className="mb-12 w-full px-2 md:w-1/5 lg:mb-0">
             <a href="#">
               <img className="mx-auto h-32 object-cover" src="https://res.cloudinary.com/hmvf/image/upload/v1648094814/UBR_logo_domz7i.jpg" alt=""></img>
             </a>
           </div>
-          <div className="mb-12 w-full px-2 md:w-1/3 lg:mb-0">
+          <div className="mb-12 w-full px-2 md:w-1/5 lg:mb-0">
             <a href="#">
               <img className="mx-auto h-32 object-cover" src="https://res.cloudinary.com/hmvf/image/upload/v1648095226/Earth_Day_kidsareworthit_hgyz5g.gif" alt=""></img>
+            </a>
+          </div>
+          <div className="mb-12 w-full px-2 md:w-1/5 lg:mb-0">
+            <a href="#">
+              <img className="mx-auto h-32 object-cover" src="https://res.cloudinary.com/hmvf/image/upload/v1648140089/Partner_and_Earth_Day_ushba-logo-clear_mnywn5.png" alt=""></img>
+            </a>
+          </div>
+          <div className="mb-12 w-full px-2 md:w-1/5 lg:mb-0">
+            <a href="#">
+              <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/v1648140099/Partner_and_Earth_Day_Libertude_Logo_l1skdy.png" alt=""></img>
             </a>
           </div>
         </div>

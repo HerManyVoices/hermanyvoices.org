@@ -179,7 +179,7 @@ export const boardMembers = [
     title: 'Board Member, Youth Coordinator',
     description:
       "Chenoa Francis belongs to the Dineh and Hopi tribes. She is 19 years old and an activist for Native rights. Born into an American Indian Movement (AIM) family, she grew up attending protests and marches. At a young age she began to watch the strong moms, sisters, aunties, grandmas, and daughters, which inspired her to become a hardworking, independent woman, like her role models.\nDuring High School she worked at Tocabe, the only Native American restaurant in Colorado, fine tuning roles of responsibility. Today she works full time as a spa manager.\nChenoa has been a volunteer for Spirit of the Sun and Four Winds American Indian Council. She has actively attended events and gotten her hands dirty in the Indigenous garden. She has also spoken about many topics, including racism (We are not a mascot), Indigenous rights and everything in between. She has traveled extensively around Colorado as an invited guest speaker, visiting schools, conferences, and the Colorado State Capital on behalf of bettering our future for the next seven generations to come.\nWhen not working, Chenoa's favorite activities to do are painting, art, fitness, education, and working with her community.",
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/v1648140089/Board_Chenoa_BC7066AD-730E-420C-94B5-C90CE584D6E8_4_5_wcx6j0.webp',
     altText: '',
     facebookLink: 'https://www.facebook.com/',
     instagramLink: 'https://www.instagram.com/',
