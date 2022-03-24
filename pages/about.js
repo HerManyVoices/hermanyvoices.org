@@ -79,8 +79,8 @@ function About() {
             </div>
             <div className="w-full px-4 lg:w-7/12">
               <div className="m-auto max-w-xl lg:ml-auto">
-              {/* hidden on small screens */}
-                <h2 className="mb-4 font-heading text-4xl font-bold hidden md:block"> 
+                {/* hidden on small screens */}
+                <h2 className="mb-4 hidden font-heading text-4xl font-bold md:block">
                   Founder/Vision Holder <br></br> Oversees all operations
                 </h2>
                 <p className="mb-9 text-lg leading-loose text-gray-500">
