@@ -12,7 +12,7 @@
   "dependencies": {
     "@headlessui/react": "^1.5.0",
     "cloudinary-build-url": "^0.2.4",
-    "netlify-plugin-cloudinary": "^1.0.0",
+    "netlify-plugin-cloudinary": "^1.0.3",
     "next": ">=12.1.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^14.0.2",
@@ -22,8 +22,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.2.7",
-    "@svgr/webpack": "^6.2.1",
+    "@netlify/plugin-nextjs": "^4.2.8",
     "autoprefixer": "^10.4.2",
     "eslint": "^8.8.0",
     "eslint-config-next": "^12.0.10",
