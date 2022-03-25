@@ -21,19 +21,19 @@ function Events() {
     </svg>
   )
 
-  const ArrowIcon = () => (
+  const MailIcon = () => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="hidden h-10 w-12 scale-x-[-1] pb-2 align-middle md:inline-block"
+      className="align-end inline-block h-6 w-6"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
-      strokeWidth="3"
+      strokeWidth="2"
     >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"
+        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
       />
     </svg>
   )
@@ -62,23 +62,32 @@ function Events() {
                       Friday, April 22nd, 2022
                     </p>
                     <div>
-                      <p
-                        className="mb-3 inline-block w-full py-2 pr-6 font-semibold leading-loose text-green-600 lg:mb-0 lg:mr-3 lg:w-auto lg:text-lg"
-                        href="#"
+                      <a
+                        className="mr-4 inline-block w-full rounded-l-xl rounded-t-xl bg-green-600 py-2 px-12 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 lg:w-auto"
+                        title="Add to Calendar"
+                        data-id="Pb13087502" // Event ID
+                        href="https://www.addevent.com/event/hO13089977"
+                        target="_blank noreferrer"
+                        rel="nofollow"
                       >
-                        RSVP
-                        <ArrowIcon />
-                      </p>
+                        <MailIcon /> RSVP
+                      </a>
+                      <Script
+                        type="text/javascript"
+                        src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"
+                        async
+                        defer
+                      ></Script>
 
                       <a
                         className="inline-block w-full rounded-l-xl rounded-t-xl bg-white py-2 px-6 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 lg:w-auto"
                         title="Add to Calendar"
-                        data-id="Pb13087502" // Event ID
-                        href="https://www.addevent.com/event/Pb13087502"
+                        data-id="13089977" // Event ID
+                        href="https://www.addevent.com/event/hO13089977"
                         target="_blank noreferrer"
                         rel="nofollow"
                       >
-                        <CalIcon />{' '}Add to Calendar
+                        <CalIcon /> Add to Calendar
                       </a>
                       <Script
                         type="text/javascript"
@@ -97,40 +106,40 @@ function Events() {
           </div>
         </div>
         <div className="py-6 lg:py-20">
-        <div className="container mx-auto px-4">
-          <div className="mb-10 flex flex-wrap">
-            <div className="mb-10 w-full lg:mb-0 lg:w-1/2">
-              <div className="max-w-md sm:m-auto">
-                <h2 className="mb-2 font-heading text-4xl font-bold lg:text-4xl">
-                  Past events
-                </h2>
-                <p className="max-w-s pt-4 leading-loose text-gray-500 text-xl">
-                  We&apos;re busy adding past events to our new website, meanwhile you can view them on our{' '}
-                  <Link href="https://www.youtube.com/c/HerManyVoicesFoundation">
-                    <a>
-
-                  <span className="font-bold underline text-green-600">
-                    YouTube channel.
-                  </span>
-                  </a>
-                  </Link>
-                </p>
+          <div className="container mx-auto px-4">
+            <div className="mb-10 flex flex-wrap">
+              <div className="mb-10 w-full lg:mb-0 lg:w-1/2">
+                <div className="max-w-md sm:m-auto">
+                  <h2 className="mb-2 font-heading text-4xl font-bold lg:text-4xl">
+                    Past events
+                  </h2>
+                  <p className="max-w-s pt-4 text-xl leading-loose text-gray-500">
+                    We&apos;re busy adding past events to our new website,
+                    meanwhile you can view them on our{' '}
+                    <Link href="https://www.youtube.com/c/HerManyVoicesFoundation">
+                      <a>
+                        <span className="font-bold text-green-600 underline">
+                          YouTube channel.
+                        </span>
+                      </a>
+                    </Link>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="relative flex w-full lg:w-1/2">
-              <iframe
-                className="relative rounded-lg sm:m-auto"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/dM9ODufd4Bg"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
+              <div className="relative flex w-full lg:w-1/2">
+                <iframe
+                  className="relative rounded-lg sm:m-auto"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/dM9ODufd4Bg"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </section>
     </div>
   )
