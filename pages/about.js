@@ -45,24 +45,6 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="skew skew-bottom mr-for-radius">
-        <svg
-          className="h-8 w-full text-gray-50 md:h-12 lg:h-20"
-          viewBox="0 0 10 10"
-          preserveAspectRatio="none"
-        >
-          <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
-        </svg>
-      </div>
-      <div className="skew skew-bottom ml-for-radius">
-        <svg
-          className="h-8 w-full text-gray-50 md:h-12 lg:h-20"
-          viewBox="0 0 10 10"
-          preserveAspectRatio="none"
-        >
-          <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
-        </svg>
-      </div>
       <div className="py-10 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap items-center">

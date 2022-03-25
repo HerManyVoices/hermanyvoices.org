@@ -1,7 +1,7 @@
 import Script from 'next/script'
 import Layout from '@components/Layout'
 import Header from '@components/Header'
-import Projects from '@components/Projects'
+// import Projects from '@components/Projects'
 import Testimonials from '@components/Testimonials'
 import NewsletterCTA from '@components/NewsletterCTA'
 import ImageSlider from '@components/ImageSlider'
@@ -70,11 +70,11 @@ export default function Home() {
                   </h2>
                   <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
                     Indigenous Peoples make up less than 5% of the population
-                    while protecting 80% of Mother Earth’s resources. There is a
-                    gap in non-profit support that reveals that .2 % of funding
-                    goes to Indigenous groups.
+                    while protecting 80% of Mother Earth&apos;s resources. There
+                    is a gap in non-profit support that reveals that .2 % of
+                    funding goes to Indigenous groups.
                   </p>
-                  <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
+                  <p className="mx-4 pt-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
                     By supporting Indigenous People and humanitarian projects,
                     we are investing in the future of our planet while
                     developing strong, resilient communities.
@@ -115,11 +115,14 @@ export default function Home() {
               serve.
             </p>
             <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-              We bring tools, resources and coalition partners to Indigenous
-              communities and then we{' '}
-              <span className="font-bold text-green-600">listen</span> to their
-              needs. We then support the community to create the solutions they
-              devise.
+              We can&apos;t do this alone- our partnerships with businesses,
+              non-profits, &amp; committed individuals are key to our success.
+              By leveraging strategic partnerships to direct resources and
+              assets to communities, we support{' '}
+              <span className="font-bold text-green-600">
+              community driven solutions
+              </span>
+              {' '}for Indigenous groups, women and children.
             </p>
           </div>
           <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
@@ -127,7 +130,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Projects />
+      {/* <Projects /> */}
       <Testimonials />
       <NewsletterCTA />
     </div>

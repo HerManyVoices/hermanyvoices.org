@@ -1,6 +1,17 @@
+import React, { useState } from "react";
 import Link from 'next/link'
 
 export default function NewsletterCTA() {
+
+  const [setName] = useState("");
+  const [setEmail] = useState("");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setName("");
+    setEmail("");
+  }
+
   return (
     <section className="bg-green-600 py-20">
       <div className="container mx-auto px-4">
@@ -60,10 +71,10 @@ export default function NewsletterCTA() {
                       <input
                         className="required w-full rounded border bg-white py-2 px-3 leading-loose"
                         type="text"
-                        // value=""
                         name="FNAME"
                         id="mce-FNAME"
                         placeholder="First Name"
+                        onChange={(e) => setName(e.target.value)}
                       ></input>
                     </div>
                     <div className="mc-field-group w-full px-2 text-left lg:w-1/2">
@@ -74,14 +85,53 @@ export default function NewsletterCTA() {
                         className="required email mb-4 w-full rounded border bg-white py-2 px-3 leading-loose"
                         type="email"
                         placeholder="hello@example.com"
-                        // value=""
                         name="EMAIL"
                         id="mce-FNAME"
+                        onChange={(e) => setEmail(e.target.value)}
                       ></input>
                     </div>
-                    <div className="indicates-required">
+                    <div className="indicates-required block w-full text-left -mt-3">
                       <span className="asterisk pl-2">*</span>required
                     </div>
+                    <div className="mc-field-group input-group">
+                      <p className="font-bold text-left pt-4 pl-4 pb-2">Interests</p>
+                      <ul className="flex flex-row shrink">
+                        <li className='px-4'>
+                          <input
+                            type="checkbox"
+                            value="1"
+                            name="group[53773][1]"
+                            id="mce-group[53773]-53773-0"
+                          ></input>
+                          <label className='pl-1' htmlFor="mce-group[53773]-53773-0">
+                            Newsletter
+                          </label>
+                        </li>
+                        <li className='px-4'>
+                          <input
+                            type="checkbox"
+                            value="2"
+                            name="group[53773][2]"
+                            id="mce-group[53773]-53773-1"
+                          ></input>
+                          <label className='pl-1' htmlFor="mce-group[53773]-53773-1">
+                            Events
+                          </label>
+                        </li>
+                        <li className='px-4'>
+                          <input
+                            type="checkbox"
+                            value="4"
+                            name="group[53773][4]"
+                            id="mce-group[53773]-53773-2"
+                          ></input>
+                          <label className='pl-1' htmlFor="mce-group[53773]-53773-2">
+                            Volunteering
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+
                     <div id="mce-responses" className="clear">
                       <div
                         className="response hidden"
@@ -98,7 +148,6 @@ export default function NewsletterCTA() {
                         type="text"
                         name="b_ed8cd89534677e76f64a1819d_a674fd30fd"
                         tabIndex="-1"
-                        // value=""
                       ></input>
                     </div>
                   </div>
@@ -108,7 +157,8 @@ export default function NewsletterCTA() {
                       value="Sign Up"
                       name="subscribe"
                       id="mc-embedded-subscribe"
-                      className="button mb-4 w-full rounded bg-green-600 py-4 text-sm font-bold leading-normal text-white transition duration-200 hover:bg-green-700"
+                      className="button mb-4 w-full rounded bg-green-600 py-4 text-sm font-bold leading-normal text-white transition duration-200 hover:bg-green-700 clear"
+                      onClick={handleSubmit}
                     ></input>
                   </div>
                 </form>

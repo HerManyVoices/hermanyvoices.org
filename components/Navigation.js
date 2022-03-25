@@ -269,7 +269,7 @@ export default function Navigation() {
                     <TwitterSocialLogo alt="" className="text-2xl" />
                   </a>
                 </Link>
-                <Link href="https://instagram.com" passHref>
+                <Link href="https://www.instagram.com/hermanyvoicesfoundation/" passHref>
                   <a className="inline-block px-1">
                     <InstagramSocialLogo alt="" className="text-2xl" />
                   </a>

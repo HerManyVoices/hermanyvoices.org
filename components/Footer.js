@@ -33,13 +33,13 @@ export default function Footer() {
                 <p className="order-last w-full text-center text-sm text-gray-400 lg:order-first lg:w-auto lg:text-left">
                   © 2022. All rights reserved.
                 </p>
-                <div className="mx-auto mb-6 lg:absolute lg:left-1/2 lg:mb-0 lg:-translate-x-1/2 lg:transform">
+                {/* <div className="mx-auto mb-6 lg:absolute lg:left-1/2 lg:mb-0 lg:-translate-x-1/2 lg:transform">
                   <p className="mr-6 text-sm">
                     &quot;Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.&quot;
                   </p>
-                </div>
+                </div> */}
                 <div className="order-first mb-12 w-full text-center lg:order-last lg:mb-0 lg:ml-auto lg:w-auto lg:text-left">
                   <a
                     className="inline-block text-xl font-bold leading-none"
@@ -66,7 +66,7 @@ export default function Footer() {
                     <TwitterSocialLogo />
                   </a>
                 </Link>
-                <Link href="https://instagram.com" passHref>
+                <Link href="https://www.instagram.com/hermanyvoicesfoundation/" passHref>
                   <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
                     <InstagramSocialLogo />
                   </a>
