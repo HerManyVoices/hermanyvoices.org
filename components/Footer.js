@@ -29,30 +29,31 @@ export default function Footer() {
           </div>
           <div className="container mx-auto px-4">
             <div className="pt-10 pb-12">
-              <div className="relative mb-8 flex flex-wrap lg:border-b lg:border-gray-300 lg:pb-8">
+              <div className="relative mb-8 flex flex-wrap lg:border-b lg:border-gray-300 lg:pb-10">
                 <p className="order-last w-full text-center text-sm text-gray-400 lg:order-first lg:w-auto lg:text-left">
-                  © 2022. All rights reserved.
+                  © 2009 - 2022. All rights reserved.
                 </p>
-                {/* <div className="mx-auto mb-6 lg:absolute lg:left-1/2 lg:mb-0 lg:-translate-x-1/2 lg:transform">
+                <div className="mx-auto mb-6 lg:absolute lg:left-1/2 lg:mb-0 lg:-translate-x-1/2 lg:transform text-center">
                   <p className="mr-6 text-sm">
-                    &quot;Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.&quot;
+                    The original inhabitants of the area that is now Colorado
+                    included:<br></br>
+                    The Apache Nation, The Arapaho Nation, The Cheyenne Nation,
+                    The Pueblo Tribes, The Shoshone Tribe, The Ute nation, The
+                    Comanche Tribe, The Kiowa Tribe, and The Navajo Tribe.
                   </p>
-                </div> */}
+                </div>
                 <div className="order-first mb-12 w-full text-center lg:order-last lg:mb-0 lg:ml-auto lg:w-auto lg:text-left">
-                  <a
-                    className="inline-block text-xl font-bold leading-none"
-                    href="#"
-                  >
-                    <Image
-                      src={logo}
-                      className="inline-block h-12 lg:h-6"
-                      alt=""
-                      width="44"
-                      height="52"
-                    />
-                  </a>
+                  <Link href="/" passHref>
+                    <a className="inline-block text-xl font-bold leading-none">
+                      <Image
+                        src={logo}
+                        className="inline-block h-12 lg:h-6"
+                        alt=""
+                        width="44"
+                        height="52"
+                      />
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="flex justify-center">
@@ -66,7 +67,10 @@ export default function Footer() {
                     <TwitterSocialLogo />
                   </a>
                 </Link>
-                <Link href="https://www.instagram.com/hermanyvoicesfoundation/" passHref>
+                <Link
+                  href="https://www.instagram.com/hermanyvoicesfoundation/"
+                  passHref
+                >
                   <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
                     <InstagramSocialLogo />
                   </a>
