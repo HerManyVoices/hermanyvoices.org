@@ -156,8 +156,31 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
+            <Link href="/earth-day" passHref>
+              <a className="text-sm font-bold text-green-600 hover:text-green-700">
+                Earth Day 2022
+              </a>
+            </Link>
+          </li>
+          <li className="text-gray-800">
+            <svg
+              className="current-fill h-4 w-4"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+              ></path>
+            </svg>
+          </li>
+          <li>
             <Link href="/support-us" passHref>
-              <a className="text-sm font-bold text-green-600">Support Us</a>
+              <a className="text-sm text-gray-400 hover:text-gray-500">Support Us</a>
             </Link>
           </li>
         </ul>
@@ -240,6 +263,16 @@ export default function Navigation() {
                       className="block rounded p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600"
                     >
                       Events
+                    </a>
+                  </Link>
+                </li>
+                <li className="mb-1">
+                  <Link href="/earth-day" passHref>
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      className="block rounded p-4 text-sm font-semibold text-green-600 hover:bg-green-50 hover:text-green-700"
+                    >
+                      Earth Day 2022
                     </a>
                   </Link>
                 </li>
