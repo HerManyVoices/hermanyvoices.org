@@ -1,4 +1,5 @@
 import Navigation from './Navigation'
+import NewsletterCTA from '@components/NewsletterCTA'
 import Footer from './Footer'
 
 export default function Layout({ children }) {
@@ -6,6 +7,7 @@ export default function Layout({ children }) {
     <>
       <Navigation />
       <main>{children}</main>
+      <NewsletterCTA />
       <Footer />
     </>
   )

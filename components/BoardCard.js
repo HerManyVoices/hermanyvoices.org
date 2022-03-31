@@ -8,7 +8,7 @@ export default function BoardCard({
   fullName,
   title,
   description,
-  //   shortDescription,
+  longDescription,
   image,
   altText,
   facebookLink,
@@ -24,7 +24,7 @@ export default function BoardCard({
               <div className="w-full lg:w-1/2 lg:pr-3">
                 {image ? (
                   <img
-                    className="h-80 w-full rounded-lg object-cover lg:h-auto lg:w-auto"
+                    className="h-80 w-full rounded-lg object-cover lg:h-auto lg:min-w-auto lg:max-h-[40rem]"
                     src={image ? image : null}
                     alt={image ? altText : null}
                   />
@@ -54,10 +54,11 @@ export default function BoardCard({
                   {fullName}
                 </h4>
                 <p className="mb-6 font-heading text-xl">{title}</p>
-                <p className="mb-6 leading-loose text-gray-500 whitespace-pre-wrap">
+                <p className="mb-6 leading-loose text-gray-600 whitespace-pre-wrap">
                   {description}
                 </p>
               </div>
+              <p className="-mt-6 mb-6 leading-loose text-gray-600 whitespace-pre-wrap sm:hidden md:block">{longDescription}</p>
             </div>
           </div>
         </div>

@@ -12,16 +12,17 @@ function About() {
           <div className="mb-10 flex flex-wrap">
             <div className="mb-10 w-full lg:mb-0 lg:w-1/2">
               <div className="max-w-md sm:m-auto">
-                <h2 className="mb-2 font-heading text-4xl font-bold lg:text-4xl">
-                  Whatever I do for another, I do for myself
+                <h2 className="mb-2 font-heading text-4xl font-bold">
+                  Whatever I do for another,{' '}
+                  <span className="lg:block">I do for myself</span>
                 </h2>
-                <p className="max-w-s leading-loose text-gray-500">
+                <p className="max-w-s leading-loose text-gray-600">
                   Her Many Voices Foundation (HMVF) is a small organization that
                   does big things in the world. We started out as artists
                   responding to humanitarian needs. Since then we&apos;ve grown
-                  to include global community partners
+                  to include activists and global community members.
                 </p>
-                <p className="max-w-s pt-4 leading-loose text-gray-500">
+                <p className="max-w-s pt-4 leading-loose text-gray-600">
                   Our mission is to{' '}
                   <span className="font-bold text-green-600">
                     ignite the Artivist (Artist/Activist)
@@ -62,27 +63,54 @@ function About() {
             <div className="w-full px-4 lg:w-7/12">
               <div className="m-auto max-w-xl lg:ml-auto">
                 {/* hidden on small screens */}
-                <h2 className="mb-4 hidden font-heading text-4xl font-bold md:block">
+                <h2 className="mb-4 pt-6 hidden font-heading text-4xl font-bold md:block">
                   Founder/Vision Holder <br></br> Oversees all operations
                 </h2>
-                <p className="mb-9 text-lg leading-loose text-gray-500">
-                  Alicia Fall, Founder and Visionholder of Her Many Voices
-                  Foundation, has been a lifelong doer and creator. Fall is a
-                  TEDx Talk presenter, a recipient of the New York State
-                  Assembly Citation Award, board member for the Coalition
-                  Against Global Genocide and for Tiyospaye Winyan Maka, both as
-                  a representative for Indigenous Peoples.
+                <p className="mb-4 text-lg leading-loose text-gray-600">
+                  Alicia Fall is the Founder and Vision Holder of Her Many
+                  Voices Foundation, launched in 2009. With HMVF, Ms. Fall has
+                  launched projects that empower and center the leadership of
+                  Indigenous women and girls from helping to protect an
+                  ecological preserve in Haiti, to starting a school in Haiti,
+                  to building a Mohawk longhouse in New York State, to giving
+                  Native women the tools to grow their own food.
                 </p>
-                <p className="mb-9 text-lg leading-loose text-gray-500">
-                  Ms. Fall has been on the International Hemp Speaking circuit,
-                  speaking on Hemp and Humanity. Presentations include: the
-                  ASACON Hemp Conference (Asahikawa, Japan); the Euro Hemp Tour
-                  (Milan, Italy; and Naklo, Poland); at the Posner Center for
-                  International Development and The Asian Hemp Summit
-                  (Kathmandu, Nepal).
+                <p className="mb-4 text-lg leading-loose text-gray-600">
+                  Born and raised in New York City, her life&apos;s work has been
+                  shaped by her rich cultural background - Eastern Band
+                  Cherokee, Dutch, Cuban Taino, and Spanish. She&apos;s an alum of
+                  Future Farmers of America, and graduate of John Bowne High
+                  School and SUNY - Cobleskill, both agricultural institutions.
+                  Over the last 30 years, Fall has worked as an educator,
+                  healer, singer, songwriter, musician and public speaker (on
+                  humanitarian issues).
                 </p>
+               
               </div>
+              
             </div>
+            <p className="mx-4 lg:mx-6 mb-4 text-lg leading-loose text-gray-600">
+                  Fall is a TEDx Talk presenter; a recipient of the New York
+                  State Assembly Citation Award; and a board member of the
+                  Coalition Against Global Genocide, Tiyospaye Winyan Maka (a
+                  sustainable housing organization), and Boulder Valley
+                  Indigenous People&apos;s Day Organizing Committee.
+                </p>
+                <p className="mx-4 lg:mx-6 mb-4 text-lg leading-loose text-gray-600">
+                  Over the past year and a half, Ms. Fall has been on the
+                  International Hemp Speaking circuit, speaking on Hemp and
+                  Humanity: (as Keynote speaker) at the ASACON Hemp Conference
+                  (Asahikawa, Japan); on the Euro Hemp Tour (Milan, Italy; and
+                  Naklo, Poland); and at the Posner Center for International
+                  Development ( , Colorado). She has been a panel presenter at
+                  The Asian Hemp Summit (Kathmandu, Nepal), and spoken in
+                  Reykjavik, Iceland; Helsinki, Finland; Vilani, Latvia; and
+                  Prague, Czech Republic. She is a member of The European
+                  Institute for Multidisciplinary Studies on Human Rights and
+                  Science (Knowmad Institute), and the mother of two warrior
+                  daughters. Her philosophy is “Whatever I do for another, I do
+                  for myself.”
+                </p>
           </div>
         </div>
       </div>

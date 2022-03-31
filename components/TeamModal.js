@@ -78,11 +78,13 @@ export default function Modal({
             >
               <div className="my-8 inline-block w-full max-w-3xl transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                 <div className='md:flex md:content-between'>
-                <img
+                {image ? (<img
                   className="object-cover md:h-auto md:w-1/3 lg:h-96 rounded-sm"
-                  src={image}
-                  alt={altText}
-                ></img>
+                  src={image ? image : null}
+                  alt={image ? altText : null}
+                ></img>) : (
+                  <div className="object-cover md:h-auto md:w-1/3 lg:h-96 rounded-sm bg-gradient-to-r from-[#99f6e4] to-[#d9f99d] lg:w-1/3"></div>
+                )}
                 <div className="md:w-2/3">
                   <Dialog.Title
                     as="h3"

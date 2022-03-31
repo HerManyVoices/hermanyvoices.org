@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="container mx-auto px-4">
             <div className="pt-10 pb-12">
               <div className="relative mb-8 flex flex-wrap lg:border-b lg:border-gray-300 lg:pb-10">
-                <p className="order-last w-full text-center text-sm text-gray-400 lg:order-first lg:w-auto lg:text-left">
+                <p className="order-last w-full text-center text-sm text-gray-500 lg:order-first lg:w-auto lg:text-left">
                   © 2009 - 2022. All rights reserved.
                 </p>
                 <div className="mx-auto mb-6 lg:absolute lg:left-1/2 lg:mb-0 lg:-translate-x-1/2 lg:transform text-center">
@@ -49,8 +49,8 @@ export default function Footer() {
                         src={logo}
                         className="inline-block h-12 lg:h-6"
                         alt=""
-                        width="44"
-                        height="52"
+                        width="75"
+                        height="80"
                       />
                     </a>
                   </Link>

@@ -8,6 +8,7 @@ export default function TeamList() {
       fullName,
       title,
       description,
+      longDescription,
       image,
       altText,
       facebookLink,
@@ -20,6 +21,7 @@ export default function TeamList() {
           fullName={fullName}
           title={title}
           description={description}
+          longDescription={longDescription}
           image={image}
           altText={altText}
           facebookLink={facebookLink}

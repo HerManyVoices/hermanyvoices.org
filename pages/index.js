@@ -3,7 +3,6 @@ import Layout from '@components/Layout'
 import Header from '@components/Header'
 // import Projects from '@components/Projects'
 import Testimonials from '@components/Testimonials'
-import NewsletterCTA from '@components/NewsletterCTA'
 import ImageSlider from '@components/ImageSlider'
 
 export default function Home() {
@@ -132,7 +131,6 @@ export default function Home() {
       </div>
       {/* <Projects /> */}
       <Testimonials />
-      <NewsletterCTA />
     </div>
   )
 }
