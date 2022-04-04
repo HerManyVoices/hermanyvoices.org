@@ -22,7 +22,7 @@ export const teamMembers = [
       'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change ...',
     description:
       'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change — instead of helping companies sell more plastic junk. Andrea has worked with corporations and communities for over 25 years to improve their brand and storytelling strategies. She has shared her talents with the Her Many Voices Foundation team since Fall 2019 to help us achieve our vision and mission.',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/v1648770066/Andrea_CinqMars_sgiavw.jpg',
     altText: 'Headshot of Andrea CinqMars',
     facebookLink: 'https://www.facebook.com/',
     instagramLink: 'https://www.instagram.com/',
@@ -142,7 +142,7 @@ export const teamMembers = [
       'Mr. DiGangi founded The Community Advocacy Center in New York, served as a University of Berkeley Fellow and New York City Presbytery Missionary (1990- 2010) ...',
     description:
       'Mr. DiGangi founded The Community Advocacy Center in New York, served as a University of Berkeley Fellow and New York City Presbytery Missionary (1990- 2010). DiGangi was elected to be a Judicial Delegate for four terms in Queens County New York and County Committee Person in New York County.\n\nDiGangi is a recipient of the Raoul Wallenburg Humanitarian Award and the Arch Dioceses of Kings County Bishop Catanello Humanitarian Award, and he was appointed as a commissioner to said Bishops council.\n\nDiGangi is credited with developing Preventive Law and Elder Law clinics worldwide and now directs the Her Many Voices collaborative Campaign for the Elderly. We are honored to have Mr DiGangi expand his duties, as he has served as a member of our Board of Advisors for ten years.',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/v1648770070/Angelo_DiGangi_bvkjcc.jpg',
     altText: '',
     facebookLink: 'https://www.facebook.com/',
     instagramLink: 'https://www.instagram.com/',
@@ -167,7 +167,7 @@ export const teamMembers = [
     id: '11',
     fullName: 'Viki Radden',
     title:
-      'Honor Harvest, C.E.O. Ag Tech & Food Distribution Projects/ Sustainable Developments Industrial Hemp - Bldg, Fiber and Replacement Material',
+      'Honor Harvest, C.E.O. & Agricultural Consultant',
     shortDescription:
       'Radden leverages her experience and relationships, incorporating sustainable business practices, innovative water and energy practices, creative financing ...',
     description:
@@ -189,7 +189,7 @@ export const teamMembers = [
     description:
     "Shannon Francis (with whom we work on our Sovereignty Garden Project) is Dineh (Navajo) from Shiprock, New Mexico and Hopi from Kykotsmovi, Arizona. She is Towering House clan born for Red Running through the Water clan. Her Hopi clans are Massau', Bear Sand, and Snake Clan. She has been a member of the Denver Native community for 20+ years and served on Native nonprofit boards and councils. She is Board Chair for the Four Winds American Indian Council in Denver. A certified permaculturist focusing on Indigenous permaculture, she was selected as one of three recipients of the 2015 Cesar Chavez awards for her work with Indigenous gardening and food justice.",
     image:
-      '',
+      'https://res.cloudinary.com/hmvf/image/upload/w_3000,h_3000,c_thumb,g_faces/v1648757009/Shannon_Francis_usguyc.jpg',
     altText: '',
     facebookLink: 'https://www.facebook.com/',
     instagramLink: 'https://www.instagram.com/',
