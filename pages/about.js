@@ -2,7 +2,6 @@ import Layout from '@components/Layout'
 import TeamList from '@components/TeamList'
 import BoardList from '@components/BoardList'
 import Sponsors from '@components/Sponsors'
-import NewsletterCTA from '@components/NewsletterCTA'
 
 function About() {
   return (
@@ -117,7 +116,6 @@ function About() {
       <TeamList />
       <BoardList />
       <Sponsors />
-      <NewsletterCTA />
     </section>
   )
 }
