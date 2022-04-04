@@ -60,9 +60,9 @@ const ImageSlider = () => {
         />
         <div
           style={{ left: `${imageRevealFraq * 100}%` }}
-          className="absolute inset-y-0 group-hover:opacity-100 sm:opacity-0"
+          className="absolute inset-y-0"
         >
-          <div className="relative h-full opacity-50 hover:opacity-100">
+          <div className="relative h-full">
             <div className="absolute inset-y-0 -ml-px w-0.5 bg-white"></div>
             <div
               style={{ touchAction: 'none' }}
