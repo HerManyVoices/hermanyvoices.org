@@ -32,8 +32,7 @@ export default function Header() {
         </div>
         <img
           className="h-160 w-full object-cover object-center sm:h-[620px]"
-          src="https://res.cloudinary.com/hmvf/image/fetch/v1646612918/https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/q_auto%252Cf_auto/hero_image_re8hmh"
-          alt=""
+          src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1646173297/hero_image_re8hmh.jpg" alt=""
         />
       </div>
     </section>

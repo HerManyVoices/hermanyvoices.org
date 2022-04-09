@@ -67,7 +67,7 @@ export default function Navigation() {
         <ul className="absolute top-1/2 left-1/2 hidden -translate-y-1/2 -translate-x-1/2 transform lg:mx-auto lg:flex lg:w-auto lg:items-center lg:space-x-2 lg:justify-around">
           <li>
             <Link href="/about" passHref>
-              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b]">About</a>
+              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b] focus-within:text-green-600 focus-within:hover:text-green-700">About</a>
             </Link>
           </li>
           <li className="text-gray-800">
@@ -88,7 +88,7 @@ export default function Navigation() {
           </li>
           <li>
             <Link href="/what-we-do" passHref>
-              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b]">
+              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b] focus-within:text-green-600 focus-within:hover:text-green-700">
                 What We Do
               </a>
             </Link>
@@ -111,7 +111,7 @@ export default function Navigation() {
           </li>
           <li>
             <Link href="/who-we-serve" passHref>
-              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b]">
+              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b] focus-within:text-green-600 focus-within:hover:text-green-700">
                 Who We Serve
               </a>
             </Link>
@@ -134,7 +134,7 @@ export default function Navigation() {
           </li>
           <li>
             <Link href="/our-events" passHref>
-              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b]">
+              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b] focus-within:text-green-600 focus-within:hover:text-green-700">
                 Events
               </a>
             </Link>
@@ -157,7 +157,7 @@ export default function Navigation() {
           </li>
           <li>
             <Link href="/earth-day" passHref>
-              <a className="text-sm font-bold text-green-600 hover:text-green-700">
+              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b] focus-within:text-green-600 focus-within:hover:text-green-700">
                 Earth Day 2022
               </a>
             </Link>
@@ -180,7 +180,7 @@ export default function Navigation() {
           </li>
           <li>
             <Link href="/support-us" passHref>
-              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b]">Support Us</a>
+              <a className="text-sm font-bold text-[#603913] hover:text-[#35200b] ">Support Us</a>
             </Link>
           </li>
         </ul>
@@ -270,7 +270,7 @@ export default function Navigation() {
                   <Link href="/earth-day" passHref>
                     <a
                       onClick={() => setIsOpen(false)}
-                      className="block rounded p-4 text-lg font-bold text-green-600 hover:bg-green-50 hover:text-green-700"
+                      className="block rounded p-4 text-lg font-bold text-[#603913] hover:bg-green-50 hover:text-green-700"
                     >
                       Earth Day 2022
                     </a>

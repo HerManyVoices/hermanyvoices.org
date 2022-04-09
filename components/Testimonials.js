@@ -25,7 +25,7 @@ export default function Testimonials() {
             <div className="mb-6 md:pr-12 w-full text-center lg:w-1/3">
               <img
                 className="mx-auto mb-6 h-32 w-32 rounded-full object-cover"
-                src="https://res.cloudinary.com/hmvf/image/upload/v1647391660/13743564_216342438763180_2106838727_a_srccey.jpg"
+                src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647391660/13743564_216342438763180_2106838727_a_srccey.jpg"
                 alt=""
               ></img>
               <h4 className="text-xl px-8 italic">With love, <br></br> Jane, Melissa and Sarah

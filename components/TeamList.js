@@ -11,6 +11,7 @@ export default function TeamList() {
       shortDescription,
       image,
       altText,
+      soloLink,
       facebookLink,
       instagramLink,
       twitterLink,
@@ -24,6 +25,7 @@ export default function TeamList() {
           description={description}
           image={image}
           altText={altText}
+          soloLink={soloLink}
           facebookLink={facebookLink}
           instagramLink={instagramLink}
           twitterLink={twitterLink}

@@ -1,65 +1,37 @@
 export const teamMembers = [
   {
     id: '0',
-    fullName: 'Aicila Lewis',
-    title: 'Organizational Strategist',
+    fullName: 'Shannon Francis',
+    title:
+      'Sovereignty Garden Project Coordinator',
     shortDescription:
-      '(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices Foundation. She believes the only way to get to a better world is to ...',
+      'Shannon Francis (with whom we work on our Sovereignty Garden Project) is Dineh (Navajo) from Shiprock, New Mexico and Hopi from Kykotsmovi, Arizona.',
     description:
-      "(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices Foundation. She believes the only way to get to a better world is to work to create it with others. She also believes that while it's important to take the work seriously, we should never take ourselves too seriously. She was privileged to be a  Colorado Progressive Leadership Fellow and a Boulder County Leadership Fellow, Awards she's received for her work include: being named one of the 100 Women we Love by Go! Magazine in 2011 and was awarded a Special Certificate of Congressional Recognition in 2013 for her community work. Lewis is blessed to have two fantastic children and fantastic friends to support her in her many passions.",
+    "Shannon Francis (with whom we work on our Sovereignty Garden Project) is Dineh (Navajo) from Shiprock, New Mexico and Hopi from Kykotsmovi, Arizona. She is Towering House clan born for Red Running through the Water clan. Her Hopi clans are Massau', Bear Sand, and Snake Clan. She has been a member of the Denver Native community for 20+ years and served on Native nonprofit boards and councils. She is Board Chair for the Four Winds American Indian Council in Denver. A certified permaculturist focusing on Indigenous permaculture, she was selected as one of three recipients of the 2015 Cesar Chavez awards for her work with Indigenous gardening and food justice.",
     image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647300254/Team_Aicila_hjglgp.jpg',
-    altText: 'Headshot of Alicia Lewis',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1648757009/Shannon_Francis_usguyc.jpg',
+    altText: '',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '1',
-    fullName: 'Andrea CinqMars',
-    title: 'Marketing Strategy',
+    fullName: 'Melissa Ivey',
+    title: 'Arts Education Director & Muscle',
     shortDescription:
-      'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change ...',
+      'Develops and provides training and workshops for our Activate & Elevate arts program in the US and Haiti. Ms Ivey is an Award Winning Singer/Songwriter Vocalist, National Touring Artist ...',
     description:
-      'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change — instead of helping companies sell more plastic junk. Andrea has worked with corporations and communities for over 25 years to improve their brand and storytelling strategies. She has shared her talents with the Her Many Voices Foundation team since Fall 2019 to help us achieve our vision and mission.',
-    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648770066/Andrea_CinqMars_sgiavw.jpg',
-    altText: 'Headshot of Andrea CinqMars',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+      'Develops and provides training and workshops for our Activate & Elevate arts program in the US and Haiti. Ms Ivey is an Award Winning Singer/Songwriter Vocalist, National Touring Artist, Certified NeuroSculpting Facilitator and Motivational Speaker, specializing in addressing the needs of refugee, low income and at risk students of all ages and abilities.',
+    image:
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648094158/Team_Melissa_Ivey_djmdgs.jpg',
+    altText: 'Headshot of Melissa Ivey',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '2',
-    fullName: 'Mandi Hamza',
-    title: 'Software Developer',
-    shortDescription:
-      'Mandi (she/her/hers), is a software developer with experience in e-commerce marketing & sponsorship development ...',
-    description:
-      'Mandi (she/her/hers), is a software developer with experience in e-commerce marketing & sponsorship development. She is interested in the space where humans interact with technology.',
-    image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757784/IMG_9784_pukymi.jpg',
-    altText: 'Headshot of Mandi Hamza',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
-  },
-  {
-    id: '3',
-    fullName: 'Mikey Famine',
-    title: 'Earth Day Production',
-    shortDescription:
-      'St. Louis native, Mikey Famine, is a musician and audio producer by trade that started podcasting in mid 2018. He has recorded and streamed nearly 1000 hours since then ...',
-    description:
-      'St. Louis native, Mikey Famine, is a musician and audio producer by trade that started podcasting in mid 2018. He has recorded and streamed nearly 1000 hours since then. Mikey has a made a commitment to using his platform and skills to promote and advocate for worth causes like humanism and social justice.',
-    image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647300258/Team_Mikey_dbcix4.jpg',
-    altText: 'Headshot of Mikey Famine',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
-  },
-  {
-    id: '4',
     fullName: 'Tamara Cantave',
     title:
       'Founder of Help Hayti, Interpreter and liaison for all Haiti projects',
@@ -70,54 +42,82 @@ export const teamMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Tamara_Cantave_pgpfq2.jpg',
     altText: 'Headshot of Tamara Cantave',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
+  },
+  {
+    id: '3',
+    fullName: 'Angelo Digangi',
+    title: 'Executive Director of Elder Care and Grandparent Resource Centers',
+    shortDescription:
+      'Mr. DiGangi founded The Community Advocacy Center in New York, served as a University of Berkeley Fellow and New York City Presbytery Missionary (1990- 2010) ...',
+    description:
+      'Mr. DiGangi founded The Community Advocacy Center in New York, served as a University of Berkeley Fellow and New York City Presbytery Missionary (1990- 2010). DiGangi was elected to be a Judicial Delegate for four terms in Queens County New York and County Committee Person in New York County.\n\nDiGangi is a recipient of the Raoul Wallenburg Humanitarian Award and the Arch Dioceses of Kings County Bishop Catanello Humanitarian Award, and he was appointed as a commissioner to said Bishops council.\n\nDiGangi is credited with developing Preventive Law and Elder Law clinics worldwide and now directs the Her Many Voices collaborative Campaign for the Elderly. We are honored to have Mr DiGangi expand his duties, as he has served as a member of our Board of Advisors for ten years.',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648770070/Angelo_DiGangi_bvkjcc.jpg',
+    altText: '',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
+  },
+  {
+    id: '4',
+    fullName: 'Aicila Lewis',
+    title: 'Organizational Strategist',
+    shortDescription:
+      '(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices Foundation. She believes the only way to get to a better world is to ...',
+    description:
+      "(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices Foundation. She believes the only way to get to a better world is to work to create it with others. She also believes that while it's important to take the work seriously, we should never take ourselves too seriously. She was privileged to be a  Colorado Progressive Leadership Fellow and a Boulder County Leadership Fellow, Awards she's received for her work include: being named one of the 100 Women we Love by Go! Magazine in 2011 and was awarded a Special Certificate of Congressional Recognition in 2013 for her community work. Lewis is blessed to have two fantastic children and fantastic friends to support her in her many passions.",
+    image:
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647300254/Team_Aicila_hjglgp.jpg',
+    altText: 'Headshot of Alicia Lewis',
+    soloLink: 'https://solo.to/aicila',
+    instagramLink: 'https://www.instagram.com/BiCurean/',
+    twitterLink: 'https://twitter.com/aicilalewis',
   },
   {
     id: '5',
-    fullName: 'Melissa Ivey',
-    title: 'Arts Education Director & Muscle',
+    fullName: 'Mikey Famine',
+    title: 'Earth Day Production',
     shortDescription:
-      'Develops and provides training and workshops for our Activate & Elevate arts program in the US and Haiti. Ms Ivey is an Award Winning Singer/Songwriter Vocalist, National Touring Artist ...',
+      'St. Louis native, Mikey Famine, is a musician and audio producer by trade that started podcasting in mid 2018. He has recorded and streamed nearly 1000 hours since then ...',
     description:
-      'Develops and provides training and workshops for our Activate & Elevate arts program in the US and Haiti. Ms Ivey is an Award Winning Singer/Songwriter Vocalist, National Touring Artist, Certified NeuroSculpting Facilitator and Motivational Speaker, specializing in addressing the needs of refugee, low income and at risk students of all ages and abilities.',
+      'St. Louis native, Mikey Famine, is a musician and audio producer by trade that started podcasting in mid 2018. He has recorded and streamed nearly 1000 hours since then. Mikey has a made a commitment to using his platform and skills to promote and advocate for worth causes like humanism and social justice.',
     image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648094158/Team_Melissa_Ivey_djmdgs.jpg',
-    altText: 'Headshot of Melissa Ivey',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647300258/Team_Mikey_dbcix4.jpg',
+    altText: 'Headshot of Mikey Famine',
+    soloLink: 'https://solo.to/mikeyfamine',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '6',
-    fullName: 'Jacques "Emmanuel" Saint Laurent',
-    title: 'Haiti Projects Coordinator',
+    fullName: 'Andrea CinqMars',
+    title: 'Marketing Strategy',
     shortDescription:
-      'Monsieur Saint Laurent wears many hats. He is our communications go between for HMVF and communities, as well as between communities themselves ...',
+      'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change ...',
     description:
-      "Monsieur Saint Laurent wears many hats. He is our communications go between for HMVF and communities, as well as between communities themselves. He's a research and development team member and fills in as substitute teacher when needed. Emmanuel is a crucial team member in our hemp building project.",
-    image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1647300256/Team_Emmanuel_St_Laurent_ptb7zt.png',
-    altText: 'Headshot of Jacques "Emmanuel" Saint Laurent',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+      'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change — instead of helping companies sell more plastic junk. Andrea has worked with corporations and communities for over 25 years to improve their brand and storytelling strategies. She has shared her talents with the Her Many Voices Foundation team since Fall 2019 to help us achieve our vision and mission.',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648770066/Andrea_CinqMars_sgiavw.jpg',
+    altText: 'Headshot of Andrea CinqMars',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '7',
-    fullName: 'Andrea Singer',
-    title: 'Travel Specialist, Volunteer',
+    fullName: 'Mandi Hamza',
+    title: 'Software Developer',
     shortDescription:
-      'Andrea Singer grew up in rural upstate New York. She has worked with children of all ages on a variety of levels over the years. Educating and supporting others as they grow and gain independence has always been something she does naturally ...',
+      'Mandi (she/her/hers), is a software developer with experience in e-commerce marketing & sponsorship development ...',
     description:
-      'Andrea Singer grew up in rural upstate New York. She has worked with children of all ages on a variety of levels over the years. Educating and supporting others as they grow and gain independence has always been something she does naturally. For the past 10 plus years, Andrea has worked in the travel industry. She uses that expertise to assist & support HMV as they make their numerous trips from the states to Haiti.',
+      'Mandi (she/her/hers), is a software developer with experience in e-commerce marketing & sponsorship development. She is interested in the space where humans interact with technology.',
     image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1648757057/Andrea_Singer_2_jbtqmj.jpg',
-    altText: 'Headshot of Andrea Singer',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757784/IMG_9784_pukymi.jpg',
+    altText: 'Headshot of Mandi Hamza',
+    instagramLink: '',
+    twitterLink: 'https://twitter.com/mandicodes',
   },
   {
     id: '8',
@@ -130,26 +130,42 @@ export const teamMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648094158/Team_Adeler_yyzcqh.jpg',
     altText: 'Headshot of Adeler Saint-Laurent',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '9',
-    fullName: 'Angelo Digangi',
-    title: 'Executive Director of Elder Care and Grandparent Resource Centers',
+    fullName: 'Jacques "Emmanuel" Saint Laurent',
+    title: 'Haiti Projects Coordinator',
     shortDescription:
-      'Mr. DiGangi founded The Community Advocacy Center in New York, served as a University of Berkeley Fellow and New York City Presbytery Missionary (1990- 2010) ...',
+      'Monsieur Saint Laurent wears many hats. He is our communications go between for HMVF and communities, as well as between communities themselves ...',
     description:
-      'Mr. DiGangi founded The Community Advocacy Center in New York, served as a University of Berkeley Fellow and New York City Presbytery Missionary (1990- 2010). DiGangi was elected to be a Judicial Delegate for four terms in Queens County New York and County Committee Person in New York County.\n\nDiGangi is a recipient of the Raoul Wallenburg Humanitarian Award and the Arch Dioceses of Kings County Bishop Catanello Humanitarian Award, and he was appointed as a commissioner to said Bishops council.\n\nDiGangi is credited with developing Preventive Law and Elder Law clinics worldwide and now directs the Her Many Voices collaborative Campaign for the Elderly. We are honored to have Mr DiGangi expand his duties, as he has served as a member of our Board of Advisors for ten years.',
-    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648770070/Angelo_DiGangi_bvkjcc.jpg',
-    altText: '',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+      "Monsieur Saint Laurent wears many hats. He is our communications go between for HMVF and communities, as well as between communities themselves. He's a research and development team member and fills in as substitute teacher when needed. Emmanuel is a crucial team member in our hemp building project.",
+    image:
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1647300256/Team_Emmanuel_St_Laurent_ptb7zt.png',
+    altText: 'Headshot of Jacques "Emmanuel" Saint Laurent',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '10',
+    fullName: 'Sarry Jean',
+    title: 'Henriette Foundation Leader',
+    shortDescription:
+      'Sarry Jean is Haitian born: raised in Petit-Goâve, 3rd section Trou Chouchou Cadet. She comes from a very large family and is following in the footsteps of her father ...',
+    description:
+      "Sarry Jean is Haitian born: raised in Petit-Goâve, 3rd section Trou Chouchou Cadet. She comes from a very large family and is following in the footsteps of her father,  Henri Jean. Henri was our Haitian Intergenerational Agricultural Director. In honor of her father, Sarry is leading the Henriette Foundation, a nonprofit created to continue Henri Jean's work with women, children and Mother Earth. ",
+    image:
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649464741/Team-SarryJean_pxwlup.jpg',
+    altText: 'Headshot of Sarry Jean',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
+  },
+  {
+    id: '11',
     fullName: 'Jean "Nasson" Ronel Dorce',
     title: 'St. Alphonse de Cadet School Superintendent',
     shortDescription:
@@ -159,12 +175,12 @@ export const teamMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647300259/Team_Nasson_h9iz5b.jpg',
     altText: 'Headshot of Jean "Nasson" Ronel Dorce',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
-    id: '11',
+    id: '12',
     fullName: 'Viki Radden',
     title:
       'Honor Harvest, C.E.O. & Agricultural Consultant',
@@ -175,28 +191,12 @@ export const teamMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757008/Viki_Radden_zro7oe.jpg',
     altText: 'Headshot of Viki Radden',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
-    id: '11',
-    fullName: 'Shannon Francis',
-    title:
-      'Sovereignty Garden Project Coordinator',
-    shortDescription:
-      'Shannon Francis (with whom we work on our Sovereignty Garden Project) is Dineh (Navajo) from Shiprock, New Mexico and Hopi from Kykotsmovi, Arizona.',
-    description:
-    "Shannon Francis (with whom we work on our Sovereignty Garden Project) is Dineh (Navajo) from Shiprock, New Mexico and Hopi from Kykotsmovi, Arizona. She is Towering House clan born for Red Running through the Water clan. Her Hopi clans are Massau', Bear Sand, and Snake Clan. She has been a member of the Denver Native community for 20+ years and served on Native nonprofit boards and councils. She is Board Chair for the Four Winds American Indian Council in Denver. A certified permaculturist focusing on Indigenous permaculture, she was selected as one of three recipients of the 2015 Cesar Chavez awards for her work with Indigenous gardening and food justice.",
-    image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1648757009/Shannon_Francis_usguyc.jpg',
-    altText: '',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
-  },
-  {
-    id: '12',
+    id: '13',
     fullName: 'Blake Kent',
     title:
       'Operations Manager',
@@ -207,9 +207,24 @@ export const teamMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1648757011/Blake_Kent_mzsb24.jpg',
     altText: 'Headshot of Blake Kent',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
+  },
+  {
+    id: '14',
+    fullName: 'Andrea Singer',
+    title: 'Travel Specialist, Volunteer',
+    shortDescription:
+      'Andrea Singer grew up in rural upstate New York. She has worked with children of all ages on a variety of levels over the years. Educating and supporting others as they grow and gain independence has always been something she does naturally ...',
+    description:
+      'Andrea Singer grew up in rural upstate New York. She has worked with children of all ages on a variety of levels over the years. Educating and supporting others as they grow and gain independence has always been something she does naturally. For the past 10 plus years, Andrea has worked in the travel industry. She uses that expertise to assist & support HMV as they make their numerous trips from the states to Haiti.',
+    image:
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1648757057/Andrea_Singer_2_jbtqmj.jpg',
+    altText: 'Headshot of Andrea Singer',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
 ]
 
@@ -226,9 +241,9 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Vanessa_gbvaop.jpg',
     altText: 'Headshot of Vanessa Blacknall-Jamison',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '1',
@@ -239,9 +254,9 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757009/Chenoa3_t5wuio.jpg',
     altText: 'Headshot of Chenoa Francis',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '2',
@@ -252,9 +267,9 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Gabe_Hicks_zx8swn.jpg',
     altText: '',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '3',
@@ -266,9 +281,9 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Tamara_Cantave_pgpfq2.jpg',
     altText: '',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '4',
@@ -279,9 +294,9 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Tommy_pmtsgx.jpg',
     altText: '',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '5',
@@ -292,9 +307,9 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757008/Chief_Lee_Plenty_Wolf_pdtp3r.jpg',
     altText: 'Headshot of Chief Lee Plenty Wolf',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '6',
@@ -305,9 +320,9 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757008/Bonita_Velez_cfwkzn.jpg',
     altText: 'Headshot of Bonita Velez',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
   {
     id: '7',
@@ -318,8 +333,8 @@ export const boardMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757008/The_Rev_Heidi_McGinness_dhocvm.jpg',
     altText: 'Headshot of Pastor Heidi McGinness',
-    facebookLink: 'https://www.facebook.com/',
-    instagramLink: 'https://www.instagram.com/',
-    twitterLink: 'https://www.twitter.com/',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
   },
 ]

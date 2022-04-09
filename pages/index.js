@@ -22,15 +22,14 @@ export default function Home() {
       <Header />
       <div className="my-12">
         <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0 lg:py-16">
-          <div className="mb-4 w-full place-self-center px-4 md:mb-0 md:w-1/2  lg:px-10">
+          <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2  lg:px-10">
             <h2 className="mx-4 mb-4 font-heading text-3xl font-bold text-blueGray-100 md:text-4xl">
               <span className="text-green-600">Who</span> We Are
             </h2>
             <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
               Her Many Voices Foundation is a passionate group of activists,
               artists and global community members intent on saving our Mother
-              Earth and All Her Children, through big acts of love and service,
-              disguised as a non-profit.
+              Earth and All Her Children, through community engagement.
             </p>
           </div>
           <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">

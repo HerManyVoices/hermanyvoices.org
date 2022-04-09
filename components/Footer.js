@@ -1,5 +1,6 @@
-import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
 import TwitterSocialLogo from 'public/assets/social/TwitterSocialLogo.js'
+import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
+import LinkedInSocialLogo from 'public/assets/social/LinkedInSocialLogo.js'
 import InstagramSocialLogo from '/public/assets/social/InstagramSocialLogo.js'
 import logo from 'public/assets/logo/logo.png'
 import Image from 'next/image'
@@ -73,6 +74,14 @@ export default function Footer() {
                 >
                   <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
                     <InstagramSocialLogo />
+                  </a>
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/company/her-many-voices-foundation/"
+                  passHref
+                >
+                  <a className="mr-2 inline-block w-10 rounded bg-white p-2 hover:bg-gray-50">
+                    <LinkedInSocialLogo />
                   </a>
                 </Link>
               </div>

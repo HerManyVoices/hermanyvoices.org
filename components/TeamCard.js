@@ -3,6 +3,7 @@ import TeamModal from './TeamModal'
 import FacebookSocialLogo from 'public/assets/social/FacebookSocialLogo.js'
 import TwitterSocialLogo from 'public/assets/social/TwitterSocialLogo.js'
 import InstagramSocialLogo from 'public/assets/social/InstagramSocialLogo.js'
+import SoloSocialLogo from 'public/assets/social/SoloSocialLogo.js'
 
 export default function TeamCard({
   id,
@@ -12,6 +13,7 @@ export default function TeamCard({
   shortDescription,
   image,
   altText,
+  soloLink,
   facebookLink,
   instagramLink,
   twitterLink,
@@ -33,7 +35,14 @@ export default function TeamCard({
           <h4 className="mb-2 text-2xl font-bold">{fullName}</h4>
           <h4 className="mb-2 font-heading text-xl">{title}</h4>
           <p className="mb-4 leading-loose text-gray-500">{shortDescription}</p>
-          <div className="flex justify-between">
+          <div className="flex w-full mt-auto">
+          {soloLink ? (
+              <Link href={soloLink} passHref>
+                <a className="mr-3 self-center">
+                  <SoloSocialLogo />
+                </a>
+              </Link>
+            ) : null}
             {facebookLink ? (
               <Link href={facebookLink} passHref>
                 <a className="mr-3 self-center">
@@ -55,7 +64,7 @@ export default function TeamCard({
                 </a>
               </Link>
             ) : null}
-            <a className="pl-32">
+            <a className="ml-auto">
               <TeamModal
                 key={id}
                 fullName={fullName}
