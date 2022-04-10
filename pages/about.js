@@ -56,60 +56,47 @@ function About() {
               <img
                 className="mx-auto rounded-lg object-cover"
                 src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647212992/About_Row_2_Alicia_Fall_qcjerk.jpg"
-                alt=""
+                alt="Head shot of Alicia Fall"
               ></img>
             </div>
             <div className="w-full px-4 lg:w-7/12">
               <div className="m-auto max-w-xl lg:ml-auto">
                 {/* hidden on small screens */}
-                <h2 className="mb-4 pt-6 hidden font-heading text-4xl font-bold md:block">
+                <h2 className="mb-4 hidden pt-6 font-heading text-4xl font-bold md:block">
                   Founder/Vision Holder <br></br> Oversees all operations
                 </h2>
                 <p className="mb-4 text-lg leading-loose text-gray-600">
-                  Alicia Fall is the Founder and Vision Holder of Her Many
-                  Voices Foundation, launched in 2009. With HMVF, Ms. Fall has
-                  launched projects that empower and center the leadership of
-                  Indigenous women and girls from helping to protect an
-                  ecological preserve in Haiti, to starting a school in Haiti,
-                  to building a Mohawk longhouse in New York State, to giving
-                  Native women the tools to grow their own food.
+                  Alicia Fall, Founder and Visionholder of Her Many Voices
+                  Foundation, has been a lifelong doer and creator. Fall is a
+                  TEDx Talk presenter, a recipient of the New York State
+                  Assembly Citation Award, board member for the Coalition
+                  Against Global Genocide and for Tiyospaye Winyan Maka, both as
+                  a representative for Indigenous Peoples.
                 </p>
                 <p className="mb-4 text-lg leading-loose text-gray-600">
-                  Born and raised in New York City, her life&apos;s work has been
-                  shaped by her rich cultural background - Eastern Band
-                  Cherokee, Dutch, Cuban Taino, and Spanish. She&apos;s an alum of
-                  Future Farmers of America, and graduate of John Bowne High
-                  School and SUNY - Cobleskill, both agricultural institutions.
-                  Over the last 30 years, Fall has worked as an educator,
-                  healer, singer, songwriter, musician and public speaker (on
-                  humanitarian issues).
+                  Maka, both as a representative for Indigenous Peoples. Ms.
+                  Fall has been on the International Hemp Speaking circuit,
+                  speaking on Hemp and Humanity. Presentations include: the
+                  ASACON Hemp Conference (Asahikawa, Japan); the Euro Hemp Tour
+                  (Milan, Italy; and Naklo, Poland); at the Posner Center for
+                  International Development and The Asian Hemp Summit
+                  (Kathmandu, Nepal).
                 </p>
-               
               </div>
-              
             </div>
-            <p className="mx-4 lg:mx-6 mb-4 text-lg leading-loose text-gray-600">
-                  Fall is a TEDx Talk presenter; a recipient of the New York
-                  State Assembly Citation Award; and a board member of the
-                  Coalition Against Global Genocide, Tiyospaye Winyan Maka (a
-                  sustainable housing organization), and Boulder Valley
-                  Indigenous People&apos;s Day Organizing Committee.
-                </p>
-                <p className="mx-4 lg:mx-6 mb-4 text-lg leading-loose text-gray-600">
-                  Over the past year and a half, Ms. Fall has been on the
-                  International Hemp Speaking circuit, speaking on Hemp and
-                  Humanity: (as Keynote speaker) at the ASACON Hemp Conference
-                  (Asahikawa, Japan); on the Euro Hemp Tour (Milan, Italy; and
-                  Naklo, Poland); and at the Posner Center for International
-                  Development ( , Colorado). She has been a panel presenter at
-                  The Asian Hemp Summit (Kathmandu, Nepal), and spoken in
-                  Reykjavik, Iceland; Helsinki, Finland; Vilani, Latvia; and
-                  Prague, Czech Republic. She is a member of The European
-                  Institute for Multidisciplinary Studies on Human Rights and
-                  Science (Knowmad Institute), and the mother of two warrior
-                  daughters. Her philosophy is “Whatever I do for another, I do
-                  for myself.”
-                </p>
+            <p className="mx-4 my-4 text-lg leading-loose text-gray-600 lg:mx-6">
+              Ms. Fall is delighted to have been nominated for the Mother Earth
+              Award by the NOCO team in 2022. Winona LaDuke was given the award.
+            </p>
+            <p className="mx-4 mb-4 text-lg leading-loose text-gray-600 lg:mx-6">
+              Mother Earth Award &#8212; This award is to honor a woman whose
+              entrepreneurial spirit has ushered a new era of business leaders
+              through her skills and execution in agriculture. She is a
+              visionary who has cultivated relationships through education,
+              inclusivity, and collaboration. Her determination and dedication
+              support our farmers and contribute immensely to building the
+              supply chain making her a trailblazer and inspiration to others.
+            </p>
           </div>
         </div>
       </div>

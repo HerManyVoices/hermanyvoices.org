@@ -1,25 +1,7 @@
 export default function Testimonials() {
   return (
     <section>
-      <div className="skew skew-top mr-for-radius">
-        <svg
-          className="h-8 w-full text-gray-50 md:h-12 lg:h-20"
-          viewBox="0 0 10 10"
-          preserveAspectRatio="none"
-        >
-          <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
-        </svg>
-      </div>
-      <div className="skew skew-top ml-for-radius">
-        <svg
-          className="h-8 w-full text-gray-50 md:h-12 lg:h-20"
-          viewBox="0 0 10 10"
-          preserveAspectRatio="none"
-        >
-          <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
-        </svg>
-      </div>
-      <div className="radius-for-skewed bg-gray-50 py-20">
+      <div className="bg-gray-50 py-20">
         <div className="container mx-auto px-4">
           <div className="flex max-w-6xl flex-wrap items-center justify-center p-4">
             <div className="mb-6 md:pr-12 w-full text-center lg:w-1/3">
@@ -67,24 +49,6 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="skew skew-bottom mr-for-radius">
-        <svg
-          className="h-8 w-full text-gray-50 md:h-12 lg:h-20"
-          viewBox="0 0 10 10"
-          preserveAspectRatio="none"
-        >
-          <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
-        </svg>
-      </div>
-      <div className="skew skew-bottom ml-for-radius">
-        <svg
-          className="h-8 w-full text-gray-50 md:h-12 lg:h-20"
-          viewBox="0 0 10 10"
-          preserveAspectRatio="none"
-        >
-          <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
-        </svg>
       </div>
     </section>
   )
