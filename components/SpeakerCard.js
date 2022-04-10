@@ -12,7 +12,7 @@ export default function SpeakerCard({
       <div className="mx-auto max-w-xs text-center">
         {image ? (
           <img
-            className="mx-auto mb-6 h-24 w-24 rounded-full"
+            className="mx-auto mb-6 h-24 w-24 rounded-full object-cover"
             src={image ? image : null}
             alt={image ? altText : null}
           ></img>

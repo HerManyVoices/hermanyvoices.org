@@ -1,3 +1,5 @@
+// q_auto,f_auto
+
 export const speakers = [
   {
     id: '0',
@@ -5,7 +7,7 @@ export const speakers = [
     title: '',
     organization: 'Kids are worth it!',
     talkTitle: "The Three H's and Their Antodotes",
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613412/Earth_Day_speaker_Barabara_Press_photo_Black_outfit_mc3rxd.jpg',
     altText: '',
   },
   {
@@ -14,7 +16,7 @@ export const speakers = [
     title: '',
     organization: 'Tiyospaye Winyan Maka',
     talkTitle: 'Our Elders are our Teachers',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613408/Earth_Day_Christinia-Eala-1_gxk5m8.jpg',
     altText: '',
   },
   {
@@ -23,7 +25,7 @@ export const speakers = [
     title: '',
     organization: 'Colour Culture Arts',
     talkTitle: 'Protect my Home',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Musenga_L._Katongo_itnyag.jpg',
     altText: '',
   },
   {
@@ -33,7 +35,7 @@ export const speakers = [
       'Environmental Scientist, International Sustainability and Energy Consultant',
     organization: 'Going True Green',
     talkTitle: 'Sustainability Truth',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Bill_Lauto_zlr4zc.jpg',
     altText: '',
   },
   {
@@ -43,7 +45,7 @@ export const speakers = [
     organization:
       'Luna Cultura, Art, Science and Culture for Thriving Communities',
     talkTitle: 'Voces de la Madre Tierra',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Adriana_Paola_Palacios_Luna_iiemzm.jpg',
     altText: '',
   },
   {
@@ -52,7 +54,7 @@ export const speakers = [
     title: '',
     organization: 'Green Revolution Foundation',
     talkTitle: 'The Greatest Story that can exisit...',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_DayAttila_Suba_v4k1rl.jpg',
     altText: '',
   },
   {
@@ -70,7 +72,7 @@ export const speakers = [
     title: '',
     organization: 'US Hemp Building Association',
     talkTitle: 'Hemp Building for a Better Future',
-    image: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Jacob_Waddell_zmphdj.jpg',
     altText: '',
   },
 ]
