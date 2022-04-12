@@ -289,9 +289,16 @@ export default function Navigation() {
               </ul>
             </div>
             <div className="mt-auto">
-              <div className="pt-6"></div>
-
               <div className="text-center">
+              <div className="mb-10 w-full">
+                  <a
+                    className="custom-dbox-popup rounded-l-xl rounded-t-xl bg-green-500 py-4 px-12 m-auto text-sm font-bold text-white transition duration-200 hover:bg-green-600"
+                    href="https://donorbox.org/general-96"
+                  >
+                    Donate
+                  </a>
+                </div>
+              
                 <Link href="https://www.facebook.com/HerManyVoices/" passHref>
                   <a className="inline-block px-1">
                     <FacebookSocialLogo alt="" className="text-2xl" />
