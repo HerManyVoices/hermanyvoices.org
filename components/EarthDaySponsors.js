@@ -37,6 +37,19 @@ export default function EarthDaySponsors() {
             <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
                 <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648600088/Earth_Day_WAFBA-Transparent_wpjbjb.png" alt=""></img>
             </div>
+
+            <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
+              <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649805877/Earth-Day-TeMana_bjrg2f.jpg" alt=""></img>
+              </div>
+              <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
+              <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649806098/1381521278_uzqtwl.png" alt=""></img>
+              </div>
+              <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
+              <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649806101/EarthDay_Rituraj_IPCJF_Logo_copy_o0clhd.png" alt=""></img>
+              </div>
+              <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
+              <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649806105/Earth_Day_Logo_MISTI_IMG_7671_kni8ex.jpg" alt=""></img>
+              </div>
           </div>
         </div>
       </section>

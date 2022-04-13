@@ -4,7 +4,8 @@ export default function Calendar() {
   return (
     <>
       <div
-        className="width-full ae-emd-cal-events h-96"
+        strategy="beforeInteractive"
+        className="width-full ae-emd-cal-events h-96 pt-4"
         data-calendar="IT413581"
         data-lbl-upcoming="Upcoming events"
         data-lbl-subscribe="Subscribe"
@@ -17,7 +18,7 @@ export default function Calendar() {
         data-include-timezone="false"
         data-include-organizer="false"
         data-include-countdown="false"
-        data-include-description="false"
+        data-include-description="true"
         data-default-view="upcoming"
         data-stayonpage="false"
         data-datetime-format="1"

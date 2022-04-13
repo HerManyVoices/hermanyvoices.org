@@ -3,6 +3,7 @@ import '../public/images/EarthDay-2022-Hero.png'
 import SpeakerList from '@components/SpeakerList'
 import Script from 'next/script'
 import EarthDaySponsors from '@components/EarthDaySponsors'
+import EarthDayCalendar from '@components/EarthDayCalendar'
 
 function EarthDay() {
   const CalIcon = () => (
@@ -45,12 +46,11 @@ function EarthDay() {
       </div>
       <div className="container relative mx-auto px-4 md:pt-10 lg:-mb-10">
         <div className="mb-16 text-center">
-          {/* mobile rsvp 1 */}
           <div className="mb-6 md:hidden">
             <a
               className="mr-4 mb-2 inline-block w-full rounded-l-xl rounded-t-xl bg-green-600 py-2 px-12 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 md:mb-0 lg:w-auto"
               title="Add to Calendar"
-              data-id="Pb13087502" // Event ID
+              data-id="Pb13087502"
               href="https://www.addevent.com/event/hO13089977"
               target="_blank noreferrer"
               rel="nofollow"
@@ -67,7 +67,7 @@ function EarthDay() {
             <a
               className="inline-block w-full rounded-l-xl rounded-t-xl bg-white py-2 px-6 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 lg:w-auto"
               title="Add to Calendar"
-              data-id="13089977" // Event ID
+              data-id="13089977"
               href="https://www.addevent.com/event/hO13089977"
               target="_blank noreferrer"
               rel="nofollow"
@@ -98,7 +98,6 @@ function EarthDay() {
           </p>
         </div>
       </div>
-      {/* RSVP */}
       <div className="relative overflow-hidden pb-24">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
@@ -118,7 +117,7 @@ function EarthDay() {
                     <a
                       className="mr-4 mb-2 inline-block w-full rounded-l-xl rounded-t-xl bg-green-600 py-2 px-12 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 md:mb-0 lg:w-auto"
                       title="Add to Calendar"
-                      data-id="Pb13087502" // Event ID
+                      data-id="Pb13087502"
                       href="https://www.addevent.com/event/hO13089977"
                       target="_blank noreferrer"
                       rel="nofollow"
@@ -135,7 +134,7 @@ function EarthDay() {
                     <a
                       className="inline-block w-full rounded-l-xl rounded-t-xl bg-white py-2 px-6 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 lg:w-auto"
                       title="Add to Calendar"
-                      data-id="13089977" // Event ID
+                      data-id="13089977"
                       href="https://www.addevent.com/event/hO13089977"
                       target="_blank noreferrer"
                       rel="nofollow"
@@ -155,7 +154,7 @@ function EarthDay() {
           </div>
         </div>
       </div>
-      {/* End RSVP */}
+      <EarthDayCalendar />
       <SpeakerList />
       <EarthDaySponsors />
     </section>
