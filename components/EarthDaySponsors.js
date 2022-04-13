@@ -29,7 +29,7 @@ export default function EarthDaySponsors() {
                 <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648175664/Partner_and_Earth_Day_Green_House_logo_2_ptfotu.jpg" alt=""></img>
             </div>
             <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
-                <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648175667/Earth_Day_Earth_Guardians_Photo_Dec_10_4_16_02_PM_kfnki0.png" alt=""></img>
+                <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649888119/EG_LOGO_BLACK_dtzix2.jpg" alt=""></img>
             </div>
             <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
                 <img className="mx-auto h-32 object-fit" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648140098/Earth_Day_logo_mikey_ae6c6d.png" alt=""></img>
@@ -47,9 +47,7 @@ export default function EarthDaySponsors() {
               <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
               <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649806101/EarthDay_Rituraj_IPCJF_Logo_copy_o0clhd.png" alt=""></img>
               </div>
-              <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
-              <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649806105/Earth_Day_Logo_MISTI_IMG_7671_kni8ex.jpg" alt=""></img>
-              </div>
+
           </div>
         </div>
       </section>

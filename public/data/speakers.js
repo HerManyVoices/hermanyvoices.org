@@ -66,8 +66,8 @@ export const speakers = [
     honorific: '',
     organization: 'Obelisk Farm',
     talkTitle: 'How to use hemp seeds',
-    image: '',
-    altText: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890340/6_Earth_DayL-14_m328lb.jpg',
+    altText: 'Andris Visnevskis and family',
   },
   {
     id: 7,
@@ -141,16 +141,36 @@ export const speakers = [
   },
   {
     id: 14,
-    fullName: 'Heather Baines',
+    fullName: 'Alethea Phillips',
     honorific: '',
     organization: 'Earth Guardians',
     talkTitle:
       'Indigenous Youth Initiative at Earth Guardians: Centering Youth Voices and Next Gen Leadership',
-    image: '',
-    altText: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890332/14_Earth_Day_Alethea_gzyn0q.jpg',
+    altText: 'Headshot of Alethea Phillips',
   },
   {
     id: 15,
+    fullName: 'Kona Mirabal',
+    honorific: '',
+    organization: 'Earth Guardians',
+    talkTitle:
+      'Indigenous Youth Initiative at Earth Guardians: Centering Youth Voices and Next Gen Leadership',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890332/140_Earth_Day_Kona_Mirabal_naz2tw.jpg',
+    altText: 'Headshot of Kona Mirabal',
+  },
+  {
+    id: 16,
+    fullName: 'Maya Lazarro',
+    honorific: '',
+    organization: 'Earth Guardians',
+    talkTitle:
+      'Indigenous Youth Initiative at Earth Guardians: Centering Youth Voices and Next Gen Leadership',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890332/141_Earth_Day_Maya_Lazzaro_ckybk4.png',
+    altText: 'Headshot of Maya Lazarro',
+  },
+  {
+    id: 17,
     fullName: 'Maren Krings',
     honorific: '',
     organization: 'Maren Krings Photography',
@@ -160,7 +180,7 @@ export const speakers = [
     altText: 'Headshot of Maren Krings',
   },
   {
-    id: 16,
+    id: 18,
     fullName: 'Towani Clarke',
     honorific: '',
     organization: 'Kuthuta LLC',
@@ -170,27 +190,26 @@ export const speakers = [
     altText: 'Headshot of Towani Clarke',
   },
   {
-    id: 17,
+    id: 19,
     fullName: 'Harmony Cummings',
     honorific: '',
-    organization: 'Green House Connection Center',
-    talkTitle: 'Green House Connection Cente',
+    organization: '',
+    talkTitle: 'Green House Connection Center',
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_speaker_Harmony_Emerge_Picture_ajl7r8.jpg',
     altText: 'Headshot of Harmony Cummings',
-  },
-  {
-    id: 18,
-    fullName: 'Desiree Kane',
+  },{
+    id: 20,
+    fullName: 'Lisa Montgomery',
     honorific: '',
-    organization: 'Missing Indigenous Sisters Tools Initiative (MISTI)',
-    talkTitle: 'Overview of the MISTI workbook for families of the missing',
+    organization: 'Penobscot Consulting Services',
+    talkTitle: 'American Rescue Plan Act (ARPA): The Largest Investment of Resources into Indian Country in History',
     image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613410/Earth_Day_Speaker_Desiree_Kane_272926129_10159584467805309_828291856227076370_n_dyhgln.jpg',
-    altText: 'Headshot of Desiree Kane',
+      '',
+    altText: '',
   },
   {
-    id: 19,
+    id: 21,
     fullName: 'Carmell Clark',
     honorific: '',
     organization: 'Center for Transformational Influence',
@@ -201,7 +220,7 @@ export const speakers = [
     altText: 'Headshot of Carmell Clark',
   },
   {
-    id: 20,
+    id: 22,
     fullName: 'Tamara Cantave',
     honorific: '',
     organization: '',
@@ -211,7 +230,7 @@ export const speakers = [
     altText: 'Headshot of Tamara Cantave',
   },
   {
-    id: 21,
+    id: 23,
     fullName: 'Tommy Nahulu',
     honorific: 'Mr.',
     organization: 'Blu Nahulu Art',
@@ -221,7 +240,7 @@ export const speakers = [
     altText: 'Headshot of Tommy Nahulu',
   },
   {
-    id: 22,
+    id: 24,
     fullName: 'Jason Jacobs',
     honorific: 'Mr',
     organization: 'Te Mana Consortium',
@@ -231,7 +250,7 @@ export const speakers = [
     altText: 'Headshot of Jason Jacobs',
   },
   {
-    id: 23,
+    id: 25,
     fullName: 'Jeremy Hale',
     honorific: '',
     organization: '',
@@ -241,7 +260,7 @@ export const speakers = [
     altText: '',
   },
   {
-    id: 24,
+    id: 26,
     fullName: 'Bill Lauto',
     honorific:
       'Environmental Scientist International Sustainability and Energy Consultant',
@@ -252,7 +271,7 @@ export const speakers = [
     altText: 'Headshot of Bill Lauto',
   },
   {
-    id: 25,
+    id: 27,
     fullName: 'Melissa Ivey',
     honorific: 'Two spirit Taino Quing',
     organization: 'Ivey Productions LLC',
@@ -262,16 +281,16 @@ export const speakers = [
     altText: 'Headshot of Melissa Ivey',
   },
   {
-    id: 26,
+    id: 28,
     fullName: 'Myrna James',
     honorific: '',
     organization: 'Apogeo Spatial Media',
     talkTitle: 'A New Sustainable Model of Tourism',
-    image: '',
-    altText: '',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890980/26IMG_7129-rectangle_headshot_MyrnaJames_itvqmy.jpg',
+    altText: 'Headshot of Myrna James',
   },
   {
-    id: 27,
+    id: 29,
     fullName: 'Nathan Gray',
     honorific: '',
     organization: 'Geoversity',

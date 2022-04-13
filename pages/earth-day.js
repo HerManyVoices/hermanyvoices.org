@@ -86,8 +86,7 @@ function EarthDay() {
             Challenges
           </h1>
           <p className="text-lg font-medium text-gray-600 md:text-xl">
-            This free online event — consisting of over 13 hours of programming
-            — centers the voices of Indigenous People and those who actively
+            This free online event centers the voices of Indigenous People and those who actively
             share their values and support their efforts to build sustainable,
             thriving systems- leaders, artists / activists (“Artivists”),
             musicians, sustainability experts, futurists, performers,
