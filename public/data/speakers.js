@@ -6,7 +6,7 @@ export const speakers = [
     organization: 'Her Many Voices Foundation',
     talkTitle: 'Welcome',
     image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649534312/Speaking_and_Consulting_Alicia_Fall_6_ynyc2i.jpg',
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649960935/Speaking_and_Consulting_Alicia_Fall_6_q4wfft.jpg',
     altText: 'Headshot of Alicia Fall',
   },
   {
