@@ -34,7 +34,7 @@ export default function Home() {
           </div>
           <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
             <img
-              src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1646852077/who-we-are_vzcrsj.jpg"
+              src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649962069/Row_2_Who_We_Are_unnamed_mjmpew.jpg"
               alt=""
               className="rounded shadow md:-mx-4"
             ></img>

@@ -48,7 +48,7 @@ export const projects = [
             shortDescription: '',
             description: 'Alicia Fall, Her Many Voices Foundation Founder and Visionholder, brings decades of knowledge to your organization or event. Her signature presentation, Hemp and Humanity, unfolds the history of racism and genocide that created this gap in our eco system. She also shows a path forward to heal both the planet and the people, by embracing our full history and connecting to one another. Inspiring and factual, this presentation will give your group a grounding in the history of hemp, modern day uses, and ways to work with communities and municipalities to develop sustainable practices using this plant. Ms. Fall can consult with your organization on how to successfully work in the international community to create functioning coalitions to achieve results. She can present on different topics ranging from Hemp and Humanity to Inspiring the Artivist within.',
             image:
-              'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649534312/Speaking_and_Consulting_Alicia_Fall_6_ynyc2i.jpg',
+              'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649960935/Speaking_and_Consulting_Alicia_Fall_6_q4wfft.jpg',
             altText: '',
           },
           {

@@ -54,7 +54,7 @@ const ImageSlider = () => {
               imageRevealFraq * 100
             }% 100%, 0 100%)`,
           }}
-          src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647379639/Row_4_Why_we_succeed_1_krlxoq.jpg"
+          src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649962520/Row_4_Why_we_succeed_1_yy1lwb.jpg"
           alt=""
           className="pointer-events-none absolute inset-0 shadow md:-translate-y-12"
         />
