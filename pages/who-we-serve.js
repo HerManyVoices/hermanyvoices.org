@@ -9,12 +9,6 @@ import {
 function WhoWeServe() {
   return (
     <section className="relative overflow-hidden">
-      {/* <Image
-        className="absolute inset-0 hidden w-full lg:block"
-        src="atis-assets/background/lines.svg"
-        alt=""
-      /> */}
-
       <div className="relative bg-gray-50 pt-12 pb-12 md:pb-24 lg:pt-20">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
@@ -26,8 +20,11 @@ function WhoWeServe() {
                   </h1>
                 </div>
                 <div className="mx-auto max-w-sm lg:mx-0">
-                  <p className="mb-6 leading-loose text-gray-600 text-lg">
-                  Her Many Voices Foundation is dedicated to serving and protecting our Mother Earth, Indigenous People, Underserved populations, women, children and the men and communities they live in.
+                  <p className="mb-6 text-lg leading-loose text-gray-600">
+                    Her Many Voices Foundation is dedicated to serving and
+                    protecting our Mother Earth, Indigenous People, Underserved
+                    populations, women, children and the men and communities
+                    they live in.
                   </p>
                 </div>
               </div>
