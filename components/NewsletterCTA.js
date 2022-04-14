@@ -13,7 +13,7 @@ export default function NewsletterCTA() {
   }
 
   return (
-    <section className="bg-green-600 py-20">
+    <section id="newsletter" className="bg-green-600 py-20">
       <div className="container mx-auto px-4">
         <div className="-mx-4 flex flex-wrap items-center justify-center">
           <div className="mb-16 max-w-2xl px-4 text-center lg:mb-0 lg:w-1/2">

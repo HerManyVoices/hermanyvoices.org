@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Layout from '@components/Layout'
 import { BlueLine1, BlueLine2, BlueLine3 } from 'public/images/blue-lines.js'
 import hempPic from 'public/images/seed-of-change.jpeg'
@@ -70,12 +71,14 @@ function SupportUs() {
                   We will keep you in the loop on what we are up to and how to
                   get involved.
                 </p>
-                <a
+                <Link href="#newsletter" passHref>
+                <button
                   className="mr-auto my-4 rounded-l-xl rounded-t-xl bg-green-500 py-2 px-6 text-sm font-bold text-white transition duration-200 hover:bg-green-600"
                   href=""
                 >
                   Sign Up
-                </a>
+                </button>
+                </Link>
               </div>
             </div>
           </div>
