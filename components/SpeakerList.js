@@ -3,11 +3,14 @@ import { speakers } from '../public/data/speakers.js'
 
 export default function SpeakerList() {
   const listSpeakerCards = speakers.map(
-    ({ id, fullName, title, organization, talkTitle, image, altText }) => (
+    ({ id, featured, location, fullName, honorific, title, organization, talkTitle, image, altText }) => (
       <>
         <SpeakerCard
           key={id}
+          featured={featured}
+          location={location}
           fullName={fullName}
+          honorific={honorific}
           title={title}
           organization={organization}
           talkTitle={talkTitle}

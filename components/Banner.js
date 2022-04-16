@@ -17,8 +17,8 @@ export default function Banner() {
 
   return (
     <>
-      {isOpen && (
-        <div className="inset-x-0 top-0 z-50 block">
+      {isOpen ? (
+        <div className="inset-x-0 top-0 z-50 block sticky">
           <div className="bg-purple-800 py-6 text-white">
             <div className="container mx-auto px-4">
               <div className="flex flex-nowrap items-center justify-center">
@@ -46,7 +46,7 @@ export default function Banner() {
             </div>
           </div>
         </div>
-      )}
+      ) : null }
     </>
   )
 }
