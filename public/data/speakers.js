@@ -7,7 +7,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Her Many Voices Foundation",
     "talkTitle": "Welcome",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647212992/About_Row_2_Alicia_Fall_qcjerk.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1647212992/About_Row_2_Alicia_Fall_qcjerk.jpg",
     "altText": "Headshot of Alicia Fall"
   },
   {
@@ -18,7 +18,7 @@ export const speakers = [
     "honorific": "",
     "organization": "",
     "talkTitle": "Opening Prayer",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648757008/Chief_Lee_Plenty_Wolf_pdtp3r.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1648757008/Chief_Lee_Plenty_Wolf_pdtp3r.jpg",
     "altText": "Headshot of Chief Lee Plenty Wolf"
   },
   {
@@ -28,7 +28,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Indigenous People's Climate Justice Forum",
     "talkTitle": "Climate Justice at the Grassroots",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/EarthDay_Rituraj_HeadshotWhatsApp_Image_2022-02-21_at_7.30.04_PM_mmuyre.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/EarthDay_Rituraj_HeadshotWhatsApp_Image_2022-02-21_at_7.30.04_PM_mmuyre.jpg",
     "altText": "Headshot of Rituraj Phukan"
   },
   {
@@ -38,7 +38,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Tiyospaye Winyan Maka",
     "talkTitle": "Our Elders are our Teachers",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613408/Earth_Day_Christinia-Eala-1_gxk5m8.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613408/Earth_Day_Christinia-Eala-1_gxk5m8.jpg",
     "altText": "Headshot of Christinia Eala"
   },
   {
@@ -48,7 +48,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Colour Culture Arts",
     "talkTitle": "Protect my Home",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Musenga_L._Katongo_itnyag.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_Musenga_L._Katongo_itnyag.jpg",
     "altText": "Headshot of Musenga Katongo"
   },
   {
@@ -59,7 +59,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Luna Cultura, Art, Science and Culture for Thriving Communities",
     "talkTitle": "Voces de la Madre Tierra",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Adriana_Paola_Palacios_Luna_iiemzm.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_Adriana_Paola_Palacios_Luna_iiemzm.jpg",
     "altText": "Headshot of Adriana Paola Palacios Luna"
   },
   {
@@ -69,7 +69,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Obelisk Farm",
     "talkTitle": "How to use hemp seeds",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890340/6_Earth_DayL-14_m328lb.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649890340/6_Earth_DayL-14_m328lb.jpg",
     "altText": "Headshot of Andris & Débora Visnevskis"
   },
   {
@@ -79,7 +79,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Green Revolution Foundation",
     "talkTitle": "The Greatest Story that can exisit...",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_DayAttila_Suba_v4k1rl.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_DayAttila_Suba_v4k1rl.jpg",
     "altText": "Headshot of Attila Suba"
   },
   {
@@ -99,7 +99,7 @@ export const speakers = [
     "honorific": "",
     "organization": "US Hemp Building Association",
     "talkTitle": "Hemp Building for a Better Future",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Jacob_Waddell_zmphdj.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_Jacob_Waddell_zmphdj.jpg",
     "altText": "Headshot of Jacob Waddell"
   },
   {
@@ -109,7 +109,7 @@ export const speakers = [
     "honorific": "Showdy",
     "organization": "From Roots To Wings",
     "talkTitle": "",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1650137756/Earth_DayIsmael__Showdy__Stjour_anaamv.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1650137756/Earth_DayIsmael__Showdy__Stjour_anaamv.jpg",
     "altText": "Headshot of Ismael Stjour"
   },
   {
@@ -120,7 +120,7 @@ export const speakers = [
     "honorific": "Award-Winning Poet, Activist and Author of 7 Books. Founder of the Healing Racism Academy and I Teach Love Institute.",
     "organization": "Ennaid Foundation",
     "talkTitle": "Under the Ceiba Tree: Black Self Love Chronicles",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Speaker_Love_Ta_Shia_Asanti_jac7we.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_Speaker_Love_Ta_Shia_Asanti_jac7we.jpg",
     "altText": "Headshot of Love TaShia Asanti"
   },
   {
@@ -140,7 +140,7 @@ export const speakers = [
     "honorific": "",
     "organization": "WAFBA - We Are For Better Alternatives",
     "talkTitle": "Better Alternatives",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Morris_Beegle_zf97cr.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_Morris_Beegle_zf97cr.jpg",
     "altText": "Headshot of Morris Beegle"
   },
   {
@@ -170,7 +170,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Earth Guardians",
     "talkTitle": "Indigenous Youth Initiative at Earth Guardians: Centering Youth Voices and Next Gen Leadership",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890332/141_Earth_Day_Maya_Lazzaro_ckybk4.png",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649890332/141_Earth_Day_Maya_Lazzaro_ckybk4.png",
     "altText": "Headshot of Maya Lazarro"
   },
   {
@@ -181,7 +181,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Maren Krings Photography",
     "talkTitle": "Hemp as compass back to nature",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649804487/EarthDay_Maren_Krings_MK063019-MOSCOW-8060_dow118.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649804487/EarthDay_Maren_Krings_MK063019-MOSCOW-8060_dow118.jpg",
     "altText": "Headshot of Maren Krings"
   },
   {
@@ -192,7 +192,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Kuthuta LLC",
     "talkTitle": "Increasing oneness",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613413/Earth_Day_Towani_RLX1547_klazmn.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613413/Earth_Day_Towani_RLX1547_klazmn.jpg",
     "altText": "Headshot of Towani Clarke"
   },
   {
@@ -202,7 +202,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Green House Connection Center",
     "talkTitle": "Green House Connection Center",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_speaker_Harmony_Emerge_Picture_ajl7r8.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_speaker_Harmony_Emerge_Picture_ajl7r8.jpg",
     "altText": "Headshot of Harmony Cummings"
   },
   {
@@ -212,7 +212,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Penobscot Consulting Services",
     "talkTitle": "American Rescue Plan Act (ARPA): The Largest Investment of Resources into Indian Country in History",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1650136449/18_Earth_Day_Lisa_IMG_4375_1_znl9kd.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1650136449/18_Earth_Day_Lisa_IMG_4375_1_znl9kd.jpg",
     "altText": "Headshot of Lisa Montgomery"
   },
   {
@@ -222,7 +222,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Center for Transformational Influence",
     "talkTitle": "Don't Discredit the Authentic: Distinguishing credibility outside societal norms",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1650136449/19_Earth_Day_CC-Meet-Carmell-Page-sfw_cr_1_vdbecr.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1650136449/19_Earth_Day_CC-Meet-Carmell-Page-sfw_cr_1_vdbecr.jpg",
     "altText": "Headshot of Carmell Clark"
   },
   {
@@ -232,7 +232,7 @@ export const speakers = [
     "honorific": "",
     "organization": "",
     "talkTitle": "Your Wish is Your Command",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Tamara_Cantave_pgpfq2.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1648092602/Board_Tamara_Cantave_pgpfq2.jpg",
     "altText": "Headshot of Tamara Cantave"
   },
   {
@@ -242,7 +242,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Blu Nahulu Art",
     "talkTitle": "With Aloha In Our Sails",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Tommy_pmtsgx.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1648092602/Board_Tommy_pmtsgx.jpg",
     "altText": "Headshot of Tommy Nahulu"
   },
   {
@@ -253,7 +253,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Te Mana Consortium",
     "talkTitle": "Indigenous Innovation / Hauora / Hui Hinengaro",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/EarthDay_Jason_Jacobs_h6enrb.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/EarthDay_Jason_Jacobs_h6enrb.jpg",
     "altText": "Headshot of Jason Jacobs"
   },
   {
@@ -273,7 +273,7 @@ export const speakers = [
     "honorific": "Environmental Scientist International Sustainability and Energy Consultant",
     "organization": "Going True Green",
     "talkTitle": "Sustainability Truth",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649613409/Earth_Day_Bill_Lauto_zlr4zc.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_Bill_Lauto_zlr4zc.jpg",
     "altText": "Headshot of Bill Lauto"
   },
   {
@@ -293,7 +293,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Apogeo Spatial Media",
     "talkTitle": "A New Sustainable Model of Tourism",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890980/26IMG_7129-rectangle_headshot_MyrnaJames_itvqmy.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649890980/26IMG_7129-rectangle_headshot_MyrnaJames_itvqmy.jpg",
     "altText": "Headshot of Myrna James"
   },
   {
@@ -323,7 +323,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Hempstead Project Heart",
     "talkTitle": "The Art and Power of Storytelling",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1650637582/Marcus_Grignon_xincqv.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1650637582/Marcus_Grignon_xincqv.jpg",
     "altText": "Headshot of Marcus Grignon"
   },
   {
@@ -333,7 +333,7 @@ export const speakers = [
     "honorific": "",
     "organization": "",
     "talkTitle": "",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1650637582/Selah_Marley_netb67.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1650637582/Selah_Marley_netb67.jpg",
     "altText": "Headshot of Selah Marley"
   }
 ]
