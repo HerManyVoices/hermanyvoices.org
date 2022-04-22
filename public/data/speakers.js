@@ -160,7 +160,7 @@ export const speakers = [
     "honorific": "",
     "organization": "Earth Guardians",
     "talkTitle": "Indigenous Youth Initiative at Earth Guardians: Centering Youth Voices and Next Gen Leadership",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649890332/140_Earth_Day_Kona_Mirabal_naz2tw.jpg",
+    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_800,h_800,c_thumb,g_faces/v1649890332/140_Earth_Day_Kona_Mirabal_naz2tw.jpg",
     "altText": "Headshot of Kona Mirabal"
   },
   {
