@@ -76,7 +76,7 @@ export const projects = [
         {
             id: '0',
             title: 'Indigenomics',
-            shortDescription: 'Inidgenous Financial Literaracy',
+            shortDescription: 'Indigenous Financial Literaracy',
             description: 'We all have a human life value. Time to protect it.\n\nWhat is Indigenomics?\n"The practice of bringing the Indigenous perspective, culture, traditions and ways of being to economic and social development."\n~ Carol Anne Hilton, Indigenonics Institute Founder & CEO\n\nHere\'s what we cover:\n• Know your Human Life Value\n• There\'s more to our value than just money\n• How to build a proper financial foundation \n• Cash Flow Budget/Income Tracker\n• Debt Management\n• Rule 72-Variable accounts vs Index Accounts\n• Financial Cornerstones\n• Life Insurance with Living Benefits\n• IRC 7702-P.E.R.C.S\n• How to Create Generational Wealth\n• PSG Model',
             image:
               'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649530657/Proj_Com_Financial_Literacy_-_Indigenomics_1_bnlagt.png',
