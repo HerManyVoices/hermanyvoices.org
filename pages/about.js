@@ -74,8 +74,7 @@ function About() {
                   a representative for Indigenous Peoples.
                 </p>
                 <p className="mb-4 text-lg leading-loose text-gray-600">
-                  Maka, both as a representative for Indigenous Peoples. Ms.
-                  Fall has been on the International Hemp Speaking circuit,
+                  Ms. Fall has been on the International Hemp Speaking circuit,
                   speaking on Hemp and Humanity. Presentations include: the
                   ASACON Hemp Conference (Asahikawa, Japan); the Euro Hemp Tour
                   (Milan, Italy; and Naklo, Poland); at the Posner Center for
