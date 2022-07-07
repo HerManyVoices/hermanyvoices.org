@@ -39,12 +39,6 @@ export default function CallEventList() {
     const listUpcomingMainEventList = Object.values(upcomingMainEventList)[2]
     const listPastMainEventList = Object.values(pastMainEventList)[2]
 
-    // const listMainEventsArray = Object.values(listMainEvents)
-    // const pastEvents = listMainEventsArray.filter(event => event.date_start_unix < Date.now() / 1000)
-
-    // const listMainEventsArray2 = Object.values(listMainEvents)
-    // const upcomingEvents = listMainEventsArray2.filter(event => event.date_start_unix > Date.now() / 1000)
-
     const formatDate = (date_start_unix) => {
         const date = new Date(date_start_unix * 1000)
         const formattedDate = date.toLocaleDateString('en-EN', { month: 'short', day: 'numeric', year: 'numeric' })
@@ -88,15 +82,14 @@ export default function CallEventList() {
 
                     {/* TODO ADD EVENT IMAGE DATA FILE AND IMPORT / MAP OVER THEM HERE
 
-<div className="row-start-1 col-start-6 row-end-11 col-end-7 overflow-visible md:block      hidden">
-<img src="https://via.placeholder.com/1000" alt="#"></img>
-</div> */}
+                    <div className="row-start-1 col-start-6 row-end-11 col-end-7 overflow-visible md:block      hidden">
+                    <img src="https://via.placeholder.com/1000" alt="#"></img>
+                    </div> */}
                 </div>
             ))}
 
             <h2 className="mb-10 font-heading text-4xl font-bold lg:text-4xl text-center">Past Events</h2>
-            {listPastMainEventList && listPastMainEventList.map((event) => (
-
+            {listPastMainEventList && listPastMainEventList.slice(1).map((event) => ( 
                 <div key={event.id} className="grid grid-cols-6 grid-rows-10 gap-0 overflow-hidden h-128 border-b-2 border-green-200 my-2">
 
                     <div className="row-start-1 col-start-1 row-end-11 col-end-2 text-right px-10 font-bold md:block hidden">{formatDate(event.date_start_unix)}</div>
@@ -116,9 +109,9 @@ export default function CallEventList() {
 
                     {/* TODO ADD EVENT IMAGE DATA FILE AND IMPORT / MAP OVER THEM HERE
 
-    <div className="row-start-1 col-start-6 row-end-11 col-end-7 overflow-visible md:block      hidden">
-        <img src="https://via.placeholder.com/1000" alt="#"></img>
-    </div> */}
+                    <div className="row-start-1 col-start-6 row-end-11 col-end-7 overflow-visible md:block      hidden">
+                        <img src="https://via.placeholder.com/1000" alt="#"></img>
+                    </div> */}
                 </div>
             ))}
 
