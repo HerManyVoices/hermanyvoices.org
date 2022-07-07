@@ -43,16 +43,6 @@ export const speakers = [
   },
   {
     "id": 4,
-    "location": "Lusaka, Zambia",
-    "fullName": "Musenga Katongo",
-    "honorific": "",
-    "organization": "Colour Culture Arts",
-    "talkTitle": "Protect my Home",
-    "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1649613409/Earth_Day_Musenga_L._Katongo_itnyag.jpg",
-    "altText": "Headshot of Musenga Katongo"
-  },
-  {
-    "id": 5,
     "featured": true,
     "location": "Boulder, Colorado",
     "fullName": "Adriana Paola Palacios Luna",
@@ -63,7 +53,7 @@ export const speakers = [
     "altText": "Headshot of Adriana Paola Palacios Luna"
   },
   {
-    "id": 6,
+    "id": 5,
     "location": "Latvia",
     "fullName": "Andris & Débora Visnevskis",
     "honorific": "",
@@ -73,7 +63,7 @@ export const speakers = [
     "altText": "Headshot of Andris & Débora Visnevskis"
   },
   {
-    "id": 7,
+    "id": 6,
     "location": "Amsterdam",
     "fullName": "Attila Suba",
     "honorific": "",
@@ -83,7 +73,7 @@ export const speakers = [
     "altText": "Headshot of Attila Suba"
   },
   {
-    "id": 8,
+    "id": 7,
     "location": "New York City", 
     "fullName": "Brooke Rodriguez",
     "honorific": "",
@@ -93,7 +83,7 @@ export const speakers = [
     "altText": "Headshot of Brooke Rodriguez"
   },
   {
-    "id": 9,
+    "id": 8,
     "location": "Nashville, Tennessee",
     "fullName": "Jacob Waddell",
     "honorific": "",
@@ -103,7 +93,7 @@ export const speakers = [
     "altText": "Headshot of Jacob Waddell"
   },
   {
-    "id": 10,
+    "id": 9,
     "location": "Haiti",
     "fullName": "Ismael Stjour",
     "honorific": "Showdy",
@@ -113,7 +103,7 @@ export const speakers = [
     "altText": "Headshot of Ismael Stjour"
   },
   {
-    "id": 11,
+    "id": 10,
     "featured": true,
     "location": "California",
     "fullName": "Love TaShia Asanti",
@@ -124,7 +114,7 @@ export const speakers = [
     "altText": "Headshot of Love TaShia Asanti"
   },
   {
-    "id": 12,
+    "id": 11,
     "location": "Colorado",
     "fullName": "Barbara Coloroso",
     "honorific": "",
@@ -134,7 +124,7 @@ export const speakers = [
     "altText": "Headshot of Barbara Coloroso"
   },
   {
-    "id": 13,
+    "id": 12,
     "location": "",
     "fullName": "Morris Beegle",
     "honorific": "",
@@ -144,7 +134,7 @@ export const speakers = [
     "altText": "Headshot of Morris Beegle"
   },
   {
-    "id": 14,
+    "id": 13,
     "location": "",
     "fullName": "Alethea Phillips",
     "honorific": "",
@@ -154,7 +144,7 @@ export const speakers = [
     "altText": "Headshot of Alethea Phillips"
   },
   {
-    "id": 15,
+    "id": 14,
     "location": "",
     "fullName": "Kona Mirabal",
     "honorific": "",
@@ -164,7 +154,7 @@ export const speakers = [
     "altText": "Headshot of Kona Mirabal"
   },
   {
-    "id": 16,
+    "id": 15,
     "location": "",
     "fullName": "Maya Lazarro",
     "honorific": "",
@@ -174,7 +164,7 @@ export const speakers = [
     "altText": "Headshot of Maya Lazarro"
   },
   {
-    "id": 17,
+    "id": 16,
     "featured": true,
     "location": "Colorado",
     "fullName": "Maren Krings",
@@ -185,7 +175,7 @@ export const speakers = [
     "altText": "Headshot of Maren Krings"
   },
   {
-    "id": 18,
+    "id": 17,
     "featured": true,
     "location": "Colorado",
     "fullName": "Towani Clarke",
@@ -196,7 +186,7 @@ export const speakers = [
     "altText": "Headshot of Towani Clarke"
   },
   {
-    "id": 19,
+    "id": 18,
     "location": "Colorado",
     "fullName": "Harmony Cummings",
     "honorific": "",
@@ -206,7 +196,7 @@ export const speakers = [
     "altText": "Headshot of Harmony Cummings"
   },
   {
-    "id": 20,
+    "id": 19,
     "location": "Colorado",
     "fullName": "Lisa Montgomery",
     "honorific": "",
@@ -216,7 +206,7 @@ export const speakers = [
     "altText": "Headshot of Lisa Montgomery"
   },
   {
-    "id": 21,
+    "id": 20,
     "location": "The ancestral lands of the Ute, Dine' (Navajo), Paiute, Goshute, and Shoshone peoples, Salt Lake City, Utah",
     "fullName": "Carmell Clark",
     "honorific": "",
@@ -226,7 +216,7 @@ export const speakers = [
     "altText": "Headshot of Carmell Clark"
   },
   {
-    "id": 22,
+    "id": 21,
     "location": "Virginia",
     "fullName": "Tamara Cantave",
     "honorific": "",
@@ -236,7 +226,7 @@ export const speakers = [
     "altText": "Headshot of Tamara Cantave"
   },
   {
-    "id": 23,
+    "id": 22,
     "location": "Colorado",
     "fullName": "Tommy Nahulu",
     "honorific": "",
@@ -246,7 +236,7 @@ export const speakers = [
     "altText": "Headshot of Tommy Nahulu"
   },
   {
-    "id": 24,
+    "id": 23,
     "featured": true,
     "location": "Aotearoa / New Zealand",
     "fullName": "Jason Jacobs",
@@ -257,7 +247,7 @@ export const speakers = [
     "altText": "Headshot of Jason Jacobs"
   },
   {
-    "id": 25,
+    "id": 24,
     "location": "Maine",
     "fullName": "Jeremy Hale",
     "honorific": "",
@@ -267,7 +257,7 @@ export const speakers = [
     "altText": "Headshot of Jeremy Hale"
   },
   {
-    "id": 26,
+    "id": 25,
     "location": "New York City",
     "fullName": "Bill Lauto",
     "honorific": "Environmental Scientist International Sustainability and Energy Consultant",
@@ -277,7 +267,7 @@ export const speakers = [
     "altText": "Headshot of Bill Lauto"
   },
   {
-    "id": 27,
+    "id": 26,
     "location": "Colorado",
     "fullName": "Melissa Ivey",
     "honorific": "Two spirit Taino Quing",
@@ -287,7 +277,7 @@ export const speakers = [
     "altText": "Headshot of Melissa Ivey"
   },
   {
-    "id": 28,
+    "id": 27,
     "location": "Colorado",
     "fullName": "Myrna James",
     "honorific": "",
@@ -297,7 +287,7 @@ export const speakers = [
     "altText": "Headshot of Myrna James"
   },
   {
-    "id": 29,
+    "id": 28,
     "location": "Panama",
     "fullName": "Nathan Gray",
     "honorific": "",
@@ -307,7 +297,7 @@ export const speakers = [
     "altText": "Headshot of Nathan Gray"
   },
   {
-    "id": 30,
+    "id": 29,
     "location": "Idaho",
     "fullName": "Mary Jane Oatman",
     "honorific": "",
@@ -317,7 +307,7 @@ export const speakers = [
     "altText": "Headshot of Mary Jane Oatman"
   },
   {
-    "id": 31,
+    "id": 30,
     "location": "Menominee Territory",
     "fullName": "Marcus Grignon",
     "honorific": "",
@@ -327,7 +317,7 @@ export const speakers = [
     "altText": "Headshot of Marcus Grignon"
   },
   {
-    "id": 32,
+    "id": 31,
     "location": "",
     "fullName": "Selah Marley",
     "honorific": "",

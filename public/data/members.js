@@ -48,6 +48,20 @@ export const teamMembers = [
   },
   {
     id: '3',
+    fullName: 'Lisa Montgomery',
+    title: 'Veterans and Tribal Relations Coordinator',
+    shortDescription:
+      'Lisa Montgomery is a member of the Penobscot Indian Nation in Maine, where she serves on Tribal Council. She has an A.S. in Logistics Management from ...',
+    description:
+      'Lisa Montgomery is a member of the Penobscot Indian Nation in Maine, where she serves on Tribal Council. She has an A.S. in Logistics Management from the Community College of the Air Force, with military service from 2000 to 2004, a B.S. in Environmental Management and Policy, and a Graduate Business Certificate from the University of Maine. She has completed all the credits for a Master in Interdisciplinary Studies, needing only to complete a final research project that would support the building of a multi-generational supportive housing program for Indigenous women.\n\nAs a serviced connected disabled veteran, Lisa has been active in therapeutic agriculture for the last five years. She has completed training with NCAT\'s Armed to Farm program and Veteran to Farmers Controlled Environment Agriculture. Lisa is passionate about food and fiber, and loves to travel across Indian Country.',
+    image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1657214850/Lisa_Montgomery_Pic_pgqlyq.jpg',
+    altText: 'Headshot of Lisa Montgomery',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
+  },
+  {
+    id: '3',
     fullName: 'Angelo Digangi',
     title: 'Executive Director of Elder Care and Grandparent Resource Centers',
     shortDescription:
@@ -55,7 +69,7 @@ export const teamMembers = [
     description:
       'Mr. DiGangi founded The Community Advocacy Center in New York, served as a University of Berkeley Fellow and New York City Presbytery Missionary (1990- 2010). DiGangi was elected to be a Judicial Delegate for four terms in Queens County New York and County Committee Person in New York County.\n\nDiGangi is a recipient of the Raoul Wallenburg Humanitarian Award and the Arch Dioceses of Kings County Bishop Catanello Humanitarian Award, and he was appointed as a commissioner to said Bishops council.\n\nDiGangi is credited with developing Preventive Law and Elder Law clinics worldwide and now directs the Her Many Voices collaborative Campaign for the Elderly. We are honored to have Mr DiGangi expand his duties, as he has served as a member of our Board of Advisors for ten years.',
     image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648770070/Angelo_DiGangi_bvkjcc.jpg',
-    altText: '',
+    altText: 'Headshot of Angelo DiGangi',
     facebookLink: '',
     instagramLink: '',
     twitterLink: '',

@@ -42,9 +42,15 @@ module.exports = {
       },
     ]
   },
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     domains: ['images.unsplash.com', 'res.cloudinary.com'],
     formats: ['image/webp'],
   },
-}
+  env: { 
+    ADDEVENT_UPCOMING_MAIN_EVENTS_ENDPOINT: [process.env.ADDEVENT_UPCOMING_MAIN_EVENTS_ENDPOINT ],
+    ADDEVENT_PAST_MAIN_EVENTS_ENDPOINT: [process.env.ADDEVENT_PAST_MAIN_EVENTS_ENDPOINT ],
+    ADDEVENT_EARTHDAY_EVENTS_ENDPOINT1: [process.env.ADDEVENT_EARTHDAY_EVENTS_ENDPOINT1 ],
+    ADDEVENT_EARTHDAY_EVENTS_ENDPOINT2: [process.env.ADDEVENT_EARTHDAY_EVENTS_ENDPOINT2 ],
+  },
+  }

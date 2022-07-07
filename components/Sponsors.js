@@ -55,6 +55,11 @@ export default function Sponsors() {
                 <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/v1655834873/Lowes_logo_pms_280_vmgtyz.png" alt=""></img>
                 </a>
             </div>
+            <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
+              <a href="https://www.lowes.com/">
+                <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/v1657215429/7BP_LOGO_cn1eti.webp" alt=""></img>
+                </a>
+            </div>
         </div>
       </div>
     </section>

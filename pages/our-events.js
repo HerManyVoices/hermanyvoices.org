@@ -1,7 +1,8 @@
 import Script from 'next/script'
-import Link from 'next/link'
+// import Link from 'next/link'
 import Layout from '@components/Layout'
 import Calendar from '@components/Calendar'
+import CallEventList from '@components/EventList'
 
 function Events() {
   const CalIcon = () => (
@@ -46,26 +47,25 @@ function Events() {
               <div className="w-full text-center lg:text-left">
                 <div className="relative mx-auto max-w-md lg:mx-0">
                   <h2 className="mb-3 font-heading text-4xl font-bold lg:text-6xl">
-                    <span>Earth Day</span>
-                    <span className="text-green-600"> 2022</span>
+                    <span>Amsterdam Climate Week</span>
                   </h2>
                 </div>
                 <div className="relative mx-auto max-w-sm lg:mx-0">
                   <p className="mb-6 leading-loose text-gray-500 lg:text-2xl">
-                    A Celebration of Indigenous Wisdom for Modern Challenges
+                  No more Blah Blah. Amsterdam in Action.
                   </p>
                   <p className="mb-1 leading-loose text-green-600 lg:text-2xl">
                     Livestreaming on Youtube
                   </p>
                   <p className="mb-6 leading-loose text-green-600 lg:text-2xl">
-                    Friday, April 22nd, 2022
+                    September 12th-18th 2022
                   </p>
                   <div>
                     <a
                       className="mr-4 inline-block w-full rounded-l-xl rounded-t-xl bg-green-600 py-2 px-12 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 lg:w-auto"
                       title="Add to Calendar"
                       data-id="Pb13087502" // Event ID
-                      href="https://www.addevent.com/event/hO13089977"
+                      href="https://www.addevent.com/event/Az14291720"
                       target="_blank noreferrer"
                       rel="nofollow"
                     >
@@ -82,7 +82,7 @@ function Events() {
                       className="inline-block w-full rounded-l-xl rounded-t-xl bg-white py-2 px-6 font-semibold leading-loose shadow transition duration-200 hover:bg-gray-50 lg:w-auto"
                       title="Add to Calendar"
                       data-id="13089977" // Event ID
-                      href="https://www.addevent.com/event/hO13089977"
+                      href="https://www.addevent.com/event/Az14291720"
                       target="_blank noreferrer"
                       rel="nofollow"
                     >
@@ -105,11 +105,16 @@ function Events() {
         </div>
       </div>
       <div className="py-6 lg:py-20">
+      
+      <CallEventList />
+      </div>
+      
+      {/* <div className="py-6 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="mb-10 flex flex-wrap">
             <div className="mb-10 w-full lg:mb-0 lg:w-1/2">
               <div className="max-w-md sm:m-auto">
-                <h2 className="mb-2 font-heading text-4xl font-bold lg:text-4xl">
+                <h2 className="mb-2 font-heading text-4xl font-bold lg:text-4xl text-center">
                   Past events
                 </h2>
                 <p className="max-w-s pt-4 text-xl leading-loose text-gray-500">
@@ -138,7 +143,7 @@ function Events() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

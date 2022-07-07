@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
+    "axios": "^0.27.2",
     "cloudinary-build-url": "^0.2.4",
+    "he": "^1.2.0",
     "netlify-plugin-cloudinary": "^1.0.3",
     "next": ">=12.1.0",
     "postcss-flexbugs-fixes": "^5.0.2",
