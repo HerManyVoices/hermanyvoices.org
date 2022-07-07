@@ -102,8 +102,8 @@ function About() {
       </div>
       <TeamList />
       <BoardList />
-      <Sponsors />
       <SupportersCard />
+      <Sponsors />
     </section>
   )
 }
