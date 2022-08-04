@@ -56,9 +56,10 @@ export default function Sponsors() {
                 </a>
             </div>
             <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
-              <a href="https://www.lowes.com/">
-                <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/v1657215429/7BP_LOGO_cn1eti.webp" alt=""></img>
+              <a href="https://www.7billionpresidents.org/">
+                <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/v1659645518/cropped-7BP-zwart_ct6ebe.png" alt=""></img>
                 </a>
+                <p className="font-body">7 Billion Presidents</p>
             </div>
         </div>
       </div>
