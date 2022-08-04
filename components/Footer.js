@@ -44,7 +44,7 @@ export default function Footer() {
                     The original inhabitants of the area that is now Colorado
                     included:<br></br>
                     The Apache Nation, The Arapaho Nation, The Cheyenne Nation,
-                    The Pueblo Tribes, The Shoshone Tribe, The Ute nation, The
+                    The Pueblo Tribes, The Shoshone Tribe, The Ute Nation, The
                     Comanche Tribe, The Kiowa Tribe, and The Navajo Tribe.
                   </p>
                 </div>
