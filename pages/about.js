@@ -46,7 +46,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="py-10 lg:py-20">
+      <div className="py-10 lg:py-20" id="meet-our-founder">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="mb-12 w-full px-4 lg:mb-0 lg:w-5/12">

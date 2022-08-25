@@ -37,17 +37,17 @@ function WhatWeDo() {
               impacts.
             </p>
             <div className="inline-flex flex-wrap rounded bg-white py-1 text-sm sm:space-x-1 sm:px-1">
-              <Link href="#environment-section" passHref>
+              <Link href="#environmental-projects" passHref>
                 <button className="mx-1 mb-1 w-full rounded py-2 px-4 font-bold text-gray-500 transition duration-200 focus-within:bg-gray-50 focus-within:text-gray-900 focus-within:shadow hover:bg-gray-50 hover:text-gray-900 hover:shadow focus:outline-none sm:mx-0 sm:mb-0 sm:w-auto">
                   Environment
                 </button>
               </Link>
-              <Link href="#community-section" passHref>
+              <Link href="#community-projects" passHref>
                 <button className="mx-1 mb-1 w-full rounded py-2 px-4 font-bold text-gray-500 transition duration-200 focus-within:bg-gray-50 focus-within:text-gray-900 focus-within:shadow hover:bg-gray-50 hover:text-gray-900 hover:shadow focus:outline-none sm:mx-0 sm:mb-0 sm:w-auto">
                   Community
                 </button>
               </Link>
-              <Link href="#culture-section" passHref>
+              <Link href="#cultural-projects" passHref>
                 <button className="mx-1 mb-1 w-full rounded py-2 px-4 font-bold text-gray-500 transition duration-200 focus-within:bg-gray-50 focus-within:text-gray-900 focus-within:shadow hover:bg-gray-50 hover:text-gray-900 hover:shadow focus:outline-none sm:mx-0 sm:mb-0 sm:w-auto">
                   Culture
                 </button>
