@@ -59,7 +59,7 @@ export default function ProjectList() {
         <div className="container mx-auto px-4">
           <div className="mx-auto mb-4 max-w-xl text-center lg:mb-16">
             <h3
-              id="environment-section"
+              id="environmental-projects"
               className="font-heading text-4xl font-bold lg:text-4xl"
             >
               Environment
@@ -80,7 +80,7 @@ export default function ProjectList() {
         <div className="container mx-auto px-4">
           <div className="mx-auto mb-4 max-w-xl text-center lg:mb-16">
             <h3
-              id="community-section"
+              id="community-projects"
               className="font-heading text-4xl font-bold lg:text-4xl"
             >
               Community
@@ -101,7 +101,7 @@ export default function ProjectList() {
         <div className="container mx-auto px-4">
           <div className="mx-auto mb-4 max-w-xl text-center lg:mb-16">
             <h3
-              id="culture-section"
+              id="cultural-projects"
               className="font-heading text-4xl font-bold lg:text-4xl"
             >
               Culture

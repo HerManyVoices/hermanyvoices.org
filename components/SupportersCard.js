@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function SupportersCard() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50" id="meet-our-sponsors-and-partners">
       <h3 className="mb-16 font-heading text-2xl text-center">
           Our Supporters
         </h3>

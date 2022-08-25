@@ -34,7 +34,7 @@ export default function TeamList() {
 
   return (
     <section>
-      <div className="bg-green-600 py-20">
+      <div className="bg-green-600 py-20" id="meet-our-board">
         <div className="mx-auto px-4">
           <div className="mx-auto mb-8 max-w-xl text-center lg:mb-16">
             <h2 className="font-heading text-4xl font-bold lg:text-5xl text-white">
