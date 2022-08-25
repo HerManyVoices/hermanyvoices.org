@@ -16,7 +16,7 @@ export const projects = [
         id: '1',
         title: 'Thriving Community',
         shortDescription:
-          'Wynn Farm Ecological Reserve',
+          'Wynne Farm Ecological Reserve',
         description: 'HMVF partners with Wynne Farm Ecological Reserve for environmental protection, uplifting village communities within rural areas through education, better sanitation, and assistance in developing economically sustainable businesses for organized women\'s groups. All of this out of the necessity for protecting the earth for future generations.',
         image:
           'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648768917/Wynne_Farm_Ecological_Reserve_jvms6j.png',

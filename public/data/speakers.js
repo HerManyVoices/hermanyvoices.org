@@ -95,8 +95,8 @@ export const speakers = [
   {
     "id": 9,
     "location": "Haiti",
-    "fullName": "Ismael Stjour",
-    "honorific": "Showdy",
+    "fullName": "Ismael \"Showdy\" Stjour",
+    "honorific": "",
     "organization": "From Roots To Wings",
     "talkTitle": "",
     "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1650137756/Earth_DayIsmael__Showdy__Stjour_anaamv.jpg",
@@ -166,7 +166,7 @@ export const speakers = [
   {
     "id": 16,
     "featured": true,
-    "location": "Colorado",
+    "location": "Germany",
     "fullName": "Maren Krings",
     "honorific": "",
     "organization": "Maren Krings Photography",
@@ -197,7 +197,7 @@ export const speakers = [
   },
   {
     "id": 19,
-    "location": "Colorado",
+    "location": "Colorado & Maine",
     "fullName": "Lisa Montgomery",
     "honorific": "",
     "organization": "Penobscot Consulting Services",
@@ -217,7 +217,7 @@ export const speakers = [
   },
   {
     "id": 21,
-    "location": "Virginia",
+    "location": "Virginia & NYC",
     "fullName": "Tamara Cantave",
     "honorific": "",
     "organization": "",

@@ -60,7 +60,7 @@ export default function CallEventList() {
 
     return (
         <section className='container m-auto w-full lg:w-1/2'>
-            <h2 className="mb-10 font-heading text-4xl font-bold lg:text-4xl text-center">Upcoming Events</h2>
+            <h2 id="upcoming" className="mb-10 font-heading text-4xl font-bold lg:text-4xl text-center">Upcoming Events</h2>
             {listUpcomingMainEventList && listUpcomingMainEventList.map((event) => (
 
                 <div key={event.id} className="grid grid-cols-6 grid-rows-10 gap-0 overflow-hidden h-128 border-b-2 border-green-200 my-2">
@@ -74,7 +74,7 @@ export default function CallEventList() {
                     <div className="row-start-3 col-start-2 row-end-4 col-end-6 text-sm md:-mt-24  ">
                         Location: <a href={event.location} className='text-green-600 underline font-bold'>Online</a>
                     </div>
-                    <p className="row-start-4 col-start-2 row-end-10 col-end-6 text-gray-800 overflow-hidden h-24 md:-mt-36">{cleanDescription(event.description)}</p>
+                    <p className="row-start-4 col-start-2 row-end-10 col-end-6 text-gray-800 overflow-hidden h-24 md:-mt-36">{cleanDescription(event.eventname)}</p>
 
                     <div className="row-start-10 col-start-2 row-end-11 col-end-6 md:-mt-24">
                         <a href={event.link_long} className='text-green-600 underline'>Read more »</a>
