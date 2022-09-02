@@ -394,7 +394,7 @@ export default function Test() {
                                             </Accordion.Trigger>
                                         </Accordion.Header>
                                         <Accordion.Content className='flex flex-col h-auto w-full mr-auto bg-gray-50 font-heading'>
-                                            <NextLink href="/support us" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                            <NextLink href="/who-we-serve" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
                                                 <SupportUsIcon />
                                                 <div>
                                                     <p className="text-sm font-medium text-gray-900">Who We Serve</p>
@@ -481,7 +481,7 @@ export default function Test() {
                                             </Accordion.Trigger>
                                         </Accordion.Header>
                                         <Accordion.Content className='flex flex-col h-auto w-full mr-auto bg-gray-50 font-heading'>
-                                            <NextLink href="/support us" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                            <NextLink href="/support-us" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
                                                 <SupportUsIcon />
                                                 <div>
                                                     <p className="text-sm font-medium text-gray-900">Donate</p>
