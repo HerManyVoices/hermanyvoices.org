@@ -101,9 +101,9 @@ export default function Test() {
                                         <SponsorsIcon aria-hidden="true" />
 
                                         <div>
-                                            <p className="text-sm font-medium text-gray-900">Sponsors &amp; Coallition Partners</p>
+                                            <p className="text-sm font-medium text-gray-900">Sponsors &amp; Coalition Partners</p>
                                             <p className="text-sm text-gray-600">
-                                                Meet the collation who help make our work possible
+                                                Meet the coalition who help make our work possible
                                             </p>
                                         </div>
                                     </NextLink>
