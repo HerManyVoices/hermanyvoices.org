@@ -209,8 +209,19 @@ export default function Test() {
                         <NavigationMenu.Item className="mx-2">
                             <NavigationMenu.Trigger className="relative group inline-flex items-center rounded-md p-2 text-sm font-bold text-[#603913] hover:text-[#35200b] hover:text-opacity-90 focus-within:text-green-600 focus-within:hover:text-green-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">Earth Day</NavigationMenu.Trigger>
                             <NavigationMenu.Content className="absolute overflow-hidden rounded-lg shadow-lg ring-1 ring-purple-500 ring-opacity-5">
-                                <div className="grid gap-8 bg-white p-7">
+                            <div className="grid gap-8 bg-white p-7">
                                     <NextLink href="/earth-day" className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                        <EarthDayIcon aria-hidden="true" />
+                                        <div className='max-w-[240px]'>
+                                            <p className="text-sm font-medium text-gray-900">Earth Day 2023</p>
+                                            <p className="text-sm text-gray-600">
+                                                A Celebration of Indigenous Wisdom to Face Modern Challenges
+                                            </p>
+                                        </div>
+                                    </NextLink>
+                                </div>
+                                <div className="grid gap-8 bg-white p-7">
+                                    <NextLink href="/earth-day-2022" className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
                                         <EarthDayIcon aria-hidden="true" />
                                         <div className='max-w-[240px]'>
                                             <p className="text-sm font-medium text-gray-900">Earth Day 2022</p>
@@ -463,7 +474,16 @@ export default function Test() {
                                             </Accordion.Trigger>
                                         </Accordion.Header>
                                         <Accordion.Content className='flex flex-col h-auto w-full mr-auto bg-gray-50 font-heading'>
-                                            <NextLink href="/earth-day" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                        <NextLink href="/earth-day" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                                <EarthDayIcon />
+                                                <div>
+                                                    <p className="text-sm font-medium text-gray-900">Earth Day 2023</p>
+                                                    <p className="text-sm text-gray-600">
+                                                        A Celebration of Indigenous Wisdom to Face Modern Challenges
+                                                    </p>
+                                                </div>
+                                            </NextLink>
+                                            <NextLink href="/earth-day-2022" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
                                                 <EarthDayIcon />
                                                 <div>
                                                     <p className="text-sm font-medium text-gray-900">Earth Day 2022</p>
