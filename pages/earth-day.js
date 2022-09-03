@@ -16,17 +16,24 @@ function EarthDay() {
                     </div>
                     </div>
                     </div>
-
                 </div>
             </div>
-            <div className="container relative mx-auto px-4 md:pt-10 lg:-mb-10">
+            <div className="container relative mx-auto px-4 md:pt-10 lg:-mb-16 bg-gray-50">
                 <div className="mb-16 text-center">
-                    <h1 className="mb-4 text-3xl leading-tight tracking-tighter text-green-600 md:text-5xl md:font-thin">
+                    <h1 className="my-4 text-3xl leading-tight tracking-tighter text-green-600 md:text-5xl md:font-thin">
                         Earth Day 2023: A Celebration of Indigenous Wisdom to Face Modern
                         Challenges
                     </h1>
-                    <p className="text-lg font-medium text-gray-600 md:text-xl">
-                    Imagine a world in balance- abundant food, cohesive communities- a secure future for all beings. That&apos;s the dream we&apos;re working to make real.  Indigenous People are 5% of the world population and steward 80% of the Earth&apos;s resources. Yet their knowledge is left out of larger discussions and decision making regarding climate change action and public policies to preserve natural resources. Celebrating Indigenous Wisdom to Face Modern Challenges, created by the Her Many Voices Foundation (HMVF), addresses this. Founded by Alicia Fall, HMVF has been addressing humanitarian issues through the power of art and community partnerships since 2009.    Located on Očhéthi Šakówiŋ (​​Sioux Nation), Núu-agha-tʉvʉ-pʉ̱ (Ute), Tséstho&apos;e (Cheyenne), hinono&apos;eino&apos; biito&apos;owu&apos; (Arapaho) land, Comanche, and 48+ other tribes sacred land (the Denver/FrontRange area), HMVF partners with Indigenous People and their champions to present wisdom and knowledge critical to the planet&apos;s rejuvenation. We invite artistic expression across disciplines- and that has resulted in everything from traditional medicine to dance to storytelling and more. Through the power of art to inspire action, we will heal our mother earth.
+                    <p className="text-xl font-medium text-gray-600 md:text-2xl md:px-8 pb-4 text-left">
+                        <span className='text-xl font-medium text-gray-600 md:text-2xl pb-1 block text-left py-6'>Imagine a world in balance- abundant food, cohesive communities- a secure future for all beings.</span> 
+                        <span className='text-xl font-medium text-gray-600 md:text-2xl pb-4 block text-left py-6'>That&apos;s the dream we&apos;re working to make real.</span>  Indigenous People are 5% of the world population and steward 80% of the Earth&apos;s resources. Yet their knowledge is left out of larger discussions and decision making regarding climate change action and public policies to preserve natural resources.
+                    </p>
+                    <p className="text-xl font-medium text-gray-600 md:text-2xl md:px-8 pb-4 text-left">
+                    Celebrating Indigenous Wisdom to Face Modern Challenges, created by the Her Many Voices Foundation (HMVF), addresses this. 
+                    </p>
+                    <p className="text-xl font-medium text-gray-600 md:text-2xl md:px-8 pb-4 text-left">
+                    Founded by Alicia Fall, HMVF has been addressing humanitarian issues through the power of art and community partnerships since 2009.  Located on <span className='text-green-600'>Očhéthi Šakówiŋ (Sioux Nation), Núu-agha-tʉvʉ-pʉ̱ (Ute), Tséstho&apos;e (Cheyenne), hinono&apos;eino&apos; biito&apos;owu&apos; (Arapaho) land, Comanche, and 48+ other tribes sacred land (the Denver/FrontRange area),</span> HMVF partners with Indigenous People and their champions to present wisdom and knowledge critical to the planet&apos;s rejuvenation. 
+                    <span className='text-xl font-medium text-gray-600 md:text-2xl pb-1 block text-left py-6'>We invite artistic expression across disciplines- and that has resulted in everything from traditional medicine to dance to storytelling and more. Through the power of art to inspire action, we will heal our mother earth.</span>
                     </p>
                 </div>
             </div>
