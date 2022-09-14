@@ -6,8 +6,9 @@ export default function NewsletterCTA() {
   const [setName] = useState("");
   const [setEmail] = useState("");
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
+    alert("submitted!")
     setName("");
     setEmail("");
   }
@@ -52,7 +53,7 @@ export default function NewsletterCTA() {
                 className="mb-6 rounded-t-3xl rounded-bl-3xl bg-white py-8 px-6 text-center shadow"
               >
                 <form
-                  action="https://hermanyvoices.us12.list-manage.com/subscribe/post?u=ed8cd89534677e76f64a1819d&amp;id=a674fd30fd"
+                  action="https://hermanyvoices.us12.list-manage.com/subscribe/post?u=ed8cd89534677e76f64a1819d&amp;id=a674fd30fd&amp;f_id=007ab4e0f0007ab4e0f0"
                   method="post"
                   id="mc-embedded-subscribe-form"
                   name="mc-embedded-subscribe-form"
@@ -158,7 +159,7 @@ export default function NewsletterCTA() {
                       name="subscribe"
                       id="mc-embedded-subscribe"
                       className="button mb-4 w-full rounded bg-green-600 py-4 text-sm font-bold leading-normal text-white transition duration-200 hover:bg-green-700 clear"
-                      onClick={handleSubmit}
+                      onSubmit={handleSubmit}
                     ></input>
                   </div>
                 </form>
