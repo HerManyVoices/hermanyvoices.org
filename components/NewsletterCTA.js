@@ -8,7 +8,6 @@ export default function NewsletterCTA() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("submitted!")
     setName("");
     setEmail("");
   }
