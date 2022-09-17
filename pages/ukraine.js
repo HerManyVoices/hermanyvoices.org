@@ -43,7 +43,7 @@ function Ukraine() {
                     We&apos;re evenly distributing 100% of all money raised directly to Ukrainian farmers and hemp farmers. Make a secure, tax-free donation here.
                     </p>
 
-                    <div className='m-auto h-auto pl-16 pt-6'>
+                    <div className='m-auto h-auto md:pl-16 pt-6'>
                         <Script src="https://donorbox.org/widget.js" paypalExpress="true"></Script><iframe src="https://donorbox.org/embed/hmvf-ukraine" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameBorder="0" scrolling="no" height="900px" width="100%" className="max-w-[500px] min-w-[250px] m-auto"></iframe> 
                     </div>
 
