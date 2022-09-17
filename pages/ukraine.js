@@ -16,7 +16,6 @@ function Ukraine() {
                     </div>
                     </div>
                     </div>
-                    <p className='text-right text-sm'>Video by <a className='underline'href="https://www.staccatoproductions.com/">Staccato Productions</a></p>
                 </div>
             </div>
             <div className="container relative mx-auto px-4 md:pt-10 lg:-mb-16 -mb-16 bg-gray-50">
