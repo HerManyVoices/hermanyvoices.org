@@ -1,5 +1,6 @@
 import Script from 'next/script'
 // import Link from 'next/link'
+import Head from 'next/head'
 import Layout from '@components/Layout'
 import Calendar from '@components/Calendar'
 import CallEventList from '@components/EventList'
@@ -40,6 +41,10 @@ function Events() {
   )
   return (
     <div>
+      <Head>
+        <title>HMVF | Our Events</title>
+        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+      </Head>
       <div className="relative overflow-hidden bg-gray-50 pt-20 pb-24 lg:py-40">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
@@ -52,7 +57,7 @@ function Events() {
                 </div>
                 <div className="relative mx-auto max-w-sm lg:mx-0">
                   <p className="mb-6 leading-loose text-gray-500 lg:text-2xl">
-                  No more Blah Blah. Amsterdam in Action.
+                    No more Blah Blah. Amsterdam in Action.
                   </p>
                   <p className="mb-1 leading-loose text-green-600 lg:text-2xl">
                     Livestreaming on Youtube
@@ -105,10 +110,10 @@ function Events() {
         </div>
       </div>
       <div className="py-6 lg:py-20">
-      
-      <CallEventList />
+
+        <CallEventList />
       </div>
-      
+
       {/* <div className="py-6 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="mb-10 flex flex-wrap">

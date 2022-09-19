@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Script from 'next/script'
 import Layout from '@components/Layout'
 import '../public/images/EarthDay-2022-Hero.png'
@@ -5,6 +6,10 @@ import '../public/images/EarthDay-2022-Hero.png'
 function Ukraine() {
     return (
         <section className="bg-gray-50">
+            <Head>
+                <title>HMVF | Support Ukraine</title>
+                <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+            </Head>
             <div className='w-full bg-gradient-to-b from-[#0057B8] to-[#FFD700]'>
             <div className="p-6 md:w-3/5 m-auto">
                 <Script src="https://fast.wistia.com/embed/medias/m4v2iuosuh.jsonp" async></Script><Script src="https://fast.wistia.com/assets/external/E-v1.js" async></Script>
