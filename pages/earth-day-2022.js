@@ -1,5 +1,6 @@
-import Layout from '@components/Layout'
+import Head from 'next/head'
 import '../public/images/EarthDay-2022-Hero.png'
+import Layout from '@components/Layout'
 import SpeakerList from '@components/SpeakerList'
 import EarthDaySponsors from '@components/EarthDaySponsors'
 import EarthDayEventList from '@components/EarthDayEventList'
@@ -7,6 +8,10 @@ import EarthDayEventList from '@components/EarthDayEventList'
 function EarthDay2022() {
   return (
     <section className="bg-gray-50">
+      <Head>
+        <title>HMVF | Earth Day 2022</title>
+        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+      </Head>
       <div className=" bg-[#603913]">
         <div className="mb-6 h-72 bg-[url('/images/EarthDay-2022-Hero.png')] bg-contain bg-center bg-no-repeat py-20 md:h-96"></div>
       </div>

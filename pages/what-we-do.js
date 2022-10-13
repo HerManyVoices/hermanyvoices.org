@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '@components/Layout'
 import ProjectList from '@components/ProjectList'
@@ -5,6 +6,10 @@ import ProjectList from '@components/ProjectList'
 function WhatWeDo() {
   return (
     <section>
+      <Head>
+        <title>HMVF | What We Do</title>
+        <meta property="og:title" content="What We Do" key="title" />
+      </Head>
       <div className="flex flex-wrap-reverse ">
         <div className="inset-0 w-full py-3 lg:w-1/2 lg:py-20">
           <div className="container mx-auto px-4">

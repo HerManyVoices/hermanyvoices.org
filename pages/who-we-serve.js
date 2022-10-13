@@ -1,5 +1,6 @@
-import Layout from '@components/Layout'
+import Head from 'next/head'
 import Image from 'next/image'
+import Layout from '@components/Layout'
 import {
   GreenDarkup,
   BulletsGrayRight,
@@ -9,6 +10,10 @@ import {
 function WhoWeServe() {
   return (
     <section className="relative overflow-hidden">
+      <Head>
+        <title>HMVF | Who We Serve</title>
+        <meta property="og:title" content="What We Do" key="title" />
+      </Head>
       <div className="relative bg-gray-50 pt-12 pb-12 md:pb-24 lg:pt-20">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">

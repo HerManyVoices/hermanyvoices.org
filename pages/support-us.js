@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '@components/Layout'
@@ -9,6 +10,10 @@ import donate from 'public/images/donate.jpeg'
 function SupportUs() {
   return (
     <section className="xl:py-18 bg-gray-50 py-20">
+      <Head>
+        <title>HMVF | Support Us</title>
+        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+      </Head>
       <div className="container mx-auto px-4">
         <div className="xl:mb-18 mx-auto mb-14 max-w-xl text-center">
           <h1 className="mb-10 font-heading text-6xl font-bold md:text-7xl xl:text-8xl">
@@ -72,12 +77,12 @@ function SupportUs() {
                   get involved.
                 </p>
                 <Link href="#newsletter" passHref>
-                <button
-                  className="mr-auto my-4 rounded-l-xl rounded-t-xl bg-green-500 py-2 px-6 text-sm font-bold text-white transition duration-200 hover:bg-green-600"
-                  href=""
-                >
-                  Sign Up
-                </button>
+                  <button
+                    className="mr-auto my-4 rounded-l-xl rounded-t-xl bg-green-500 py-2 px-6 text-sm font-bold text-white transition duration-200 hover:bg-green-600"
+                    href=""
+                  >
+                    Sign Up
+                  </button>
                 </Link>
               </div>
             </div>

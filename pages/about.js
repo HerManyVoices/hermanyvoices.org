@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Layout from '@components/Layout'
 import TeamList from '@components/TeamList'
 import BoardList from '@components/BoardList'
@@ -7,6 +8,10 @@ import SupportersCard from '@components/SupportersCard'
 function About() {
   return (
     <section>
+      <Head>
+        <title>HMVF | About Us</title>
+        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+      </Head>
       <div className="bg-gray-50 py-6 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="mb-10 flex flex-wrap">
@@ -81,7 +86,7 @@ function About() {
                   (Milan, Italy; and Naklo, Poland); at the Posner Center for
                   International Development and The Asian Hemp Summit
                   (Kathmandu, Nepal). Ms. Fall is delighted to have been nominated for the Mother Earth
-              Award by the NOCO team in 2022.
+                  Award by the NOCO team in 2022.
                 </p>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Script from 'next/script'
 import Layout from '@components/Layout'
 import Header from '@components/Header'
@@ -8,6 +9,10 @@ import ImageSlider from '@components/ImageSlider'
 export default function Home() {
   return (
     <div className="overflow-hidden">
+      <Head>
+        <title>Her Many Voices Foundation</title>
+        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+      </Head>
       <Script
         type="text/javascript"
         defer
@@ -118,7 +123,7 @@ export default function Home() {
               By leveraging strategic partnerships to direct resources and
               assets to communities, we support{' '}
               <span className="font-bold text-green-600">
-              community driven solutions
+                community driven solutions
               </span>
               {' '}for Indigenous groups, women and children.
             </p>
