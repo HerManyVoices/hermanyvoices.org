@@ -9,7 +9,8 @@ function Ukraine() {
             <Head>
                 <title>HMVF | Support Ukraine</title>
                 <meta property="og:title" content="Her Many Voices Foundation" key="title" />
-                <meta property="og:image" content="https://res.cloudinary.com/hmvf/image/upload/c_thumb,w_400/v1663627787/Ukraine-card_uettf3.jpg" key="ogimage" />
+                <meta property="og:image" content="https://res.cloudinary.com/hmvf/image/upload/c_thumb,w_800/v1663627787/Ukraine-card_uettf3.jpg" key="ogimage" />
+                
             </Head>
             <div className='w-full bg-gradient-to-b from-[#0057B8] to-[#FFD700]'>
             <div className="p-6 md:w-3/5 m-auto">
