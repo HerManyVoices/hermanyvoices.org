@@ -5,7 +5,9 @@ import Script from 'next/script'
 function Donate() {
     return (
 
-        <section className="flex min-h-screen justify-center items-center mx-auto md:w-3/5 my-2">
+        <section className="flex min-h-screen justify-center items-center mx-auto md:w-3/5 my-2 px-2">
+            <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+                <meta property="og:image" content="https://res.cloudinary.com/hmvf/image/upload/v1670026869/sfc_zqubht.jpg" />
             <Head>
                 <title>HMVF | Donate</title>
                 <meta property="og:title" content="Her Many Voices Foundation" key="title" />
