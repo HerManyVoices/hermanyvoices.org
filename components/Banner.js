@@ -26,8 +26,7 @@ export default function Banner() {
                                     <p className="mr-1 inline-block font-heading text-lg font-bold md:text-xl">
                                         🎁
                                     </p>
-
-                                    <Link href="http://DonorBox.org/HMVF" passHref>
+                                    <Link href="/donate" passHref>
                                         <a className="font-heading text-lg semibold underline hover:text-green-600 md:text-xl">
                                             Support our work this holiday season
                                         </a>
