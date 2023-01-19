@@ -1,4 +1,3 @@
-import Banner from './Banner'
 import Head from 'next/head'
 import Navigation from './Navigation'
 import NewsletterCTA from '@components/NewsletterCTA'
@@ -52,7 +51,6 @@ export default function Layout({ children, pageTitle, description, twitterHandle
         <meta name="msapplication-TileColor" content="#2d89ef" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <Banner />
       <Navigation />
       <main>{children}</main>
       <NewsletterCTA />
