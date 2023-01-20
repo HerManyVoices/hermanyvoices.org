@@ -17,21 +17,6 @@ export const teamMembers = [
   },
   {
     id: '1',
-    fullName: 'Jason Jacobs (雅各布斯) (He/Him)',
-    title: 'Director/ Kaitiaki / Co Founder of Te Mana Consortium - A Maori social enterprise addressing Education, Health and Gaming ecosystems.',
-    shortDescription:
-      'Jason\'s work in and around professional sports, for the last 25 years, created...',
-    description:
-      'Jason\'s work in and around professional sports, for the last 25 years, created an ability and passion about wellbeing of Maori people. He has strong networks in all global regions around Sports, Business, Health, Finance, Education and Tech. He is also Co Chair of Australasia Catalyst2030 and Co Chair of Aotearoa NZ Catalyst2030 Chapter.\n\nMr Jacob\'s Te Mana Consortium helps small to medium size landowners improve their connection with their land through Indigenous innovations, nature based solutions with technological support which will allow a resilience for owners and their land to face any present and future impact caused by unforeseen changes in one\'s environment.\n\nJason says - “Part of what I feel I will tautoko (support) for Her Many Voices is my navigation skills, wairua (spiritual synergy) and understanding that we can create a present and future aroha (love) of our EARTH. My ability also is to problem solve through my Indigenous walking.”',
-    image:
-      'https://res.cloudinary.com/hmvf/image/upload/v1670029373/JJ_AWeb001_ubrz23.jpg',
-    altText: 'Headshot of Andrea Singer',
-    facebookLink: '',
-    instagramLink: '',
-    twitterLink: '',
-  },
-  {
-    id: '2',
     fullName: 'Melissa Ivey',
     title: 'Arts Education Director & Muscle',
     shortDescription:
@@ -46,7 +31,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '3',
+    id: '2',
     fullName: 'Tamara Cantave',
     title:
       'Founder of Help Hayti, Interpreter and liaison for all Haiti projects',
@@ -62,7 +47,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '4',
+    id: '3',
     fullName: 'Lisa Montgomery',
     title: 'Veterans and Tribal Relations Coordinator',
     shortDescription:
@@ -76,7 +61,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '5',
+    id: '4',
     fullName: 'Angelo Digangi',
     title: 'Executive Director of Elder Care and Grandparent Resource Centers',
     shortDescription:
@@ -90,7 +75,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '6',
+    id: '5',
     fullName: 'Aicila Lewis',
     title: 'Organizational Strategist',
     shortDescription:
@@ -105,7 +90,7 @@ export const teamMembers = [
     twitterLink: 'https://twitter.com/aicilalewis',
   },
   {
-    id: '7',
+    id: '6',
     fullName: 'Mikey Famine',
     title: 'Earth Day Production',
     shortDescription:
@@ -121,7 +106,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '8',
+    id: '7',
     fullName: 'Andrea CinqMars',
     title: 'Marketing Strategy',
     shortDescription:
@@ -135,7 +120,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '9',
+    id: '8',
     fullName: 'Mandi Hamza',
     title: 'Software Developer',
     shortDescription:
@@ -149,7 +134,7 @@ export const teamMembers = [
     twitterLink: 'https://twitter.com/mandicodes',
   },
   {
-    id: '10',
+    id: '9',
     fullName: 'Adeler Saint-Laurent',
     title: 'Haiti Projects Coordinator',
     shortDescription:
@@ -164,7 +149,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '11',
+    id: '10',
     fullName: 'Jacques "Emmanuel" Saint Laurent',
     title: 'Haiti Projects Coordinator',
     shortDescription:
@@ -179,7 +164,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '12',
+    id: '11',
     fullName: 'Sarry Jean',
     title: 'Henriette Foundation Leader',
     shortDescription:
@@ -194,7 +179,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '13',
+    id: '12',
     fullName: 'Jean "Nasson" Ronel Dorce',
     title: 'St. Alphonse de Cadet School Superintendent',
     shortDescription:
@@ -209,7 +194,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '14',
+    id: '13',
     fullName: 'Viki Radden',
     title:
       'Honor Harvest, C.E.O. & Agricultural Consultant',
@@ -225,7 +210,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '15',
+    id: '14',
     fullName: 'Blake Kent',
     title:
       'Operations Manager',
@@ -241,7 +226,7 @@ export const teamMembers = [
     twitterLink: '',
   },
   {
-    id: '16',
+    id: '15',
     fullName: 'Andrea Singer',
     title: 'Travel Specialist, Volunteer',
     shortDescription:
@@ -276,6 +261,21 @@ export const boardMembers = [
   },
   {
     id: '1',
+    fullName: 'Jason Jacobs (雅各布斯) (He/Him)',
+    title: 'Director/ Kaitiaki / Co Founder of Te Mana Consortium - A Maori social enterprise addressing Education, Health and Gaming ecosystems.',
+    shortDescription:
+      'Jason\'s work in and around professional sports, for the last 25 years, created...',
+    description:
+      'Jason\'s work in and around professional sports, for the last 25 years, created an ability and passion about wellbeing of Maori people. He has strong networks in all global regions around Sports, Business, Health, Finance, Education and Tech. He is also Co Chair of Australasia Catalyst2030 and Co Chair of Aotearoa NZ Catalyst2030 Chapter.\n\nMr Jacob\'s Te Mana Consortium helps small to medium size landowners improve their connection with their land through Indigenous innovations, nature based solutions with technological support which will allow a resilience for owners and their land to face any present and future impact caused by unforeseen changes in one\'s environment.\n\nJason says - “Part of what I feel I will tautoko (support) for Her Many Voices is my navigation skills, wairua (spiritual synergy) and understanding that we can create a present and future aroha (love) of our EARTH. My ability also is to problem solve through my Indigenous walking.”',
+    image:
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1674237513/jj_caxgtq.jpg',
+    altText: 'Headshot of Jason Jacobs',
+    facebookLink: '',
+    instagramLink: '',
+    twitterLink: '',
+  },
+  {
+    id: '2',
     fullName: 'Chenoa Francis',
     title: 'Board Member, Youth Coordinator',
     description:
@@ -288,7 +288,7 @@ export const boardMembers = [
     twitterLink: '',
   },
   {
-    id: '2',
+    id: '3',
     fullName: 'Gabriel Hicks',
     title: 'Board Member, Treasurer/Accountant',
     description:
@@ -301,7 +301,7 @@ export const boardMembers = [
     twitterLink: '',
   },
   {
-    id: '3',
+    id: '4',
     fullName: 'Tamara Cantave (Haitian/Taino)',
     title:
       'Board Member, Haiti Projects Director, Financial Education Director',
@@ -315,7 +315,7 @@ export const boardMembers = [
     twitterLink: '',
   },
   {
-    id: '4',
+    id: '5',
     fullName: 'Tommy Nahulu',
     title: 'Board Member, Hawaiian & Asian Coordinator ',
     description:
@@ -328,7 +328,7 @@ export const boardMembers = [
     twitterLink: '',
   },
   {
-    id: '5',
+    id: '6',
     fullName: 'Chief Lee Plenty Wolf',
     title: 'Advisory Board Member, Spiritual Advisor',
     description:
@@ -341,7 +341,7 @@ export const boardMembers = [
     twitterLink: '',
   },
   {
-    id: '6',
+    id: '7',
     fullName: 'Bonita Velez',
     title: 'Advisory Board Member',
     description:
@@ -354,7 +354,7 @@ export const boardMembers = [
     twitterLink: '',
   },
   {
-    id: '7',
+    id: '8',
     fullName: 'Pastor Heidi McGinness',
     title: 'Advisory Board Member, Spiritual Advisor',
     description:
