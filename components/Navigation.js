@@ -250,23 +250,6 @@ export default function Test() {
                                 </div>
                             </NavigationMenu.Content>
                         </NavigationMenu.Item>
-                        <SeperatorIcon />
-                        <NavigationMenu.Item className="mx-2">
-                            <NavigationMenu.Trigger className="relative group inline-flex items-center rounded-md p-2 text-sm font-bold text-[#0057B8] hover:text-[#FFD700] hover:text-opacity-90 focus-within:[#FFD700] focus-within:hover:[#FFD700] focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">Ukraine</NavigationMenu.Trigger>
-                            <NavigationMenu.Content className="absolute overflow-hidden rounded-lg shadow-lg ring-1 ring-purple-500 ring-opacity-5">
-                                <div className="grid gap-8 bg-white p-7">
-                                    <NextLink href="/ukraine" className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
-                                        <div className="mr-2  mb-auto w-6 h-6">🇺🇦</div>
-                                        <div className=''>
-                                            <p className="text-sm font-medium text-gray-900">Ukraine</p>
-                                            <p className="text-sm text-gray-600">
-                                                Donate to help us support Ukraine
-                                            </p>
-                                        </div>
-                                    </NextLink>
-                                </div>
-                            </NavigationMenu.Content>
-                        </NavigationMenu.Item>
                         <NavigationMenu.Link
                             className="ml-auto custom-dbox-popup hidden rounded-l-xl rounded-t-xl bg-green-500 py-2 px-6 text-sm font-bold text-white transition duration-200 hover:bg-green-600 lg:inline-block"
                             href="https://donorbox.org/general-96">
@@ -524,24 +507,6 @@ export default function Test() {
                                                     <p className="text-sm font-medium text-gray-900">Donate</p>
                                                     <p className="text-sm text-gray-600">
                                                         Get involved! We do a lot with a little
-                                                    </p>
-                                                </div>
-                                            </NextLink>
-                                        </Accordion.Content>
-                                    </Accordion.Item>
-                                    <Accordion.Item value="item-6" className='flex flex-col h-auto w-auto'>
-                                        <Accordion.Header className='flex flex-col bg-white h-auto w-auto'>
-                                            <Accordion.Trigger className='w-full p-2 text-lg font-bold text-[#603913] hover:bg-green-50 hover:text-green-600 mb-1 flex flex-row border-b-2'>
-                                                Ukraine
-                                            </Accordion.Trigger>
-                                        </Accordion.Header>
-                                        <Accordion.Content className='flex flex-col h-auto w-full mr-auto bg-gray-50 font-heading'>
-                                            <NextLink href="/ukraine" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
-                                                <div className="mr-2  mb-auto w-6 h-6">🇺🇦</div>
-                                                <div>
-                                                    <p className="text-sm font-medium text-gray-900">Ukraine</p>
-                                                    <p className="text-sm text-gray-600">
-                                                    Donate to help us support Ukraine
                                                     </p>
                                                 </div>
                                             </NextLink>
