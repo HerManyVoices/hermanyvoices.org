@@ -37,32 +37,32 @@ export default function TeamCard({
           <p className="mb-4 leading-loose text-gray-500">{shortDescription}</p>
           <div className="flex w-full mt-auto">
           {soloLink ? (
-              <Link href={soloLink} passHref>
-                <a className="mr-3 self-center">
-                  <SoloSocialLogo />
-                </a>
-              </Link>
+              (<Link href={soloLink} passHref className="mr-3 self-center">
+
+                <SoloSocialLogo />
+
+              </Link>)
             ) : null}
             {facebookLink ? (
-              <Link href={facebookLink} passHref>
-                <a className="mr-3 self-center">
-                  <FacebookSocialLogo />
-                </a>
-              </Link>
+              (<Link href={facebookLink} passHref className="mr-3 self-center">
+
+                <FacebookSocialLogo />
+
+              </Link>)
             ) : null}
             {twitterLink ? (
-              <Link href={twitterLink} passHref>
-                <a className="mr-3 self-center">
-                  <TwitterSocialLogo />
-                </a>
-              </Link>
+              (<Link href={twitterLink} passHref className="mr-3 self-center">
+
+                <TwitterSocialLogo />
+
+              </Link>)
             ) : null}
             {instagramLink ? (
-              <Link href={instagramLink} passHref>
-                <a className="mr-3 self-center">
-                  <InstagramSocialLogo />
-                </a>
-              </Link>
+              (<Link href={instagramLink} passHref className="mr-3 self-center">
+
+                <InstagramSocialLogo />
+
+              </Link>)
             ) : null}
             <a className="ml-auto">
               <TeamModal
@@ -82,5 +82,5 @@ export default function TeamCard({
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -39,10 +39,12 @@ export default function NewsletterCTA() {
             <p className="mb-8 text-center leading-loose text-gray-50">
               Get involved. Small acts of kindness have big impact.
             </p>
-            <Link href="/support-us">
-              <a className="inline-block rounded-l-xl rounded-t-xl bg-white py-2 px-6 font-bold leading-loose text-green-600 transition duration-200 hover:bg-gray-50">
+            <Link
+              href="/support-us"
+              className="inline-block rounded-l-xl rounded-t-xl bg-white py-2 px-6 font-bold leading-loose text-green-600 transition duration-200 hover:bg-gray-50">
+              
                 Support Us
-              </a>
+              
             </Link>
           </div>
           <div className="w-full px-4 lg:w-1/2">
@@ -168,5 +170,5 @@ export default function NewsletterCTA() {
         </div>
       </div>
     </section>
-  )
+  );
 }

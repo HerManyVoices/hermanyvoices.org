@@ -32,20 +32,20 @@ export default function BoardCard({
                   <div className="h-80 lg:h-160 w-full rounded bg-gradient-to-r from-[#99f6e4] to-[#d9f99d]"></div>
                 )}
                 <div className="flex justify-start py-4">
-                  {facebookLink ? <Link href={facebookLink} passHref>
-                    <a className="mr-3 self-center">
-                      <FacebookSocialLogo />
-                    </a>
+                  {facebookLink ? <Link href={facebookLink} passHref className="mr-3 self-center">
+
+                    <FacebookSocialLogo />
+
                   </Link> : null}
-                  {twitterLink ? <Link href={twitterLink} passHref>
-                    <a className="mr-3 self-center">
-                      <TwitterSocialLogo />
-                    </a>
+                  {twitterLink ? <Link href={twitterLink} passHref className="mr-3 self-center">
+
+                    <TwitterSocialLogo />
+
                   </Link> : null}
-                  {instagramLink ? <Link href={instagramLink} passHref>
-                    <a className="mr-3 self-center">
-                      <InstagramSocialLogo />
-                    </a>
+                  {instagramLink ? <Link href={instagramLink} passHref className="mr-3 self-center">
+
+                    <InstagramSocialLogo />
+
                   </Link> : null}
                 </div>
               </div>
@@ -64,5 +64,5 @@ export default function BoardCard({
         </div>
       </div>
     </div>
-  )
+  );
 }

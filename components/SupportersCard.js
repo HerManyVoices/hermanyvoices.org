@@ -19,7 +19,7 @@ export default function SupportersCard() {
           <h4 className="mb-2 text-2xl font-bold">Ms Lauryn Hill</h4>
           <p className="mb-4 text-xs leading-loose text-gray-500">JEFF KRAVITZ VIA GETTY IMAGES</p>
           <Link href="https://mslaurynhill.com/" passHref>
-          <a>mslaurynhill.com</a>
+          mslaurynhill.com
           </Link>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function SupportersCard() {
           <p className="mb-4 text-xs leading-loose text-gray-500"> </p>
 
           <Link href="https://www.hazelmiller.biz/" passHref>
-          <a>hazelmiller.biz</a>
+          hazelmiller.biz
           </Link>
           {/* <p className="mb-4 text-xs leading-loose text-gray-500"></p> */}
         </div>
@@ -44,5 +44,5 @@ export default function SupportersCard() {
     </div>
     </div>
     </section>
-  )
+  );
 }

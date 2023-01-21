@@ -28,7 +28,7 @@ const NextLink = ({ href, ...props }) => {
     const isActive = router.asPath === href;
 
     return (
-        <Link href={href} passHref>
+        <Link href={href} passHref legacyBehavior>
             <NavigationMenu.Link active={isActive} {...props}></NavigationMenu.Link>
         </Link>
     );
