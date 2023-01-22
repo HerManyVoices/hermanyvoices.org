@@ -7,7 +7,7 @@ function WhatWeDo() {
   return (
     <section>
       <Head>
-        <title>HMVF | What We Do</title>
+        <title>HMV | What We Do</title>
         <meta property="og:title" content="What We Do" key="title" />
       </Head>
       <div className="flex flex-wrap-reverse ">

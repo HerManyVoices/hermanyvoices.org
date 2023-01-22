@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       <Head>
-        <title>Her Many Voices Foundation</title>
-        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+        <title>Her Many Voices</title>
+        <meta property="og:title" content="Her Many Voices" key="title" />
       </Head>
       <Script
         type="text/javascript"
@@ -32,7 +32,7 @@ export default function Home() {
               <span className="text-green-600">Who</span> We Are
             </h2>
             <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-              Her Many Voices Foundation is a passionate group of activists,
+              Her Many Voices is a passionate group of activists,
               artists and global community members intent on saving our Mother
               Earth and All Her Children, through community engagement.
             </p>
@@ -112,7 +112,7 @@ export default function Home() {
               <span className="text-green-600">Why</span> we succeed:
             </h2>
             <p className="mx-4 mb-2 text-lg leading-relaxed text-blueGray-100 lg:text-2xl">
-              HMVF Founder, Alicia Fall, leads us by example. From digging
+              HMV Founder, Alicia Fall, leads us by example. From digging
               trenches to international presentations, Alicia has taught us to
               step to the need and follow the wisdom and knowledge of those we
               serve.

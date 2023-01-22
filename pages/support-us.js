@@ -11,8 +11,8 @@ function SupportUs() {
   return (
     <section className="xl:py-18 bg-gray-50 py-20">
       <Head>
-        <title>HMVF | Support Us</title>
-        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+        <title>HMV | Support Us</title>
+        <meta property="og:title" content="Her Many Voices" key="title" />
       </Head>
       <div className="container mx-auto px-4">
         <div className="xl:mb-18 mx-auto mb-14 max-w-xl text-center">
@@ -43,7 +43,7 @@ function SupportUs() {
                 <p className="text-gray-600">
                   Donate at least $5 a month, join our newsletter list, and
                   commit to one action per month to further the goals of the Her
-                  Many Voices Foundation. With enough of us working together, we
+                  Many Voices. With enough of us working together, we
                   will create a world that works for everyone.
                 </p>
                 <a

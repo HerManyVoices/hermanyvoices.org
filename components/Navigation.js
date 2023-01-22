@@ -320,7 +320,7 @@ export default function Test() {
                                                 <div>
                                                     <p className="text-sm font-medium text-gray-900 -ml-1">About</p>
                                                     <p className="text-sm text-gray-600 -ml-1">
-                                                        Learn about Her Many Voices Foundation
+                                                        Learn about Her Many Voices
                                                     </p>
                                                 </div>
                                             </NextLink>

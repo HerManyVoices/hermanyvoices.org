@@ -42,8 +42,8 @@ function Events() {
   return (
     <div>
       <Head>
-        <title>HMVF | Our Events</title>
-        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+        <title>HMV | Our Events</title>
+        <meta property="og:title" content="Her Many Voices" key="title" />
       </Head>
       <div className="relative overflow-hidden bg-gray-50 pt-20 pb-24 lg:py-40">
         <div className="container mx-auto px-4">

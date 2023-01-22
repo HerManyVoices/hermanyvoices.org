@@ -9,8 +9,8 @@ function About() {
   return (
     <section>
       <Head>
-        <title>HMVF | About Us</title>
-        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+        <title>HMV | About Us</title>
+        <meta property="og:title" content="Her Many Voices" key="title" />
       </Head>
       <div className="bg-gray-50 py-6 lg:py-20">
         <div className="container mx-auto px-4">
@@ -22,7 +22,7 @@ function About() {
                   <span className="lg:block">I do for myself</span>
                 </h2>
                 <p className="max-w-s leading-loose text-gray-600">
-                  Her Many Voices Foundation (HMVF) is a small organization that
+                  Her Many Voices (HMV) is a small organization that
                   does big things in the world. We started out as artists
                   responding to humanitarian needs. Since then we&apos;ve grown
                   to include activists and global community members.
@@ -72,8 +72,7 @@ function About() {
                   Founder/Vision Holder <br></br> Oversees all operations
                 </h2>
                 <p className="mb-4 text-lg leading-loose text-gray-600">
-                  Alicia Fall, Founder and Visionholder of Her Many Voices
-                  Foundation, has been a lifelong doer and creator. Fall is a
+                  Alicia Fall, Founder and Visionholder of Her Many Voices, has been a lifelong doer and creator. Fall is a
                   TEDx Talk presenter, a recipient of the New York State
                   Assembly Citation Award, board member for the Coalition
                   Against Global Genocide and for Tiyospaye Winyan Maka, both as

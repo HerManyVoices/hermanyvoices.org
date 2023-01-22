@@ -7,8 +7,8 @@ function EarthDay() {
     return (
         <section className="bg-gray-50">
             <Head>
-                <title>HMVF | Earth Day 2023</title>
-                <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+                <title>HMV | Earth Day 2023</title>
+                <meta property="og:title" content="Her Many Voices" key="title" />
             </Head>
             <div className='w-full bg-[#663F1B]'>
                 <div className="p-6 md:w-3/5 m-auto">
@@ -34,10 +34,10 @@ function EarthDay() {
                         <span className='text-xl font-medium text-gray-600 md:text-2xl pb-4 block text-left py-6'>That&apos;s the dream we&apos;re working to make real.</span>  Indigenous People are 5% of the world population and steward 80% of the Earth&apos;s resources. Yet their knowledge is left out of larger discussions and decision making regarding climate change action and public policies to preserve natural resources.
                     </p>
                     <p className="text-xl font-medium text-gray-600 md:text-2xl md:px-8 pb-4 text-left">
-                        Celebrating Indigenous Wisdom to Face Modern Challenges, created by the Her Many Voices Foundation (HMVF), addresses this.
+                        Celebrating Indigenous Wisdom to Face Modern Challenges, created by the Her Many Voices (HMV), addresses this.
                     </p>
                     <p className="text-xl font-medium text-gray-600 md:text-2xl md:px-8 pb-4 text-left">
-                        Founded by Alicia Fall, HMVF has been addressing humanitarian issues through the power of art and community partnerships since 2009.  Located on <span className='text-green-600'>Očhéthi Šakówiŋ (Sioux Nation), Núu-agha-tʉvʉ-pʉ̱ (Ute), Tséstho&apos;e (Cheyenne), hinono&apos;eino&apos; biito&apos;owu&apos; (Arapaho) land, Comanche, and 48+ other tribes sacred land (the Denver/FrontRange area),</span> HMVF partners with Indigenous People and their champions to present wisdom and knowledge critical to the planet&apos;s rejuvenation.
+                        Founded by Alicia Fall, HMV has been addressing humanitarian issues through the power of art and community partnerships since 2009.  Located on <span className='text-green-600'>Očhéthi Šakówiŋ (Sioux Nation), Núu-agha-tʉvʉ-pʉ̱ (Ute), Tséstho&apos;e (Cheyenne), hinono&apos;eino&apos; biito&apos;owu&apos; (Arapaho) land, Comanche, and 48+ other tribes sacred land (the Denver/FrontRange area),</span> HMV partners with Indigenous People and their champions to present wisdom and knowledge critical to the planet&apos;s rejuvenation.
                         <span className='text-xl font-medium text-gray-600 md:text-2xl pb-1 block text-left py-6'>We invite artistic expression across disciplines- and that has resulted in everything from traditional medicine to dance to storytelling and more. Through the power of art to inspire action, we will heal our mother earth.</span>
                     </p>
                 </div>

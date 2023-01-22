@@ -7,8 +7,8 @@ function Ukraine() {
     return (
         <section className="bg-gray-50">
             <Head>
-                <title>HMVF | Support Ukraine</title>
-                <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+                <title> | Support Ukraine</title>
+                <meta property="og:title" content="Her Many Voices" key="title" />
                 <meta property="og:image" content="https://res.cloudinary.com/hmvf/image/upload/c_thumb,w_800/v1663627787/Ukraine-card_uettf3.jpg" key="ogimage" />
             </Head>
             <div className='w-full bg-gradient-to-b from-[#0057B8] to-[#FFD700]'>
@@ -62,7 +62,7 @@ function Ukraine() {
                     During his five-minute acceptance speech, this compassionate hemp farmer let the audience know that he had just flown in that day from Kiev to accept this award. He held the award up and dedicated the award to all the people of Ukraine. Towards the end of his compassionate and emotional speech, he stated that he was flying back to Ukraine “tomorrow” to join his brothers in the pending invasion of Kiev and the rest of Ukraine.
                     </p>
                     <p className="text-xl font-normal text-gray-600 md:text-2xl md:px-8 pb-4 md:pb-14 text-left">
-                    That next evening, this short but powerful speech motivated one of the attendees to write lyrics, and later music, to a song with the purpose of raising money for the war-torn country. This songwriter worked with like-minded musicians and recorded this song during July and August of 2022. The song was made into the video using public domain and paid-for video content in September. Her Many Voices Foundation has graciously agreed to be the host for this campaign in both raising money for Ukraine and ensuring all funds are distributed to the worthy recipients.
+                    That next evening, this short but powerful speech motivated one of the attendees to write lyrics, and later music, to a song with the purpose of raising money for the war-torn country. This songwriter worked with like-minded musicians and recorded this song during July and August of 2022. The song was made into the video using public domain and paid-for video content in September. Her Many Voices has graciously agreed to be the host for this campaign in both raising money for Ukraine and ensuring all funds are distributed to the worthy recipients.
                     </p>
                 </div>
             </div>
