@@ -9,8 +9,8 @@ function EarthDay2022() {
   return (
     <section className="bg-gray-50">
       <Head>
-        <title>HMVF | Earth Day 2022</title>
-        <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+        <title>HMV | Earth Day 2022</title>
+        <meta property="og:title" content="Her Many Voices" key="title" />
       </Head>
       <div className=" bg-[#603913]">
         <div className="mb-6 h-72 bg-[url('/images/EarthDay-2022-Hero.png')] bg-contain bg-center bg-no-repeat py-20 md:h-96"></div>

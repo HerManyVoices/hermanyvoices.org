@@ -11,7 +11,7 @@ function WhoWeServe() {
   return (
     <section className="relative overflow-hidden">
       <Head>
-        <title>HMVF | Who We Serve</title>
+        <title>HMV | Who We Serve</title>
         <meta property="og:title" content="What We Do" key="title" />
       </Head>
       <div className="relative bg-gray-50 pt-12 pb-12 md:pb-24 lg:pt-20">
@@ -26,7 +26,7 @@ function WhoWeServe() {
                 </div>
                 <div className="mx-auto max-w-sm lg:mx-0">
                   <p className="mb-6 text-lg leading-loose text-gray-600">
-                    Her Many Voices Foundation is dedicated to serving and
+                    Her Many Voices is dedicated to serving and
                     protecting our Mother Earth, Indigenous People, Underserved
                     populations, women, children and the men and communities
                     they live in.

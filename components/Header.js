@@ -7,12 +7,12 @@ export default function Header() {
           <h1 className="mx-3 font-heading text-4xl leading-snug md:text-5xl lg:text-6xl lg:leading-tight">
             <span className="text-white">Grassroots Activism,</span>
             <br></br>
-            <span className="text-green-400">Driven by </span>
-            {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '}
+            <span className="text-green-400">Driven By </span>
+            {/* {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '} */}
             <span className="text-green-400">Indigenous Wisdom,</span>
             <br></br>
-            <span className="text-white">To Protect All of </span>
-            {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '}
+            <span className="text-white">To Protect All Of </span>
+            {/* {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '} */}
             <span className="text-white">Earth&apos;s Children.</span>
           </h1>
           <svg

@@ -1,7 +1,7 @@
 {
-    "name": "Her Many Voices Foundation",
-    "short_name": "HMVF",
-    "description": "Her Many Voices Foundation Website",
+    "name": "Her Many Voices",
+    "short_name": "HMV",
+    "description": "Her Many Voices Website",
     "display": "standalone",
     "start_url": "/",
     "theme_color": "#fff",

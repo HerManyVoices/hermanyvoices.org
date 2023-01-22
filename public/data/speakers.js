@@ -5,7 +5,7 @@ export const speakers = [
     "location": "Denver, Colorado",
     "fullName": "Alicia Fall",
     "honorific": "",
-    "organization": "Her Many Voices Foundation",
+    "organization": "Her Many Voices",
     "talkTitle": "Welcome",
     "image": "https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_300,h_300,c_limit/v1647212992/About_Row_2_Alicia_Fall_qcjerk.jpg",
     "altText": "Headshot of Alicia Fall"
