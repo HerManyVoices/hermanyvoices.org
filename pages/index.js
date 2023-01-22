@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import Script from 'next/script'
 import Layout from '@components/Layout'
 import Header from '@components/Header'
-// import Projects from '@components/Projects'
 import Testimonials from '@components/Testimonials'
 import ImageSlider from '@components/ImageSlider'
 
@@ -13,17 +11,6 @@ export default function Home() {
         <title>Her Many Voices</title>
         <meta property="og:title" content="Her Many Voices" key="title" />
       </Head>
-      <Script
-        type="text/javascript"
-        defer
-        src="https://donorbox.org/install-popup-button.js"
-      />
-      <Script
-        defer
-        onLoad={() => {
-          window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' }
-        }}
-      />
       <Header />
       <div className="my-12">
         <div className="-mx-4 -mb-4 flex flex-wrap md:mb-0 lg:py-16">
