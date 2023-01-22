@@ -49,13 +49,10 @@ export default function CallEventList() {
         }
     }
 
-    const pastEvents = (listPastMainEventList) => {
-        const pastEvents = listPastMainEventList.filter((event) => {
-            return checkDate(event.date_start_unix) === false
-        })
-        return pastEvents
-    }
-    const pastEventsList = pastEvents(listPastMainEventList)
+    // useEffect function that returns a list of past events based on date_start_unix
+    const pastEventsList = listPastMainEventList && listPastMainEventList.filter((event) => {
+        return checkDate(event.date_start_unix) === false
+    })
 
     const formatDate = (date_start_unix) => {
         const date = new Date(date_start_unix * 1000)
