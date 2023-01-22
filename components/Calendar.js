@@ -5,7 +5,7 @@ export default function Calendar() {
     <>
       <div
         strategy="beforeInteractive"
-        className="width-full ae-emd-cal-events h-96 pt-4"
+        className="ae-emd-cal-events"
         data-calendar="IT413581"
         data-lbl-upcoming="Upcoming events"
         data-lbl-subscribe="Subscribe"
