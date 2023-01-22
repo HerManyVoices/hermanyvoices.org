@@ -49,7 +49,6 @@ export default function CallEventList() {
         }
     }
 
-    // useEffect function that returns a list of past events based on date_start_unix
     const pastEventsList = listPastMainEventList && listPastMainEventList.filter((event) => {
         return checkDate(event.date_start_unix) === false
     })
