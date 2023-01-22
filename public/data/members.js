@@ -38,7 +38,7 @@ export const teamMembers = [
     shortDescription:
       'Ms Cantave is an educator. She has a BA in Psychology, has been a teacher in the NYC public school system and now teaches financial education to underserved populations ...',
     description:
-      "Ms Cantave is an educator. She has a BA in Psychology, has been a teacher in the NYC public school system and now teaches financial education to underserved populations. She is Haitian and is providing land for HMVF to use for hemp growth and business development. Her father and mentor, Montaigue Cantave, was Haiti's Minister of Agriculture. He worked closely with the UN, FAO and USAID, building tight relationships for many years, with Tamara in tow. Tamara Cantave is certainly a manifestation of her father's legacy.",
+      "Ms Cantave is an educator. She has a BA in Psychology, has been a teacher in the NYC public school system and now teaches financial education to underserved populations. She is Haitian and is providing land for HMV to use for hemp growth and business development. Her father and mentor, Montaigue Cantave, was Haiti's Minister of Agriculture. He worked closely with the UN, FAO and USAID, building tight relationships for many years, with Tamara in tow. Tamara Cantave is certainly a manifestation of her father's legacy.",
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Tamara_Cantave_pgpfq2.jpg',
     altText: 'Headshot of Tamara Cantave',
@@ -79,9 +79,9 @@ export const teamMembers = [
     fullName: 'Aicila Lewis',
     title: 'Organizational Strategist',
     shortDescription:
-      '(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices Foundation. She believes the only way to get to a better world is to ...',
+      '(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices. She believes the only way to get to a better world is to ...',
     description:
-      "(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices Foundation. She believes the only way to get to a better world is to work to create it with others. She also believes that while it's important to take the work seriously, we should never take ourselves too seriously. She was privileged to be a  Colorado Progressive Leadership Fellow and a Boulder County Leadership Fellow, Awards she's received for her work include: being named one of the 100 Women we Love by Go! Magazine in 2011 and was awarded a Special Certificate of Congressional Recognition in 2013 for her community work. Lewis is blessed to have two fantastic children and fantastic friends to support her in her many passions.",
+      "(Aye-ee-sila) (she/they) brings 20+ years of nonprofit management experience to her work with Her Many Voices. She believes the only way to get to a better world is to work to create it with others. She also believes that while it's important to take the work seriously, we should never take ourselves too seriously. She was privileged to be a  Colorado Progressive Leadership Fellow and a Boulder County Leadership Fellow, Awards she's received for her work include: being named one of the 100 Women we Love by Go! Magazine in 2011 and was awarded a Special Certificate of Congressional Recognition in 2013 for her community work. Lewis is blessed to have two fantastic children and fantastic friends to support her in her many passions.",
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647300254/Team_Aicila_hjglgp.jpg',
     altText: 'Headshot of Alicia Lewis',
@@ -112,7 +112,7 @@ export const teamMembers = [
     shortDescription:
       'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change ...',
     description:
-      'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change — instead of helping companies sell more plastic junk. Andrea has worked with corporations and communities for over 25 years to improve their brand and storytelling strategies. She has shared her talents with the Her Many Voices Foundation team since Fall 2019 to help us achieve our vision and mission.',
+      'Andrea is a marketing professional who believes in conscious marketing. She uses her knowledge of branding, design, social media, advertising, and lead generation to elevate voices of social change — instead of helping companies sell more plastic junk. Andrea has worked with corporations and communities for over 25 years to improve their brand and storytelling strategies. She has shared her talents with the Her Many Voices team since Fall 2019 to help us achieve our vision and mission.',
     image: 'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648770066/Andrea_CinqMars_sgiavw.jpg',
     altText: 'Headshot of Andrea CinqMars',
     facebookLink: '',
@@ -153,9 +153,9 @@ export const teamMembers = [
     fullName: 'Jacques "Emmanuel" Saint Laurent',
     title: 'Haiti Projects Coordinator',
     shortDescription:
-      'Monsieur Saint Laurent wears many hats. He is our communications go between for HMVF and communities, as well as between communities themselves ...',
+      'Monsieur Saint Laurent wears many hats. He is our communications go between for HMV and communities, as well as between communities themselves ...',
     description:
-      "Monsieur Saint Laurent wears many hats. He is our communications go between for HMVF and communities, as well as between communities themselves. He's a research and development team member and fills in as substitute teacher when needed. Emmanuel is a crucial team member in our hemp building project.",
+      "Monsieur Saint Laurent wears many hats. He is our communications go between for HMV and communities, as well as between communities themselves. He's a research and development team member and fills in as substitute teacher when needed. Emmanuel is a crucial team member in our hemp building project.",
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1647300256/Team_Emmanuel_St_Laurent_ptb7zt.png',
     altText: 'Headshot of Jacques "Emmanuel" Saint Laurent',
@@ -306,7 +306,7 @@ export const boardMembers = [
     title:
       'Board Member, Haiti Projects Director, Financial Education Director',
     description:
-      "Ms Cantave is an educator. She has a BA in Psychology, has been a teacher in the NYC public school system and now teaches financial education to underserved populations. She is Haitian and is providing land for HMVF to use for hemp growth and business development. Her father and mentor, Montaigue Cantave, was Haiti's Minister of Agriculture. He worked closely with the UN, FAO and USAID, building tight relationships for many years, with Tamara in tow. Tamara Cantave is certainly a manifestation of her father's legacy.",
+      "Ms Cantave is an educator. She has a BA in Psychology, has been a teacher in the NYC public school system and now teaches financial education to underserved populations. She is Haitian and is providing land for HMV to use for hemp growth and business development. Her father and mentor, Montaigue Cantave, was Haiti's Minister of Agriculture. He worked closely with the UN, FAO and USAID, building tight relationships for many years, with Tamara in tow. Tamara Cantave is certainly a manifestation of her father's legacy.",
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648092602/Board_Tamara_Cantave_pgpfq2.jpg',
     altText: '',
