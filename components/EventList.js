@@ -39,6 +39,24 @@ export default function CallEventList() {
     const listUpcomingMainEventList = Object.values(upcomingMainEventList)[2]
     const listPastMainEventList = Object.values(pastMainEventList)[2]
 
+    const checkDate = (date) => {
+        const currentDate = Date.now()
+        const dateStartUnix = date * 1000
+        if (dateStartUnix >= currentDate) {
+            return true // future
+        } else {
+            return false // past
+        }
+    }
+
+    const pastEvents = (listPastMainEventList) => {
+        const pastEvents = listPastMainEventList.filter((event) => {
+            return checkDate(event.date_start_unix) === false
+        })
+        return pastEvents
+    }
+    const pastEventsList = pastEvents(listPastMainEventList)
+
     const formatDate = (date_start_unix) => {
         const date = new Date(date_start_unix * 1000)
         const formattedDate = date.toLocaleDateString('en-EN', { month: 'short', day: 'numeric', year: 'numeric' })
@@ -89,7 +107,7 @@ export default function CallEventList() {
             ))}
 
             <h2 className="mb-10 font-heading text-4xl font-bold lg:text-4xl text-center">Past Events</h2>
-            {listPastMainEventList && listPastMainEventList.slice(1).map((event) => ( 
+            {pastEventsList && pastEventsList.slice(1).map((event) => (
                 <div key={event.id} className="grid grid-cols-6 grid-rows-10 gap-0 overflow-hidden h-128 border-b-2 border-green-200 my-2">
 
                     <div className="row-start-1 col-start-1 row-end-11 col-end-2 text-right px-10 font-bold md:block hidden">{formatDate(event.date_start_unix)}</div>
