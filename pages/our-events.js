@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Layout from '@components/Layout'
 import CallEventList from '@components/EventList'
 import Script from 'next/script'
 
@@ -32,7 +31,3 @@ function Events() {
 }
 
 export default Events
-
-Events.getLayout = function getLayout(Events) {
-  return <Layout>{Events}</Layout>
-}

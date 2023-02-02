@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Layout from '@components/Layout'
 import Header from '@components/Header'
 import Testimonials from '@components/Testimonials'
 import ImageSlider from '@components/ImageSlider'
@@ -120,12 +119,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <Projects /> */}
       <Testimonials />
     </div>
   )
-}
-
-Home.getLayout = function getLayout(Home) {
-  return <Layout>{Home}</Layout>
 }

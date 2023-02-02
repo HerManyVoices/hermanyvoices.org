@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import Layout from '@components/Layout'
 import '../public/images/EarthDay-2022-Hero.png'
 
 function Ukraine() {
@@ -17,7 +16,7 @@ function Ukraine() {
                 <div className="wistia_responsive_padding" style={{ padding: "56.25% 0 0 0", position: "relative", }}>
                     <div className="wistia_responsive_wrapper" style={{ height: "100%", left: "0", position: "absolute", top: "0", width: "100%" }}><div className="wistia_embed wistia_async_m4v2iuosuh videoFoam=true" style={{ height: "100%", position: "relative", width: "100%" }}>
                         <div className="wistia_swatch" style={{ height: "100%", left: "0", opacity: "0", overflow: "hidden", position: "absolute", top: "0", transition: "opacity 200ms", width: "100%" }}>
-                            <img src="https://fast.wistia.com/embed/medias/m4v2iuosuh/swatch" style={{ filter: "blur(5px)", height: "100%", "object-fit": "contain", width: "100%" }} alt="" aria-hidden="true" />
+                            <img src="https://fast.wistia.com/embed/medias/m4v2iuosuh/swatch" style={{ filter: "blur(5px)", height: "100%", "objectFit": "contain", width: "100%" }} alt="" aria-hidden="true" />
                         </div>
                     </div>
                     </div>
@@ -71,7 +70,3 @@ function Ukraine() {
 }
 
 export default Ukraine
-
-Ukraine.getLayout = function getLayout(Ukraine) {
-    return <Layout>{Ukraine}</Layout>
-}

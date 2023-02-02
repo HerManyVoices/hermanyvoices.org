@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import '../public/images/EarthDay-2022-Hero.png'
-import Layout from '@components/Layout'
 import SpeakerList from '@components/SpeakerList'
 import EarthDaySponsors from '@components/EarthDaySponsors'
 import EarthDayEventList from '@components/EarthDayEventList'
@@ -62,7 +61,3 @@ function EarthDay2022() {
 }
 
 export default EarthDay2022
-
-EarthDay2022.getLayout = function getLayout(EarthDay2022) {
-  return <Layout>{EarthDay2022}</Layout>
-}
