@@ -48,10 +48,10 @@ export default function Test() {
                             <NextLink href="/">
                                 <Image
                                     src={wordmark}
-                                    className="h-12"
+                                    className="h-[auto] w-[180px]"
                                     alt=""
-                                    width="200"
-                                    height="47"
+                                    width="auto"
+                                    height="auto"
                                 /></NextLink>
                         </NavigationMenu.Item>
                         <NavigationMenu.Item className="mx-2">
@@ -65,8 +65,8 @@ export default function Test() {
                                             className="h-12 w-12 mr-2"
                                             src={logo}
                                             alt=""
-                                            width="35"
-                                            height="40"
+                                            width="auto"
+                                            height="auto"
                                         />
                                         <p className='pl-2'>About</p>
                                     </NextLink>
@@ -268,10 +268,10 @@ export default function Test() {
                             <NextLink href="/">
                                 <Image
                                     src={logo}
-                                    className="h-12"
+                                    className="h-12 w-12"
                                     alt=""
-                                    width="50"
-                                    height="50"
+                                    width="auto"
+                                    height="auto"
                                 />
                             </NextLink>
                         </NavigationMenu.Item>
@@ -293,8 +293,8 @@ export default function Test() {
                                             className="h-16 w-16"
                                             src={logo}
                                             alt=""
-                                            width="75"
-                                            height="80"
+                                            width="auto"
+                                            height="auto"
                                         />
                                     </NextLink>
                                 </div>
@@ -313,8 +313,8 @@ export default function Test() {
 
                                                         src={logo}
                                                         alt=""
-                                                        width="40"
-                                                        height="45"
+                                                        width="auto"
+                                                        height="auto"
                                                     />
                                                 </div>
                                                 <div>
