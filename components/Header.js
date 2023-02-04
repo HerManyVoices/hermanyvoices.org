@@ -8,11 +8,9 @@ export default function Header() {
             <span className="text-white">Grassroots Activism,</span>
             <br></br>
             <span className="text-green-400">Driven By </span>
-            {/* {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '} */}
             <span className="text-green-400">Indigenous Wisdom,</span>
             <br></br>
             <span className="text-white">To Protect All Of </span>
-            {/* {globalThis?.window?.innerWidth <= 500 ? <br></br> : null}{' '} */}
             <span className="text-white">Earth&apos;s Children.</span>
           </h1>
           <svg
