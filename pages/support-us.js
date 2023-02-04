@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Layout from '@components/Layout'
 import { BlueLine1, BlueLine2, BlueLine3 } from 'public/images/blue-lines.js'
 import hempPic from 'public/images/seed-of-change.jpeg'
 import newsletterPic from 'public/images/newsletter.jpeg'
@@ -123,7 +122,3 @@ function SupportUs() {
 }
 
 export default SupportUs
-
-SupportUs.getLayout = function getLayout(SupportUs) {
-  return <Layout>{SupportUs}</Layout>
-}

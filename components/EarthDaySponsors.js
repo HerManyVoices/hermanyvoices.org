@@ -32,7 +32,7 @@ export default function EarthDaySponsors() {
                 <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649888119/EG_LOGO_BLACK_dtzix2.jpg" alt=""></img>
             </div>
             <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
-                <img className="mx-auto h-32 object-fit" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649961388/Earth_Day_logo_mikey_ddnsq8.jpg" alt=""></img>
+                <img className="mx-auto h-32 objectFit" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649961388/Earth_Day_logo_mikey_ddnsq8.jpg" alt=""></img>
             </div>
             <div className="pb-6 w-full px-2 md:w-1/4 lg:mb-0">
                 <img className="mx-auto h-32 object-scale-down" src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648600088/Earth_Day_WAFBA-Transparent_wpjbjb.png" alt=""></img>

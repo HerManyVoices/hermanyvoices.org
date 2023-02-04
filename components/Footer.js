@@ -52,10 +52,10 @@ export default function Footer() {
 
                   <Image
                     src={logo}
-                    className="inline-block h-12 lg:h-6"
+                    className="inline-block h-16 w-auto"
                     alt=""
-                    width="75"
-                    height="80"
+                    width="auto"
+                    height="auto"
                   />
 
                 </Link>

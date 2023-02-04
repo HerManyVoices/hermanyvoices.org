@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Layout from '@components/Layout'
 import TeamList from '@components/TeamList'
 import BoardList from '@components/BoardList'
 import Sponsors from '@components/Sponsors'
@@ -89,10 +88,6 @@ function About() {
                 </p>
               </div>
             </div>
-            {/* <p className="mx-4 my-4 text-lg leading-loose text-gray-600 lg:mx-6">
-              Ms. Fall is delighted to have been nominated for the Mother Earth
-              Award by the NOCO team in 2022.
-            </p> */}
             <p className="mx-4 mb-4 text-lg leading-loose text-gray-600 lg:mx-6">
               Mother Earth Award &#8212; This award is to honor a woman whose
               entrepreneurial spirit has ushered a new era of business leaders
@@ -114,7 +109,3 @@ function About() {
 }
 
 export default About
-
-About.getLayout = function getLayout(About) {
-  return <Layout>{About}</Layout>
-}

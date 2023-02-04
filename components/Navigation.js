@@ -20,8 +20,11 @@ import TeamIcon from 'public/assets/icons/TeamIcon';
 import EnvProjectsIcon from 'public/assets/icons/EnvProjectsIcon';
 import ComProjectsIcon from 'public/assets/icons/ComProjectsIcon';
 import CulturalProjectsIcon from 'public/assets/icons/CulturalProjectsIcon';
+import BagIcon from 'public/assets/icons/BagIcon';
+import CartIcon from 'public/assets/icons/CartIcon';
 import wordmark from 'public/assets/logo/logo-wordmark.png'
 import logo from 'public/assets/logo/logo.png'
+import { useStateContext } from 'context/StateContext'
 
 const NextLink = ({ href, ...props }) => {
     const router = useRouter();
@@ -35,6 +38,7 @@ const NextLink = ({ href, ...props }) => {
 };
 
 export default function Test() {
+    const { totalQuantities } = useStateContext();
 
     const windowSize = useWindowSize();
 
@@ -48,10 +52,10 @@ export default function Test() {
                             <NextLink href="/">
                                 <Image
                                     src={wordmark}
-                                    className="h-12"
+                                    className="h-[auto] w-[180px]"
                                     alt=""
-                                    width="200"
-                                    height="47"
+                                    width="auto"
+                                    height="auto"
                                 /></NextLink>
                         </NavigationMenu.Item>
                         <NavigationMenu.Item className="mx-2">
@@ -65,8 +69,8 @@ export default function Test() {
                                             className="h-12 w-12 mr-2"
                                             src={logo}
                                             alt=""
-                                            width="35"
-                                            height="40"
+                                            width="auto"
+                                            height="auto"
                                         />
                                         <p className='pl-2'>About</p>
                                     </NextLink>
@@ -209,7 +213,7 @@ export default function Test() {
                         <NavigationMenu.Item className="mx-2">
                             <NavigationMenu.Trigger className="relative group inline-flex items-center rounded-md p-2 text-sm font-bold text-[#603913] hover:text-[#35200b] hover:text-opacity-90 focus-within:text-green-600 focus-within:hover:text-green-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">Earth Day</NavigationMenu.Trigger>
                             <NavigationMenu.Content className="absolute overflow-hidden rounded-lg shadow-lg ring-1 ring-purple-500 ring-opacity-5">
-                            <div className="grid gap-8 bg-white p-7">
+                                <div className="grid gap-8 bg-white p-7">
                                     <NextLink href="/earth-day" className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
                                         <EarthDayIcon aria-hidden="true" />
                                         <div className='max-w-[240px]'>
@@ -250,9 +254,32 @@ export default function Test() {
                                 </div>
                             </NavigationMenu.Content>
                         </NavigationMenu.Item>
+                        <SeperatorIcon />
+                        <NavigationMenu.Item className="mx-2">
+                            <NavigationMenu.Trigger className="relative group inline-flex items-center rounded-md p-2 text-sm font-bold text-[#603913] hover:text-[#35200b] hover:text-opacity-90 focus-within:text-green-600 focus-within:hover:text-green-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">Shop</NavigationMenu.Trigger>
+                            <NavigationMenu.Content className="absolute overflow-hidden rounded-lg shadow-lg ring-1 ring-purple-500 ring-opacity-5">
+                                <div className="grid gap-8 bg-white p-7">
+                                    <NextLink href="/shop" className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                        <BagIcon />
+                                        <div className=''>
+                                            <p className="text-sm font-medium text-gray-900">Shop</p>
+                                            <p className="text-sm text-gray-600">
+                                                Support our work
+                                            </p>
+                                        </div>
+                                    </NextLink>
+                                </div>
+                            </NavigationMenu.Content>
+                        </NavigationMenu.Item>
+                        <NavigationMenu.Link className="relative group inline-flex items-center rounded-md p-2 text-sm font-bold text-[#603913] hover:text-[#35200b] hover:text-opacity-90 focus-within:text-green-600 focus-within:hover:text-green-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75" href='/cart'>
+                            <CartIcon />
+                            <span className="inline-block w-6 h-6 text-center bg-white rounded-full font-semibold font-heading text-green-800">
+                                {totalQuantities}
+                            </span>
+                        </NavigationMenu.Link>
                         <NavigationMenu.Link
                             className="ml-auto custom-dbox-popup hidden rounded-l-xl rounded-t-xl bg-green-500 py-2 px-6 text-sm font-bold text-white transition duration-200 hover:bg-green-600 lg:inline-block"
-                            href="https://donorbox.org/general-96">
+                            href="/donate">
                             Donate
                         </NavigationMenu.Link >
                     </NavigationMenu.List>
@@ -268,10 +295,10 @@ export default function Test() {
                             <NextLink href="/">
                                 <Image
                                     src={logo}
-                                    className="h-12"
+                                    className="h-12 w-12"
                                     alt=""
-                                    width="50"
-                                    height="50"
+                                    width="auto"
+                                    height="auto"
                                 />
                             </NextLink>
                         </NavigationMenu.Item>
@@ -293,12 +320,12 @@ export default function Test() {
                                             className="h-16 w-16"
                                             src={logo}
                                             alt=""
-                                            width="75"
-                                            height="80"
+                                            width="auto"
+                                            height="auto"
                                         />
                                     </NextLink>
                                 </div>
-                                <Accordion.Root type="single" defaultValue="item-1" collapsible className='relative flex flex-col py-6 h-full w-full bg-white  overflow-y-auto'>
+                                <Accordion.Root type="single" collapsible className='relative flex flex-col py-6 h-full w-full bg-white  overflow-y-auto'>
 
                                     <Accordion.Item value="item-1" className='flex flex-col h-auto w-auto'>
                                         <Accordion.Header className='flex flex-col bg-white h-auto w-auto'>
@@ -313,8 +340,8 @@ export default function Test() {
 
                                                         src={logo}
                                                         alt=""
-                                                        width="40"
-                                                        height="45"
+                                                        width="auto"
+                                                        height="auto"
                                                     />
                                                 </div>
                                                 <div>
@@ -474,7 +501,7 @@ export default function Test() {
                                             </Accordion.Trigger>
                                         </Accordion.Header>
                                         <Accordion.Content className='flex flex-col h-auto w-full mr-auto bg-gray-50 font-heading'>
-                                        <NextLink href="/earth-day" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                            <NextLink href="/earth-day" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
                                                 <EarthDayIcon />
                                                 <div>
                                                     <p className="text-sm font-medium text-gray-900">Earth Day 2023</p>
@@ -509,6 +536,36 @@ export default function Test() {
                                                         Get involved! We do a lot with a little
                                                     </p>
                                                 </div>
+                                            </NextLink>
+                                        </Accordion.Content>
+                                    </Accordion.Item>
+                                    <Accordion.Item value="item-7" className='flex flex-col h-auto w-auto'>
+                                        <Accordion.Header className='flex flex-col bg-white h-auto w-auto'>
+                                            <Accordion.Trigger className='w-full p-2 text-lg font-bold text-[#603913] hover:bg-green-50 hover:text-green-600 mb-1 flex flex-row border-b-2'>
+                                                Shop
+                                            </Accordion.Trigger>
+                                        </Accordion.Header>
+                                        <Accordion.Content className='flex flex-col h-auto w-full mr-auto bg-gray-50 font-heading'>
+                                            <NextLink href="/shop" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                                <div className='mb-auto pt-[2px]'>
+                                                    <BagIcon />
+                                                </div>
+                                                <div>
+                                                    <p className="text-sm font-medium text-gray-900">Shop</p>
+                                                    <p className="text-sm text-gray-600">
+                                                        Support our work
+                                                    </p>
+                                                </div>
+                                            </NextLink>
+                                            <NextLink href="/cart" className="flex items-center rounded-lg p-2 transition duration-150 ease-in-out bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 text-start">
+                                                <div className='mb-auto pt-[2px]'>
+                                                <CartIcon /> 
+                                                </div>
+                                                    <p className="text-sm font-medium text-gray-900">Cart 
+                                                    <span className="inline-block w-6 h-6 pl-2 text-center bg-white rounded-full font-semibold font-heading text-green-800">
+                                                        {totalQuantities}
+                                                        </span>
+                                                    </p>
                                             </NextLink>
                                         </Accordion.Content>
                                     </Accordion.Item>

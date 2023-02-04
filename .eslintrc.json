@@ -3,6 +3,8 @@
   "rules": {
     "prefer-const": "error",
     "no-unused-vars": "error",
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    // eslint-disable-next-line no-param-reassign
+    "no-param-reassign": ["error", { "props": false }]
   }
 }

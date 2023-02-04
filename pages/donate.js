@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Layout from '@components/Layout'
 import Script from 'next/script'
 
 function Donate() {
@@ -19,7 +18,3 @@ function Donate() {
 }
 
 export default Donate
-
-Donate.getLayout = function getLayout(Donate) {
-    return <Layout>{Donate}</Layout>
-}

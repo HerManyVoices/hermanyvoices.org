@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '@components/Layout'
 import {
   GreenDarkup,
   BulletsGrayRight,
@@ -66,7 +65,3 @@ function WhoWeServe() {
 }
 
 export default WhoWeServe
-
-WhoWeServe.getLayout = function getLayout(WhoWeServe) {
-  return <Layout>{WhoWeServe}</Layout>
-}

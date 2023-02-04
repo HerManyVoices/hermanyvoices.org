@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import Layout from '@components/Layout'
 import '../public/images/EarthDay-2022-Hero.png'
 
 function EarthDay() {
@@ -47,7 +46,3 @@ function EarthDay() {
 }
 
 export default EarthDay
-
-EarthDay.getLayout = function getLayout(EarthDay) {
-    return <Layout>{EarthDay}</Layout>
-}

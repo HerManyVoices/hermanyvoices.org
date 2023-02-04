@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '@components/Layout'
 import ProjectList from '@components/ProjectList'
 
 function WhatWeDo() {
@@ -67,7 +66,3 @@ function WhatWeDo() {
 }
 
 export default WhatWeDo
-
-WhatWeDo.getLayout = function getLayout(WhatWeDo) {
-  return <Layout>{WhatWeDo}</Layout>
-}
