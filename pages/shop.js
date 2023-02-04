@@ -11,8 +11,8 @@ const sortedProducts = products.sort((a, b) => {
   return (
     <section className="py-10 bg-gray-100 overflow-x-hidden">
             <Head>
-                <title>HMVF | Shop</title>
-                <meta property="og:title" content="Her Many Voices Foundation" key="title" />
+                <title>HMV | Shop</title>
+                <meta property="og:title" content="Her Many Voices" key="title" />
             </Head>
 
             <div className="container mx-auto px-4">
