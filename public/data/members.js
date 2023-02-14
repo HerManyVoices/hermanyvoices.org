@@ -268,7 +268,7 @@ export const boardMembers = [
     description:
       'Jason\'s work in and around professional sports, for the last 25 years, created an ability and passion about wellbeing of Maori people. He has strong networks in all global regions around Sports, Business, Health, Finance, Education and Tech. He is also Co Chair of Australasia Catalyst2030 and Co Chair of Aotearoa NZ Catalyst2030 Chapter.\n\nMr Jacob\'s Te Mana Consortium helps small to medium size landowners improve their connection with their land through Indigenous innovations, nature based solutions with technological support which will allow a resilience for owners and their land to face any present and future impact caused by unforeseen changes in one\'s environment.\n\nJason says - “Part of what I feel I will tautoko (support) for Her Many Voices is my navigation skills, wairua (spiritual synergy) and understanding that we can create a present and future aroha (love) of our EARTH. My ability also is to problem solve through my Indigenous walking.”',
     image:
-      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1674237513/jj_caxgtq.jpg',
+      'https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto,w_3000,h_3000,c_thumb,g_faces/v1676404805/Jason_Nr.7_umqnot_1_rehmk8.jpg',
     altText: 'Headshot of Jason Jacobs',
     facebookLink: '',
     instagramLink: '',
