@@ -15,7 +15,7 @@ export default function Calendar() {
         data-include-stc="true"
         data-include-moupcpicker="true"
         data-include-location="false"
-        data-include-timezone="false"
+        data-include-timezone="true"
         data-include-organizer="false"
         data-include-countdown="false"
         data-include-description="true"
