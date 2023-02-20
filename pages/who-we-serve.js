@@ -36,7 +36,7 @@ function WhoWeServe() {
             <div className="flex w-full items-center justify-center px-4 lg:w-1/2">
               <div className="relative z-0">
                 <Image
-                  src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1650986182/Wynne_Farm_Training_pnjy6z.jpg"
+                  src="https://res.cloudinary.com/hmvf/image/upload/q_auto/v1650986182/Wynne_Farm_Training_pnjy6z.jpg"
                   className="relative z-0 max-w-lg rounded-3xl object-cover md:rounded-br-none"
                   height="720"
                   width="960"

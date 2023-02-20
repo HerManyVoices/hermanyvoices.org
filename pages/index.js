@@ -25,7 +25,7 @@ export default function Home() {
           </div>
           <div className="mb-4 w-full px-4 md:mb-0 md:w-1/2">
             <img
-              src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649962069/Row_2_Who_We_Are_unnamed_mjmpew.jpg"
+              src="https://res.cloudinary.com/hmvf/image/upload/q_auto/v1649962069/Row_2_Who_We_Are_unnamed_mjmpew.jpg"
               alt=""
               className="rounded shadow md:-mx-4"
             ></img>
@@ -48,7 +48,7 @@ export default function Home() {
               <div className="-mb-4 flex flex-wrap-reverse md:mb-0">
                 <div className="mb-4 w-full md:mb-0 md:w-1/2">
                   <img
-                    src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1646879309/our-big-why_wq4dm5.jpg"
+                    src="https://res.cloudinary.com/hmvf/image/upload/q_auto/v1646879309/our-big-why_wq4dm5.jpg"
                     alt=""
                     className="rounded shadow"
                   ></img>

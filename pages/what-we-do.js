@@ -27,7 +27,7 @@ function WhatWeDo() {
             </div>
           </div>
         </div>
-        <div className="h-64 w-full bg-[url('https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1648758754/What_do_we_do_svyu3f.jpg')] bg-cover bg-center bg-no-repeat py-3 md:h-auto md:bg-top md:py-32 lg:w-1/2 lg:py-20"></div>
+        <div className="h-64 w-full bg-[url('https://res.cloudinary.com/hmvf/image/upload/q_auto/v1648758754/What_do_we_do_svyu3f.jpg')] bg-cover bg-center bg-no-repeat py-3 md:h-auto md:bg-top md:py-32 lg:w-1/2 lg:py-20"></div>
       </div>
 
       <div className="bg-gray-50 py-4 md:py-10">

@@ -60,7 +60,7 @@ function About() {
               </h2>
               <img
                 className="mx-auto rounded-lg object-cover"
-                src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647212992/About_Row_2_Alicia_Fall_qcjerk.jpg"
+                src="https://res.cloudinary.com/hmvf/image/upload/q_auto/v1647212992/About_Row_2_Alicia_Fall_qcjerk.jpg"
                 alt="Head shot of Alicia Fall"
               ></img>
             </div>

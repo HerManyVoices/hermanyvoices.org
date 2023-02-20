@@ -44,7 +44,7 @@ const ImageSlider = () => {
         className="group relative mx-auto w-full max-w-xl2 select-none overflow-hidden rounded bg-gradient-to-r from-white via-black"
       >
         <img
-          src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1647379636/Row_4_Why_we_Succeed_2_djuco2.jpg"
+          src="https://res.cloudinary.com/hmvf/image/upload/q_auto/v1647379636/Row_4_Why_we_Succeed_2_djuco2.jpg"
           alt=""
           className="pointer-events-none shadow translate-x-20 md:translate-x-24"
         />
@@ -54,7 +54,7 @@ const ImageSlider = () => {
               imageRevealFraq * 100
             }% 100%, 0 100%)`,
           }}
-          src="https://res.cloudinary.com/hmvf/image/upload/q_auto,f_auto/v1649962520/Row_4_Why_we_succeed_1_yy1lwb.jpg"
+          src="https://res.cloudinary.com/hmvf/image/upload/q_auto/v1649962520/Row_4_Why_we_succeed_1_yy1lwb.jpg"
           alt=""
           className="pointer-events-none absolute inset-0 shadow md:-translate-y-12"
         />
