@@ -4,9 +4,9 @@ export async function loadData() {
     const query = `{"products": *[_type == "product"],}`;
     const { products } = await client.fetch(query);
 
-    const bannerQuery = `{"banner": *[_type == "banner"],}`;
-    const { banner } = await client.fetch(bannerQuery);
+    const eventsBannerQuery = `{"eventsBanner": *[_type == "eventImages"],}`;
+    const { eventsBanner } = await client.fetch(eventsBannerQuery);
 
-    return { products, banner };
+    return { products, eventsBanner };
 
 }
