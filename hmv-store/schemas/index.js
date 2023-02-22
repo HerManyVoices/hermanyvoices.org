@@ -1,5 +1,6 @@
 import blockContent from './blockContent'
 import product from './product'
-import banner from './banner'
+import eventsBanner from './eventsBanner'
+import eventsTimelineImages from './eventsTimelineImages'
 
-export const schemaTypes = [product, banner, blockContent]
+export const schemaTypes = [product, eventsBanner, eventsTimelineImages, blockContent]
