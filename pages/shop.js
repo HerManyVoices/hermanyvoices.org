@@ -29,11 +29,10 @@ const sortedProducts = products.sort((a, b) => {
 }
 
 export async function getServerSideProps() {
-  const {products, banner} = await loadData();
+  const {products } = await loadData();
   return {
     props: {
       products,
-      banner
     },
   }
 }
