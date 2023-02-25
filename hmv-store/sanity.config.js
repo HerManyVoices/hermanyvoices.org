@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'HMV Store',
 
-  projectId: import.meta.env.SANITY_STUDIO_PROJECT_ID,
-  dataset: import.meta.env.SANITY_STUDIO_DATASET,
+  projectId: "rjb5gync",
+  dataset: "production",
 
   plugins: [deskTool(), visionTool()],
 

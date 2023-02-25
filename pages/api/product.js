@@ -7,6 +7,9 @@ export async function loadData() {
     const eventsBannerQuery = `{"eventsBanner": *[_type == "eventImages"],}`;
     const { eventsBanner } = await client.fetch(eventsBannerQuery);
 
-    return { products, eventsBanner };
+    const eventTimelineImagesBannerQuery = `{"eventTimelineImages": *[_type == "eventTimelineImages"],}`;
+    const { eventTimelineImages } = await client.fetch(eventTimelineImagesBannerQuery);
+
+    return { products, eventsBanner, eventTimelineImages };
 
 }
