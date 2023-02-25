@@ -88,7 +88,7 @@ export default function Events({ eventsBanner, eventTimelineImages }) {
   });
 
   const sortedEventTimelineImages = eventTimelineImages.sort((a, b) => {
-    return new Date(b.startDate) - new Date(a.startDate);
+    return new Date(a.startDate) - new Date(b.startDate);
   });
 
   const upcomingEventsWithImages = listUpcomingMainEvents?.map((event) => {
