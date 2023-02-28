@@ -184,11 +184,10 @@ const pastEvents = mergedPastEvents.filter(checkDate)
             </img>
             <div className="md:row-start-1 row-start-2 md:col-start-3 row-end-2 md:col-end-3 col-start-1 col-end-4 h-auto object-contain my-auto">
               {formatLongDate(event.date_start_unix)} at {formatTime(event.date_start_time)} {event.date_start_ampm} - {formatTime(event.date_end_time)} {event.date_end_ampm} MDT
-            </div> 
-              <div className="md:row-start-2 row-start-3 md:col-start-3 row-end-3 md:col-end-3 col-start-1 col-end-4 h-auto object-contain my-auto text-xl font-semibold">
+            </div>
+            <div className="md:row-start-2 row-start-3 md:col-start-3 row-end-3 md:col-end-3 col-start-1 col-end-4 h-auto object-contain my-auto text-xl font-semibold">
               {event.title}
             </div>
-            
             {event.location.includes('you') ?
               <a className="md:row-start-3 row-start-4 md:col-start-3 row-end-4 md:col-end-3 col-start-1 col-end-4 h-auto object-contain my-auto text-green-600 underline font-bold"
                 href={event.location}>Watch On YouTube
@@ -197,21 +196,9 @@ const pastEvents = mergedPastEvents.filter(checkDate)
                 href={event.location}>{event.location ? event.location : ''}
               </a>
             }
-
-            {event.eventname ?  
             <div className="md:row-start-4 row-start-6 md:col-start-3 row-end-5 md:col-end-3 col-start-1 col-end-4 h-auto object-contain md:mr-auto md:pr-40 my-1">
               {event.eventname ? limitDescription(event.eventname) : ''}
-            </div> : <div className="
-            md:col-start-3 
-            md:col-end-3
-            md:row-start-4 
-            row-start-6 
-            row-end-5 
-            col-start-1 
-            col-end-4 
-            h-auto object-contain md:mr-auto md:pr-40 my-1">
-            </div>}
-
+            </div>
             <a className="md:row-start-5 row-start-7 md:col-start-3 row-end-6 md:col-end-3 col-start-1 col-end-4 h-auto object-contain mb-2 text-green-600 underline py-5"
               href={event.link_long}>Learn More »
             </a>
