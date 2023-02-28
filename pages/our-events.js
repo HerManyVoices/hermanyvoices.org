@@ -70,8 +70,8 @@ export default function Events({ eventsBanner, eventTimelineImages }) {
     const descriptionText = description.replace(/<[^>]*>/g, '')
     const decodedDescription = he.decode(descriptionText)
     const descriptionLength = decodedDescription.length
-    if (descriptionLength > 280) {
-      const limitedDescription = decodedDescription.substring(0, 280) + '...'
+    if (descriptionLength >= 179) {
+      const limitedDescription = decodedDescription.substring(0, 180) + '...'
       return limitedDescription
     } else {
       return decodedDescription
