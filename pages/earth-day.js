@@ -52,7 +52,7 @@ function EarthDay() {
                     <p className="text-xl font-medium text-gray-600 md:text-2xl md:px-8 pb-4 text-left">
                         We center the voices and experiences of Indigenous People and include those who actively share their values and support their efforts to build sustainable, thriving systems.</p>
                     <p className="text-xl font-medium text-gray-600 md:text-2xl md:px-8 pb-4 text-left">
-                        You can submit your presentation details directly <a className='text-green-600 underline' href="https://Rebrand.ly/IndigenousWisdom">here</a>. Or if you have questions or need further details, email <a className='text-green-600 underline' href="mailto:EarthDay@HerManyVoices.org"></a>
+                        You can submit your presentation details directly <a className='text-green-600 underline' href="https://Rebrand.ly/IndigenousWisdom">here</a>. Or if you have questions or need further details, email <a className='text-green-600 underline' href="mailto:EarthDay@HerManyVoices.org">EarthDay@HerManyVoices.org</a>
                     </p>
                 </div>
             </div>
