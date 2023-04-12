@@ -86,6 +86,7 @@ export const teamMembers = [
       'https://res.cloudinary.com/hmvf/image/upload/q_auto/v1647300254/Team_Aicila_hjglgp.jpg',
     altText: 'Headshot of Alicia Lewis',
     soloLink: 'https://solo.to/aicila',
+    facebookLink: '',
     instagramLink: 'https://www.instagram.com/BiCurean/',
     twitterLink: 'https://twitter.com/aicilalewis',
   },
@@ -130,6 +131,8 @@ export const teamMembers = [
     image:
       'https://res.cloudinary.com/hmvf/image/upload/q_auto/v1648757784/IMG_9784_pukymi.jpg',
     altText: 'Headshot of Mandi Hamza',
+    instagramLink: '',
+    facebookLink: '',
     instagramLink: '',
     twitterLink: 'https://twitter.com/mandicodes',
   },
