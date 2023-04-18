@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script'
-import '../public/images/EarthDay-2022-Hero.png'
 
 function EarthDay() {
     return (
@@ -10,16 +8,16 @@ function EarthDay() {
                 <meta property="og:title" content="Her Many Voices" key="title" />
             </Head>
             <div className='w-full bg-[#663F1B]'>
-                <div className="p-6 md:w-3/5 m-auto">
-                    <Script src="https://fast.wistia.com/embed/medias/wjg7un2k45.jsonp" async></Script><Script src="https://fast.wistia.com/assets/external/E-v1.js" async></Script>
-                    <div className="wistia_responsive_padding" style={{ padding: "56.25% 0 0 0", position: "relative", }}>
-                        <div className="wistia_responsive_wrapper" style={{ height: "100%", left: "0", position: "absolute", top: "0", width: "100%" }}><div className="wistia_embed wistia_async_wjg7un2k45 videoFoam=true" style={{ height: "100%", position: "relative", width: "100%" }}>
-                            <div className="wistia_swatch" style={{ height: "100%", left: "0", opacity: "0", overflow: "hidden", position: "absolute", top: "0", transition: "opacity 200ms", width: "100%" }}>
-                                <img src="https://fast.wistia.com/embed/medias/wjg7un2k45/swatch" style={{ filter: "blur(5px)", height: "100%", "object-fit": "contain", width: "100%" }} alt="" aria-hidden="true" />
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                <div className="relative flex w-full py-2">
+                    <iframe
+                        className="relative rounded-lg sm:m-auto"
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/me9UZE9amUc"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
                 </div>
             </div>
             <div className="container relative mx-auto px-4 md:pt-10 lg:-mb-16 bg-gray-50">
