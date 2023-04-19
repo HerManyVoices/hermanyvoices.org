@@ -78,20 +78,20 @@ export default function Events({ eventsBanner, eventTimelineImages }) {
     }
   }
 
-  function getNextEvent(events) {
-    const today = new Date();
-    const sortedEvents = events.sort((a, b) => {
-      return new Date(b.publishedAt) - new Date(a.publishedAt);
-    });
-    for (const event of sortedEvents) {
-      const eventDate = new Date(event.publishedAt);
-      if (eventDate < today) {
-        continue;
-      }
-      return event;
-    }
-    return null;
-  }
+//   function getNextEvent(events) {
+//     const today = new Date();
+//     const sortedEvents = events.sort((a, b) => {
+//       return new Date(b.publishedAt) - new Date(a.publishedAt);
+//     });
+//     for (const event of sortedEvents) {
+//       const eventDate = new Date(event.publishedAt);
+//       if (eventDate < today) {
+//         continue;
+//       }
+//       return event;
+//     }
+//     return null;
+//   }
 
  // const nextEvent = getNextEvent(eventsBanner)
 
