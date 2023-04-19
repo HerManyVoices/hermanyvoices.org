@@ -139,6 +139,8 @@ const checkDate = (event) => {
 }
 
 const pastEvents = mergedPastEvents.filter(checkDate)
+console.log(eventsBanner)
+
 
   return (
     <div>
