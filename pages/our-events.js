@@ -93,7 +93,7 @@ export default function Events({ eventsBanner, eventTimelineImages }) {
     return null;
   }
 
-  const nextEvent = getNextEvent(eventsBanner)
+ // const nextEvent = getNextEvent(eventsBanner)
 
   // general event list manipulation logic
 const flattenEventsList = (obj) => {
