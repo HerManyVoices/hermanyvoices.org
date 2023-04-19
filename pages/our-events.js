@@ -152,7 +152,7 @@ console.log(eventsBanner)
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
             <div className="flex w-full items-center px-4 lg:w-1/2">
-              <img className=' rounded ' src={eventsBanner[5].eventImageURL} alt={eventsBanner[5].altText}></img>
+              <img className=' rounded ' src={eventsBanner[0].eventImageURL} alt={eventsBanner[0].altText}></img>
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <div
