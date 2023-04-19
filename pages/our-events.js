@@ -150,7 +150,7 @@ const pastEvents = mergedPastEvents.filter(checkDate)
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
             <div className="flex w-full items-center px-4 lg:w-1/2">
-              <img className=' rounded ' src={nextEvent.eventImageURL} alt={nextEvent.altText}></img>
+              <img className=' rounded ' src={eventsBanner[5].eventImageURL} alt={eventsBanner[5].altText}></img>
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <div
