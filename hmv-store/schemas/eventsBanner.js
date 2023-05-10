@@ -33,7 +33,12 @@ export default defineType({
         }),
         defineField({
             name: 'publishedAt',
-            title: 'Publish at',
+            title: 'Banner publish date',
+            type: 'datetime',
+        }),
+        defineField({
+            name: 'unpublishedAt',
+            title: 'Banner expiration date',
             type: 'datetime',
         }),
     ],
