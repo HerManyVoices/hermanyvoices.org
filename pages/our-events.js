@@ -92,7 +92,7 @@ export default function Events({ eventsBanner, eventTimelineImages }) {
       return activeEvent;
     } else {
       return {
-        eventImageURL: 'https://placeholder.com/1080x1080',
+        eventImageURL: 'https://res.cloudinary.com/hmvf/image/upload/v1683697075/events_fallback_img_pkjr2p.png',
       };
     }
   }
