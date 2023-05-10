@@ -39,7 +39,7 @@ export default defineType({
       type: 'number',
       description: 'Position of the product in the list',
       options: {
-        list: [1, 2, 3, 4, 5, 6, 7, 8],
+        list: [1, 2, 3, 4, 5, 6, 7, 8, 9],
         layout: 'dropdown',
       },
     }),
