@@ -78,22 +78,26 @@ export default function Events({ eventsBanner, eventTimelineImages }) {
     }
   }
 
-//   function getNextEvent(events) {
-//     const today = new Date();
-//     const sortedEvents = events.sort((a, b) => {
-//       return new Date(b.publishedAt) - new Date(a.publishedAt);
-//     });
-//     for (const event of sortedEvents) {
-//       const eventDate = new Date(event.publishedAt);
-//       if (eventDate < today) {
-//         continue;
-//       }
-//       return event;
-//     }
-//     return null;
-//   }
 
- // const nextEvent = getNextEvent(eventsBanner)
+  function getNextEvent(events) {
+    const currentDate = new Date();
+  
+    const activeEvent = events.find((event) => {
+      const publishedAt = new Date(event.publishedAt);
+      const unpublishedAt = new Date(event.unpublishedAt);
+      return currentDate >= publishedAt && currentDate <= unpublishedAt;
+    });
+  
+    if (activeEvent) {
+      return activeEvent;
+    } else {
+      return {
+        eventImageURL: 'https://placeholder.com/1080x1080',
+      };
+    }
+  }
+
+  const nextEvent = getNextEvent(eventsBanner);
 
   // general event list manipulation logic
 const flattenEventsList = (obj) => {
@@ -139,7 +143,9 @@ const checkDate = (event) => {
 }
 
 const pastEvents = mergedPastEvents.filter(checkDate)
-console.log(eventsBanner)
+console.table(JSON.stringify(eventsBanner, null, 2))
+
+
 
 
   return (
@@ -152,7 +158,7 @@ console.log(eventsBanner)
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
             <div className="flex w-full items-center px-4 lg:w-1/2">
-              <img className=' rounded ' src={eventsBanner[0].eventImageURL} alt={eventsBanner[0].altText}></img>
+              <img className=' rounded ' src={nextEvent.eventImageURL} alt={nextEvent.altText}></img>
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <div
